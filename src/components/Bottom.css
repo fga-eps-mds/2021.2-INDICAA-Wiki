@@ -1,0 +1,37 @@
+.Bottom{
+    display: flex;
+    width: 92vw;
+    height: 20vh;
+    background-color: white;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    margin-bottom: 2em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-buttons{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+  }
+
+  .button-campus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 8vh;
+    background-color: #19437D;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 0.5em;
+    transition: linear 0.25s;
+    cursor: pointer;
+  }
+
+  .selected{
+    background-color: #006633;
+
+  }

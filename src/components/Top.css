@@ -1,0 +1,27 @@
+.Top {
+    display: flex;
+    height: 20vh;
+    width: 92vw;
+    background-color: white;
+    margin-top: 2em;
+    border-top-right-radius: 3em;
+    border-top-left-radius: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .Name{
+    background-color: #006633;
+    border-radius: 0.2em;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 3.5vw;
+    letter-spacing: 0.5rem;
+    padding: 0vw 1vw 0vw 1vw;
+  }
+
+  .logo{
+    width: 7vw;
+  }

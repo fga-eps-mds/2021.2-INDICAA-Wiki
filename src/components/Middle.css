@@ -1,0 +1,9 @@
+.Middle{
+    display: flex;
+    width: 92vw;
+    height: 49vh;
+    background-color: white;
+    margin-bottom: 0.5em;
+    align-items: center;
+    justify-content: center;
+  }
