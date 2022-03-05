@@ -1,8 +1,8 @@
 import React from "react";
-import './Middle.css'
-import SearchBar from "./searchBar/SearchBar";
+import './../assets/stylesheets/Middle.css'
+import { SearchBar } from "./SearchBar";
 
-export default (_ :any) => {
+export function Middle() {
     return (
         <div className='Middle'>
             <SearchBar />      

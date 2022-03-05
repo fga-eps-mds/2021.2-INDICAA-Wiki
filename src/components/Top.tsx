@@ -1,8 +1,8 @@
 import React from "react";
-import './Top.css';
+import './../assets/stylesheets/Top.css';
 import Logo from '../assets/images/logo_INDICAA.png'
 
-export default (_:any) => {
+export function Top() {
     return (
         <div className='Top'>
             <span>

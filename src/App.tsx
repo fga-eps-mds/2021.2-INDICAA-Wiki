@@ -1,9 +1,9 @@
 import './assets/stylesheets/App.css';
-import Top from './components/Top';
-import Middle from './components/Middle';
-import Bottom from './components/Bottom';
+import { Top } from './components/Top';
+import { Middle } from './components/Middle';
+import { Bottom } from './components/Bottom';
 
-function App() {
+export function App() {
   return (
     <div className="div">
       <Top /> 
@@ -12,5 +12,3 @@ function App() {
     </div>
   )
 }
-
-export default App

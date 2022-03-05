@@ -1,7 +1,7 @@
 import React from "react";
-import './SearchBar.css';
+import './../assets/stylesheets/SearchBar.css';
 
-export default (_ :any) => {
+export function SearchBar() {
     return (
         <div className="searchInput">
             <span className="material-icons">

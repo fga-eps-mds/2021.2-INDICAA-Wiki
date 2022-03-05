@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './Bottom.css';
+import './../assets/stylesheets/Bottom.css';
 
-export default (_ :any) => {
+export function Bottom() {
     {/*Criação de um Array com os Campus*/}
     const campusList = ["DARCY", "GAMA", "CEILÂNDIA", "PLANALTINA"];
 
