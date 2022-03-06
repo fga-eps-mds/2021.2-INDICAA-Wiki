@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './../assets/stylesheets/Bottom.css';
 
-export function Bottom() {
+export function CampusButtons() {
     {/*Criação de um Array com os Campus*/}
     const campusList = ["DARCY", "GAMA", "CEILÂNDIA", "PLANALTINA"];
 

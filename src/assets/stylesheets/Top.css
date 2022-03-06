@@ -1,17 +1,17 @@
 .Top {
-    display: flex;
-    height: 20vh;
-    width: 92vw;
-    background-color: white;
-    margin-top: 2em;
-    border-top-right-radius: 3em;
-    border-top-left-radius: 3em;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5em;
-  }
-  
-  .Name{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin-top: 0.5em;
+  border-top-right-radius: 3em;
+  border-top-left-radius: 3em;
+  margin-bottom: 0.5em;
+  justify-self: center;
+}
+
+.Name{
+    width: auto;
+    height: 9vh;
     background-color: #006633;
     border-radius: 0.2em;
     text-align: center;
@@ -20,6 +20,7 @@
     font-size: 3.5vw;
     letter-spacing: 0.5rem;
     padding: 0vw 1vw 0vw 1vw;
+    margin-top: 2vh;
   }
 
   .logo{

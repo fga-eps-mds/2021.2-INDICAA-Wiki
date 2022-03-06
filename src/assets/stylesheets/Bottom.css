@@ -1,10 +1,7 @@
 .Bottom{
     display: flex;
-    width: 92vw;
-    height: 20vh;
-    background-color: white;
-    border-bottom-left-radius: 3em;
-    border-bottom-right-radius: 3em;
+    width: fit-content;
+    height: fit-content;
     margin-bottom: 2em;
     align-items: center;
     justify-content: center;

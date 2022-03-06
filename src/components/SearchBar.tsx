@@ -1,5 +1,6 @@
 import React from "react";
 import './../assets/stylesheets/SearchBar.css';
+import { Link } from "react-router-dom"
 
 export function SearchBar() {
     return (
@@ -8,11 +9,13 @@ export function SearchBar() {
                 search
             </span>
             <input type={"text"} placeholder={"Pesquise departamento/curso/disciplina"}/>
-            <div className="button">
-                <span className="material-icons-round">
-                    arrow_forward
-                </span>    
-            </div>
+            <Link to={"/Resultado"} style={{textDecoration: "none"}}>
+                <div className="button">
+                    <span className="material-icons-round">
+                        arrow_forward
+                    </span>
+                </div>
+            </Link>
         </div>
     );
 }
