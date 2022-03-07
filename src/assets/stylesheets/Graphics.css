@@ -1,0 +1,20 @@
+.filter{
+    color: #383c45;
+  display: grid;
+  background-color: #EFF4F2;
+  border-radius: 1em;
+  width: fit-content;
+  height: fit-content;
+  padding: 0vw 0.25vw 1vw 0.25vw;
+  font-size: 1.5vw;
+  letter-spacing: -0.05rem;
+}
+h4{
+    text-align: center;
+    font-family: 'Montserrat Regular', sans-serif;
+    margin: 1vh;
+    padding-top: 2vh;
+}
+.graphics{
+
+}
