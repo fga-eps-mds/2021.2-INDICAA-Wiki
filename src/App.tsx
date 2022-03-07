@@ -1,8 +1,6 @@
 import * as React from "react";
 import './assets/stylesheets/App.css';
-import { Pesquisa } from './components/pages/Pesquisa';
-import { Resultado } from './components/pages/Resultado';
-import { Detalhe } from './components/pages/Detalhe';
+import { Pesquisa, Resultado, Detalhe } from './components/pages/PagesFile';
 import { Routes, Route } from "react-router-dom";
 
 export function App() {
