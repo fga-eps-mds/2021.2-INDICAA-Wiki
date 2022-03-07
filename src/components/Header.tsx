@@ -32,7 +32,7 @@ export function Header() {
                     info
                 </span>
                 <div className={hover ? "info" : ""}>
-                    <div className={hover ? "content-info" : "without-content"}>A ajuda ao usuário aparecerão aqui ao usuário</div>
+                    <div className={hover ? "content-info" : "without-content"}>A ajuda ao usuário aparecerá aqui.</div>
                 </div>
             </div>
         </div>
