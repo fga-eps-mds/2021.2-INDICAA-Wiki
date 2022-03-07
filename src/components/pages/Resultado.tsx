@@ -1,5 +1,5 @@
 import React from "react";
-import { Graphics } from "../Graphics";
+import { Filter } from "../Filter";
 import { Header } from "../Header";
 import { GraphicsButtons } from "../GraphicsButtons";
 
@@ -7,7 +7,7 @@ export function Resultado(){
     return(
         <>
           <Header />
-          <Graphics />
+          <Filter />
           <GraphicsButtons />
         </>
     )

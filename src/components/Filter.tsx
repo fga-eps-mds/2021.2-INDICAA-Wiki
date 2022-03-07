@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import '../assets/stylesheets/Graphics.css'
+import React from "react";
+import '../assets/stylesheets/Filter.css'
 
-export function Graphics(){
+export function Filter(){
     const modalidadesList = ["presencial", "remoto", "semipresencial"];
     const disponibilidadeList = ["disponível", "indisponível"];
 
     return(
         <>
             <div className="filter">
-                <h4>MODALIDADE</h4>
+                <h4><b>MODALIDADE</b></h4>
                 {modalidadesList.map((modalidade)=>(
                     <>
                     <label><input type={"checkbox"} />{modalidade}</label>
@@ -20,9 +20,6 @@ export function Graphics(){
                     <label> <input type={"checkbox"} />{disponibilidade}</label>
                     </> 
                 ))}
-            </div>
-            <div className="graphics">
-                
             </div>
         </>
     )
