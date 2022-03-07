@@ -5,12 +5,14 @@
     margin-bottom: 2em;
     align-items: center;
     justify-content: center;
+    justify-self: center;
   }
 
   .container-buttons{
     display: flex;
     width: 60vw;
     justify-content: space-between;
+      
   }
 
   .button-campus{
@@ -24,11 +26,10 @@
     color: white;
     font-size: 1.5vw;
     border-radius: 0.5em;
-    transition: linear 0.25s;
+    transition:  0.25s;
     cursor: pointer;
   }
 
   .selected{
     background-color: #006633;
-
   }

@@ -9,16 +9,12 @@ export function Filter(){
         <>
             <div className="filter">
                 <h4><b>MODALIDADE</b></h4>
-                {modalidadesList.map((modalidade)=>(
-                    <>
-                    <label><input type={"checkbox"} />{modalidade}</label>
-                    </> 
+                {modalidadesList.map((modalidade, index)=>(
+                    <label key={index}><input  type={"checkbox"} />{modalidade}</label>
                 ))}
                 <h4>DISPONIBILIDADE</h4>
-                {disponibilidadeList.map((disponibilidade)=>(
-                    <>
-                    <label> <input type={"checkbox"} />{disponibilidade}</label>
-                    </> 
+                {disponibilidadeList.map((disponibilidade, index)=>(
+                    <label key={index}><input  type={"checkbox"} />{disponibilidade}</label>
                 ))}
             </div>
         </>

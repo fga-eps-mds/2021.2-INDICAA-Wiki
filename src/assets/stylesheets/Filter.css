@@ -1,11 +1,8 @@
 .filter{
-  position: absolute;
-  margin-top: 27vh;
-  margin-left: 5vw;
   color: #383c45;
   display: grid;
   background-color: #EFF4F2;
-  border-radius: 3em;
+  border-radius: 1.5vw;
   width: fit-content;
   height: fit-content;
   padding: 0vh 0.8vw 4vh;

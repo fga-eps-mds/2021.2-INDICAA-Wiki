@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export function SearchBar() {
     return (
         <div className="searchInput">
-            <span className="material-icons">
+            <span className="material-icons" id="search">
                 search
             </span>
             <input type={"text"} placeholder={"Pesquise departamento/curso/disciplina"}/>
