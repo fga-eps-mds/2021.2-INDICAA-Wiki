@@ -1,19 +1,18 @@
 .Bottom{
     display: flex;
-    width: 92vw;
-    height: 20vh;
-    background-color: white;
-    border-bottom-left-radius: 3em;
-    border-bottom-right-radius: 3em;
+    width: fit-content;
+    height: fit-content;
     margin-bottom: 2em;
     align-items: center;
     justify-content: center;
+    justify-self: center;
   }
 
   .container-buttons{
     display: flex;
     width: 60vw;
     justify-content: space-between;
+      
   }
 
   .button-campus{
@@ -27,11 +26,10 @@
     color: white;
     font-size: 1.5vw;
     border-radius: 0.5em;
-    transition: linear 0.25s;
+    transition:  0.25s;
     cursor: pointer;
   }
 
   .selected{
     background-color: #006633;
-
   }

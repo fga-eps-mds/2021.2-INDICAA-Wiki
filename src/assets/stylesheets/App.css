@@ -2,3 +2,15 @@
   display: grid;
   justify-content: center;
 }
+
+.Container {
+  display: grid;
+  height: 90vh;
+  width: 92vw;
+  background-color: white;
+  margin-top: 2em;
+  border-radius: 3em;
+  justify-content: center;
+  align-content: space-between;
+  border: 1px #383c452c solid;
+}

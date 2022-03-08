@@ -39,11 +39,32 @@ Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
 ### 🧰️ Tecnologias e Ferramentas
 
 Esse projeto usa algumas ferramentas para o seu desenvolvimento:
-- [Ubuntu](https://ubuntu.com/download) para 
-desenvolvimento em Linux
-- [TBD]
+- [Ubuntu](https://ubuntu.com/download)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- [Vite](https://vitejs.dev/)
+- [React.js](https://pt-br.reactjs.org/)
 
 ### 💿 Instalação 
+
+- Para realizar a execução do projeto **localmente** em seu sistema operacional Ubuntu, siga os seguintes passos:
+- **Obs.: É necessário ter o docker instalado em sua máquina**
+
+1. Build
+   
+```sh
+docker build -t 2021-1_indicaa_front-end .
+```
+
+2. Run
+
+```sh
+docker run -dp 3000:3000 2021-1_indicaa_front-end
+```
+
+3. Pronto! Agora o projeto deve estar ativo em:
+
+- [localhost:3000](http://localhost:3000)
 
 ## 🤝 Contribuição Livre
 
