@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block tabs %}
+    {{ super() }}
+    <style>
+        .background{
+            display: flex;
+            width: 100vw;
+            height: 80vh;
+            background-image: url('assets/images/wave.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+
+    <section>
+        <div class="background">
+        
+        </div>
+    </section>
+    
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+{% block site_nav %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}
