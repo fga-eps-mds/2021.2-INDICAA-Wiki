@@ -1,3 +1,5 @@
 site_name: INDICAA
 theme: 
   name: material
+extra_css:
+  - stylesheets/extra.css
