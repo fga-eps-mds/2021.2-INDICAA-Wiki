@@ -8,6 +8,7 @@
 | 16/03/2022 | 0.3 | Adição das instruções da fonte | Mateus Franco |
 | 17/03/2022 | 0.4 | Adição do nome da aplicação | Adne Moretti |
 | 21/03/2022 | 0.5 | Adição da paleta de cores | Letícia Aires |
+| 08/04/2022 | 0.6 | Correção do documento | Arthur Taylor |
 
 # 1. Introdução
 Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
