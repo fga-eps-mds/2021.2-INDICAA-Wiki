@@ -4,3 +4,8 @@ theme:
   custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - search
+  - mkdocstrings:
+      watch:
+        - overrides

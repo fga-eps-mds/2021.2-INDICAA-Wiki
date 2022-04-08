@@ -7,7 +7,6 @@
         .background{
             display: flex;
             position: relative;
-            width: 100vw;
             height: 100vh;
             background: url('assets/images/background.svg') no-repeat center;
             background-size: cover;
@@ -26,13 +25,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
+            flex-wrap: nowrap;
         }
 
         .titulo{
             font-family: "Roboto", sans-serif;
             font-weight: 700;
-            font-size: 3.5vw;
+            font-size: 7.5vh;
             color: #F6F6F6;
             margin: 0;
             line-height: 90%;
@@ -40,11 +39,34 @@
 
         .sub{
             font-weight: 100;
-            font-size: 2.5vw;
+            font-size: 5vh;
+        }
+
+        .minor{
+            margin-top: .5em;
+            display: flex;
+            position: relative;
+            font-size: 1.8vh;
+            line-height: 1em;
+            margin-left: .5em;
+            width: 24vw;
+            height: 10vh;
+            align-items: center;
+            text-align: justify;
+            color: #f6f6f68e;
+        }
+        .minor::before{
+            content: '';
+            display: inline-block;
+            width: .1rem;
+            height: 9vh;
+            background: yellow;
+            position: absolute;
+            left: -.5em;
         }
 
         .illustration{
-            width: 45%;
+            height: 60vh;
             margin-left: 5em;
         }
 
@@ -57,6 +79,9 @@
                     <div class="info">
                         <p class="titulo">Informações<br>administrativas</p>
                         <p class="sub titulo">ao seu alcance</p>
+                        <p class="sub titulo minor">Acesse as informações detalhadas através de dashboards dos departamentos que deseja.
+                            Tenha um melhor controle da quantidade de alunos matriculados, vagas ofertadas e salas disponíveis.
+                            Facilite sua vida, use o INDICAA.</p>
                     </div>
                     <img src="assets/images/illustration.svg" alt="illustration" class="illustration">
                 </div>
