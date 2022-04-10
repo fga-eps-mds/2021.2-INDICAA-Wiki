@@ -18,18 +18,18 @@
 Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
 
 ## 2. Metodologias
-Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento a processos e ferramentas, fator que será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos mo projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
+Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento a processos e ferramentas. Assim, este fator será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos mo projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
 
 ### 2.1 Scrum
 > "A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem em pouco tempo a rapidez e a qualidade do trabalho." Scrum: a arte de fazer o dobro do trabalho na metade do tempo, 2016
 
 #### 2.1.1 Product Backlog
-Lista emergente e ordenada do que é necessário para o desenvolvimento e melhora do produto. Nele contém as funcionalidades à serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e serem realizadas em todas as etapas da construção do produto.
+O product backlog é uma lista emergente e ordenada das tarefas necessárias para o desenvolvimento e melhora do produto. Nele estão contidas as funcionalidades à serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e também devem ser realizadas em todas as etapas da construção do produto.
 
 #### 2.1.2 Pápeis 
 - __Scrum Master:__ É o responsável pela eficiência do grupo, auxiliando a todos no entendimento do framework Scrum e atuando na gestão do grupo.
 - __Product Owner:__ Responsável por aumentar o valor do produto a ser desenvolvido e na gestão do Product Backlog, comunicando com o time sobre o objetivo a ser atingido.
- - __DevOps:__ Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos, como os testes. Visa atuar para que o projeto forneça uma entrega e integração contínuas.
+ - __DevOps:__ Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos como os testes e também, atuar para que o projeto forneça uma entrega e integração contínuas.
  - __Arquiteto:__ Atua na decisão das melhores tecnologias a serem utilizadas pelo grupo durante o desenvolvimento do projeto. Atua em suporte ao DevOps.
  - __Desenvolvedor:__ Atua no desenvolvimento e teste do produto, criando o Sprint Backlog e adaptando seu plano de modo a atingir o objetivo definido ao final da Sprint.
  -  __Designer:__ Atua nas responsabilidades, operações, atributos e relacionamentos de elementos do design do produto, assegurando também que esse esteja consistente com a arquitetura do software.
@@ -47,26 +47,29 @@ Lista emergente e ordenada do que é necessário para o desenvolvimento e melhor
  __Sprints:__
   
   Duração de 7 dias : Início na terça e término na segunda da outra semana. Poderão ser menores devido às releases : Mais curtas ou longas, conforme decisão do Scrum Master.
-- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades. Têm duração de 15 minutos.
+- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio discord, prioritariamente no período da noite. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades. Têm duração de 15 minutos.
 - __Sprint Review:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
 - __Sprint Retrospective:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
-- __Sprint Planning:__ Será realizado ao início da sprint, na terça-feira, com duração de 2 horas.
+- __Sprint Planning:__ Será realizado ao início da sprint, na terça-feira, com duração de 1 hora.
 
 Obs.: Por motivos externos ou decisão dos Scrum Masters, os processos citados no Time-Box podem ter sua duração ou horários alterados.
 
 ### 2.2 Kanban
 > "A palavra japonesa 'kanban', que significa 'placa visual'."
 
-Utilizaremos como um método de gerenciamento de fluxo de trabalho para definir, gerenciar e melhorar processos que fornecem trabalho de conhecimento, objetivando a visualização rápida do trabalho à ser realizado e a maximização da eficiência e produtividade.
+O kanban será utilizado como um método de gerenciamento de fluxo de trabalho para definir, gerenciar e melhorar processos que fornecem trabalho de conhecimento, objetivando a visualização rápida do trabalho à ser realizado e a maximização da eficiência e produtividade.
 
 Utilizaremos quadros Kanban para visualização do progresso do trabalho com as seguintes colunas: 
 - __Product Backlog:__ Lista de todas as funcionalidades do projeto.
 - __Sprint Backlog:__ Lista das funcionalidade que serão implementadas na sprint atual.
-- __To Do:__ Lista de funcionalidades à serem realizadas.
 - __In Progress:__ Lista de funcionalidade que estão sendo desenvolvidas.
-- __Review:__ Lista de funcionalidades que devem ser revisadas.
-- __In Test:__ Lista de funcionalidades que devem ser testadas.
+- __Review/QA:__ Lista de funcionalidades que devem ser revisadas.
 - __Done:__ Lista de funcionalidades já desenvolvidas.
+- __Closed:__ Lista de tarefas completadas.
+- __New Issues:__ Lista de novas tarefas levantadas e não discutidas.
+- __Icebox:__ Lista de tarefas de baixa prioridade.
+- __Epics:__ Lista de tarefas "maiores" que representam grande avanço no projeto.
+
 ### 2.3 Extreme Programming (XP)
 > "XP é um apelido carinhoso de uma nova metodologia de desenvolvimento designada Extreme Programming, com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicação, feedback e coragem [...]".  [DevMedia](https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498)
 
