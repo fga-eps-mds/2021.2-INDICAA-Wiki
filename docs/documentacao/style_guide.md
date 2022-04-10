@@ -8,6 +8,7 @@
 | 16/03/2022 | 0.3 | Adição das instruções da fonte | Mateus Franco |
 | 17/03/2022 | 0.4 | Adição do nome da aplicação | Adne Moretti |
 | 21/03/2022 | 0.5 | Adição da paleta de cores | Letícia Aires |
+| 08/04/2022 | 0.6 | Correção do documento | Arthur Taylor |
 
 # 1. Introdução
 Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
@@ -46,7 +47,7 @@ Por exemplo:
 
 #### Incluindo no CSS
 
-Coloca-se no css, para a utilização das fonte:
+Coloca-se no css, para a utilização da fonte:
 
     font-family: 'UnB Pro';
 	font-style: normal;
@@ -75,4 +76,4 @@ Com relação ao contraste, foram feitos testes e é recomendado ter estes núme
 	
 A logo escolhida visou apresentar uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
 
-<img src="/docs/assets/logo/logo.png" alt="contraste" width="200"/>
+<img src="/docs/assets/logo.png" alt="contraste" width="200"/>
