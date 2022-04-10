@@ -11,7 +11,7 @@
 03/03/2022 | 0.8 | Adição da logo e alterações visuais | Guilherme Barbosa Ferreira e Gabriel Moretti de Souza
 
 ## 1. Introdução
-Este documento conterá as informações sobre o desenvolvimento do protótipo, abordando tanto o de baixa fidelidade, quanto o de alta fidelidade, para melhor visualização da ideia do projeto.
+Neste documento estão contidas as informações sobre o desenvolvimento do protótipo, abordando os protóripos de baixa fidelidade e de alta fidelidade, para melhor visualização da ideia do projeto.
 
 ## 2. Protótipo de Baixa Fidelidade
 Sendo a melhor alternativa para o início do escopo do projeto, o protótipo de baixa fidelidade descarta as incertezas, testa conceitos, procura o desenvolvimento do projeto.<br />
