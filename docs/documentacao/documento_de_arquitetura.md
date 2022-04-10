@@ -2,15 +2,15 @@
 
 |Data|Versão|Descrição|Autor|
 |-|-|-|-|
-|30/01/2022|0.1|Abertura Documento de Arquitetura|Guilherme|
-|31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
+|30/01/2022|0.1|Criação do documento de arquitetura|Guilherme|
+|31/01/2022|0.2|Adição do tópico de referências|Guilherme|
 |01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
 |01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
 |01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
-|07/02/2022|0.6|Adicionado Tópico de Visão Geral do projeto|João Paulo|
-|15/02/2022|0.7|Adicionado Tópicos faltantes: Visão de Casos de Uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
-|02/03/2022|0.8|Adicionado o Diagrama de Pacotes | Guilherme Barbosa e Gabriel Mariano|
-|03/03/2022|0.9|Adicionado o Diagrama de Casos de Uso | Guilherme Santos|
+|07/02/2022|0.6|Adição do tópico de visão geral do projeto|João Paulo|
+|15/02/2022|0.7|Adição dos tópicos faltantes: Visão de Casos de Uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
+|02/03/2022|0.8|Adição do diagrama de pacotes | Guilherme Barbosa e Gabriel Mariano|
+|03/03/2022|0.9|Adição do diagrama de casos de uso | Guilherme Santos|
 |05/03/2022|0.9.1| Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
 |26/03/2022|0.9.2| Atualização do escopo e pequenas correções | Gabriel Moretti e Matheus Pimentel Leal
 
@@ -23,9 +23,9 @@
 
 ### 1.2 <a name="1_2">Escopo</a>
 
-<p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
+<p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
  
-<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
+<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é proporcionar uma melhor organização das informações 
 disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
@@ -33,8 +33,6 @@ de informações será mais simples, ajudando tanto a parte
 de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
 
 ### 1.3 <a name=1_3>Definições, acrônimos e abreviações</a>
-
-Tabela com o significado de abreviações para termos usados ao longo do documento.
 
 |Sigla |Significado |
 --|--
@@ -47,17 +45,17 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 
 ### 1.4 <a name=1_4>Visão Geral</a>
 
-<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões. E tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|
-|**1**|**Introdução**| Fornece ao leitor uma visão geral do conteúdo abordado no documento
-|**2**|**Representação Arquitetural**| Detalha a arquitetura utilizada no projeto e como ela está organizada
-|**3**|**Metas e Restrições da Arquitetura**| Descreve os objetivos do projeto, bem como suas restrições, do ponto de vista arquitetural
-|**4**|**Visão dos Casos de Uso**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
-|**5**|**Visão Lógica**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
-|**6**|**Desempenho e Qualidade**| Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas
-|**7**|**Referências**| Fornece ao leitor uma visão geral das referência utilizadas durante a criação deste documento
+|**1**|**[Introdução](#1-a-name"1"introduçãoa)**| Fornece ao leitor uma visão geral do conteúdo abordado no documento
+|**2**|**[Representação Arquitetural](#2-a-name"2"representação-da-arquiteturaa)**| Detalha a arquitetura utilizada no projeto e como ela está organizada
+|**3**|**[Metas e Restrições da Arquitetura](#3-a-name"3"metas-e-restrições-da-arquiteturaa)**| Descreve os objetivos do projeto, bem como suas restrições, do ponto de vista arquitetural
+|**4**|**[Visão dos Casos de Uso](#4-a-name"4"visão-de-casos-de-usoa)**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
+|**5**|**[Visão Lógica](#5-a-name"5"visão-lógicaa)**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
+|**6**|**[Desempenho e Qualidade](#6-a-name"6"desempenho-e-qualidadea)**| Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas
+|**7**|**[Referências](#7-a-name14referênciasa)**| Fornece ao leitor uma visão geral das referência utilizadas durante a criação deste documento
 
 
 ## 2. <a name="2">Representação da Arquitetura</a>
@@ -94,7 +92,7 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 #### FU01 - Pesquisa
 |||
 ------|------
- **Descrição**| Esta funcionalidade permite o usuário pesquisar tanto por decanato a partir da seleção de um campus |
+ **Descrição**| Esta funcionalidade permite o usuário pesquisar por departamento a partir da seleção de um campus |
  **Atores**| Usuário |
  **Pré-condições**| O usuário deve ter selecionado um campus e preencher o campo de pesquisa  |
  **Pós-condições**| O usuário deve ter conseguido realizado a pesquisa por um decanato |
