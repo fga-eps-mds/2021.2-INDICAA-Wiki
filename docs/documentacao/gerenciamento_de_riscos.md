@@ -6,14 +6,14 @@
 | 03/03/2022 | 1.0 | Criação da primeira versão do documento | Adne Moretti, Gabriel Moretti, Pedro Siqueira e Vitor Eduardo|
 
 ## 1. Introdução
-O documento em questão visa informar detalhadamente os riscos que podem afetar o projeto e aplicativo do INDICAA, assim categorizando e descrevendo os mesmos entre as respectivas responsabilidades e papéis e criando a estrutura analítica dos riscos.
+O documento em questão visa informar detalhadamente os riscos que podem afetar o projeto INDICAA. Categorizando e descrevendo os mesmos entre as respectivas responsabilidades e papéis e criando a estrutura analítica dos riscos.
 ## 2. Objetivo
-O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
+O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim, guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
 ## 3. Estrutura Analítica dos Riscos
 Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
 
 ![](/docs/assets/Diagrama-EAR.png)
-Diagrama de riscos do projeto
+### Diagrama de riscos do projeto
 
 ### 3.1. Risco Técnico
 | **Tipo** | **Descrição** |
@@ -43,7 +43,7 @@ Diagrama de riscos do projeto
 ## 4. Identificação dos Riscos
 | **ID** | **Risco** | **Causa** | **O impacto será** | **Categoria EAR** |
 | --- | --- | --- | --- | --- |
-| RN01 | O projeto não atender aos requisitos levantados | Falha no levantamento de requisitos e validação constante com o projeto | e possível refatoração do projeto e redefinição dos requisitos| Requisitos
+| RN01 | O projeto não atender aos requisitos levantados | Falha no levantamento de requisitos e validação constante com o projeto | Possível refatoração do projeto e redefinição dos requisitos| Requisitos
 | RN02 | Membros dos times trancarem a matéria ou abandonarem projeto | Desmotivação, problemas pessoais | Sobrecarga em outros membros do projeto e redefinição de papéis | Recursos/Pandemia
 | RN03 | Dificuldade de adaptação da equipe com as tecnologias | Falta de conhecimento e incompatibilidade com o projeto | Atraso na entrega e redefinição de tecnologia | Complexidade
 | RN04 | Houver problemas de comunicação entre os grupos | Não utilização dos meios de comunicação definidos pela equipe | Desorganização, falta de alinhamento da equipe e dificuldade de gerenciamento pelos Scrum Masters | Comunicação
