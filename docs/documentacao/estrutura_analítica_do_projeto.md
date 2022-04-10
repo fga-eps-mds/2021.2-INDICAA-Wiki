@@ -5,7 +5,7 @@
 | Data | Versão | Descrição | Autor(es/as) |
 |------|--------|-----------|--------------|
 |05/02/2022|0.1|Criação do Documento|Matheus Pimentel Leal|
-|21/02/2022|0.2|Criação do Diagrama|Arthur Taylor, Gabriel Mariano, Letícia Aires e Mateus Franco|
+|21/02/2022|0.2|Adição do Diagrama|Arthur Taylor, Gabriel Mariano, Letícia Aires e Mateus Franco|
 
 
 ## Siglas
