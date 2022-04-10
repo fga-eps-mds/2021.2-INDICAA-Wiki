@@ -14,8 +14,8 @@
         }
 
         .box{
-            width: 145vh;
-            height: 120vh;
+            width: 135vh;
+            height: max-content;
             border: solid black 1px;
         }
         
@@ -28,7 +28,7 @@
             flex-wrap: nowrap;
         }
 
-        .titulo{
+        .titulo-descritivo{
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             font-size: 7.5vh;
@@ -69,6 +69,27 @@
             height: 60vh;
             margin-left: 5em;
         }
+
+        .conteudo{
+            margin-top: 30vh;
+            font-family: "Roboto", sans-serif;
+            color: #1d1d1d;
+        }
+
+        .titulo{
+            font-weight: 700;
+            font-size: xx-large;
+            margin: 0 5vh 0 5vh;
+
+        }
+
+        .descricao{
+            font-weight: 400;
+            font-size: large;
+            text-align: justify;
+            margin: 0 5vh 3vh 5vh;
+        }
+
         @media only screen and (max-width: 768px) {
             .box{
                 width: 100vh;
@@ -76,7 +97,7 @@
             .apresentacao{
                 flex-wrap: wrap;
             }
-            .titulo{
+            .titulo-descritivo{
                 font-size: 5vh;
             }
             .sub{
@@ -99,13 +120,37 @@
             <div class="box">
                 <div class="apresentacao">
                     <div class="info">
-                        <p class="titulo">Informações<br>administrativas</p>
-                        <p class="sub titulo">ao seu alcance</p>
-                        <p class="sub titulo minor">Acesse as informações detalhadas através de dashboards dos departamentos que deseja.
+                        <p class="titulo-descritivo">Informações<br>administrativas</p>
+                        <p class="sub titulo-descritivo">ao seu alcance</p>
+                        <p class="sub titulo-descritivo minor">Acesse as informações detalhadas através de dashboards dos departamentos que deseja.
                             Tenha um melhor controle da quantidade de alunos matriculados, vagas ofertadas e salas disponíveis.
                             Facilite sua vida, use o INDICAA.</p>
                     </div>
                     <img src="assets/images/illustration.svg" alt="illustration" class="illustration">
+                </div>
+                <div class="conteudo">
+                    <section class="grupo">
+                        <p class="titulo">Sobre o Projeto</p>
+                        <p class="descricao">
+                            Com o retorno às atividades presenciais, faz-se necessária a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; 
+                            as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar as informações no site do Sigaa, 
+                            foi proposto um projeto com a ideia de criar um software capaz apresentar um painel com os indicadores do SIGAA, 
+                            de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.</p>
+                    </section>
+                    <section>
+                        <p class="titulo">Principais funcionalidades</p>
+                        <p class="descricao">Considerando o objetivo do produto, existe um conjunto de funcionalidades de maior importância, são elas: 
+                            <br>- Quantidade de disciplinas ofertadas por curso
+                            <br>- Quantidade de vagas ofertadas por curso 
+                            <br>- Quantidade de alunos matriculados por curso 
+                            <br>- Quantidade de salas disponiveis por curso</p>
+                    </section>
+                    <section>
+                        <p class="titulo">Licença</p>
+                        <p class="descricao">
+                            Este projeto está licenciado sob os termos da licença GNU GPL v3.0.<br>
+                            Caso queira contribuir, visualize o nosso contributing.</p>
+                    </section>
                 </div>
             </div>    
         </div>
