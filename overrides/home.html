@@ -44,7 +44,7 @@
         }
 
         .minor{
-            margin-top: .5em;
+            margin-top: 1em;
             display: flex;
             position: relative;
             font-size: clamp(1em, 1em + 2vh, 1.5em);
@@ -52,7 +52,7 @@
             margin-left: .5em;
             width: 100%;
             max-width: fit-content;
-            height: 10vh;
+            height: 130%;
             align-items: center;
             text-align: justify;
             color: #f6f6f68e;
@@ -61,7 +61,7 @@
             content: '';
             display: inline-block;
             width: .1rem;
-            height: 9vh;
+            height: calc(100% + 1em);
             background: yellow;
             position: absolute;
             left: -.5em;
@@ -99,21 +99,26 @@
                 height: max-content;
             }
             .apresentacao{
-                padding: 5vh;
-                flex-wrap: wrap;
+                height: 100%;
+                min-height: 90vh;
+                flex-direction: column;
+                justify-content: center;
+                
             }
             .titulo-descritivo{
-                font-size: 5vh;
+                font-size: clamp(3em, 5vh, 4.5em);
             }
             .sub{
-                font-size: 4vh;
+                font-size: clamp(2.5em, 5vh, 3.5em);
             }
             .minor{
-                font-size: 1.5vh;
+                height: fit-content;
+                font-size: clamp(1em, 5vh, 1.2em);
             }
             .illustration{
-                height: 40vh;
-                margin: 0;
+                max-width: 300px;
+                max-height: 300px;
+                margin: 5em 0 0 0;
             }
         }
 
