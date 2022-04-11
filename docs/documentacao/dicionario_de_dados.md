@@ -10,7 +10,7 @@
 
 |Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
 |-|-|-|-|-|-|
-|codigoMateria|Chave primária<br>Obrigatório|varchar|7|Codigo da Materia|"FGA0003"|
+|codigoMateria|Chave primária<br>Obrigatório|varchar|7|Codigo da Matéria|"FGA0003"|
 |cargaHoraria|Obrigatório|varchar|3|Carga Horária da Matéria|"60h"|
 |nome|Obrigatório|varchar|255|Nome da Matéria|"COMPILADORES 1"|
 
