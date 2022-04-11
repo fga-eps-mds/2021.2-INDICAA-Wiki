@@ -4,6 +4,8 @@ theme:
     repo: fontawesome/brands/github-square
   name: material
   custom_dir: overrides
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.svg
 extra_css:
   - stylesheets/extra.css
 plugins:
