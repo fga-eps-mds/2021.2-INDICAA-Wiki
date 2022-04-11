@@ -1,5 +1,7 @@
 site_name: INDICAA
 theme: 
+  icon:
+    repo: fontawesome/brands/github-square
   name: material
   custom_dir: overrides
 extra_css:
@@ -9,3 +11,4 @@ plugins:
   - mkdocstrings:
       watch:
         - overrides
+repo_url: https://github.com/fga-eps-mds/2021.2-INDICAA
