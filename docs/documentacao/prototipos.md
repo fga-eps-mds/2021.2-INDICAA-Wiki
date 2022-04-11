@@ -9,6 +9,7 @@
 21/02/2022 | 0.6 | Revisão do Protótipo | Gabriel Mariano da Silva
 22/02/2022 | 0.7 | Correções em aspectos funcionais | Caio César Oliveira
 03/03/2022 | 0.8 | Adição da logo e alterações visuais | Guilherme Barbosa Ferreira e Gabriel Moretti de Souza
+11/04/2022 | 0.9 | revisão geral do documento | Arthur taylor
 
 ## 1. Introdução
 Neste documento estão contidas as informações sobre o desenvolvimento do protótipo, abordando os protóripos de baixa fidelidade e de alta fidelidade, para melhor visualização da ideia do projeto.
