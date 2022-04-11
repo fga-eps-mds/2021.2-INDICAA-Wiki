@@ -4,6 +4,7 @@
 | 08/02/2022 	|     0.1    	| Criação do documento de requisitos                              	| Caio Oliveira             	|
 | 12/02/2022 	|     0.2    	| Inclusão de requisitos funcionais e não funcionais                | Aberto a todos              |
 | 13/02/2022 	|     0.3    	| Revisão e filtragem dos requisitos                                | Adne M., Laura P. e Pedro S.|
+| 11/04/2022 	|     0.4    	| Revisão geral do documento                                        | Arthur Taylor|
 
 ## 1. Introdução
 Este documento conterá as descrições sucintas dos requisitos funcionais e não funcionais do sistema, sem especificação de prioridade.<br /> O documento está passível à futuras alterações, caso seja identificada a necessidade.
