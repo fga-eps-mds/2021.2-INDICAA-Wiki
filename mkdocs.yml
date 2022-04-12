@@ -1,0 +1,76 @@
+site_name: INDICAA
+theme: 
+  icon:
+    repo: fontawesome/brands/github-square
+  name: material
+  custom_dir: overrides
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.svg
+  features:
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search
+  - mkdocstrings:
+      watch:
+        - overrides
+repo_url: https://github.com/fga-eps-mds/2021.2-INDICAA
+nav:
+  - Home: index.md
+  - Sprints:
+    - Grupo 1: atas/grupo1/reuniao22Fev.md
+    - Grupo 3: 
+      - Sprint 0: 
+        - Planning: atas/grupo3/Ata_reuniao_grupo3-Sprint0.md
+        - Análise SCRUM: atas/grupo3/Ata_reuniao_grupo3-SCRUM.md
+      - Sprint 1: atas/grupo3/Ata_reuniao_grupo3-Sprint0_sprint1.md
+      - Sprint 2: 
+        - Planejamento e Revisão: atas/grupo3/Ata_reuniao_grupo3-Sprint1_Sprint2.md
+        - Divisão de tarefas: atas/grupo3/Ata_reuniao_grupo3-Sprint2.md
+      - Sprint 3: atas/grupo3/Ata_reuniao_grupo3-Sprint2_sprint3.md
+      - Sprint 4: atas/grupo3/sprint4Grupo3.md
+      - Sprint 5: atas/grupo3/sprint5Grupo3.md
+      - Sprint 6: atas/grupo3/sprint6Grupo3.md
+      - Sprint 7: atas/grupo3/sprint7Grupo3.md
+      - Sprint 8: atas/grupo3/sprint8Grupo3.md
+      - Sprint 9: atas/grupo3/sprint9Grupo3.md
+      - Sprint 10: atas/grupo3/sprint10Grupo3.md
+    - Grupo 4: 
+      - Sprint 0: 
+        - Planejamento: atas/grupo4/sprint0/planejamento.md
+        - Resultado: atas/grupo4/sprint0/resultado.md
+      - Sprint 1:
+        - Planejamento: atas/grupo4/sprint1/planejamento.md
+        - Resultado: atas/grupo4/sprint1/resultado.md
+      - Sprint 2:
+        - Planejamento: atas/grupo4/sprint2/planejamento.md
+        - Resultado: atas/grupo4/sprint2/resultado.md
+  - Projeto:
+    - Termo de Abertura do Projeto: documentacao/termo_de_abertura.md
+    - Estrutura Analítica do Projeto: documentacao/estrutura_analítica_do_projeto.md
+    - Metodologia: documentacao/documento_de_metodologia.md
+    - Layout de Sprint: templates_projeto/layout_de_sprint.md
+    - Gerenciamento de Comunicação: documentacao/gerenciamento_de_comunicacao.md
+    - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
+    - Estrutura de Branches: documentacao/guia_de_branching.md
+  - Produto:
+    - Documento de Requisitos: documentacao/documento_de_requisitos.md
+    - Documento de Arquitetura: documentacao/documento_de_arquitetura.md
+    - Dicionário de dados: documentacao/dicionario_de_dados.md
+    - Documento de Visão: documentacao/documento_de_visao.md
+    - Guia de estilo: documentacao/guia_de_estilo.md
+    - Protótipos: documentacao/prototipos.md
+  - Contribuição:
+    - Como Contribuir: contributing.md
+    - Template de Commit: templates_projeto/template_de_commit.md
+    - Template de Issue: templates_projeto/template_de_issue.md
