@@ -59,13 +59,18 @@ nav:
     - Termo de Abertura do Projeto: documentacao/termo_de_abertura.md
     - Estrutura Analítica do Projeto: documentacao/estrutura_analítica_do_projeto.md
     - Metodologia: documentacao/documento_de_metodologia.md
+    - Layout de Sprint: templates_projeto/layout_de_sprint.md
     - Gerenciamento de Comunicação: documentacao/gerenciamento_de_comunicacao.md
     - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
-    - Estrutura de Branches: documentacao/guia_de_Branching.md
+    - Estrutura de Branches: documentacao/guia_de_branching.md
   - Produto:
     - Documento de Requisitos: documentacao/documento_de_requisitos.md
     - Documento de Arquitetura: documentacao/documento_de_arquitetura.md
+    - Dicionário de dados: documentacao/dicionario_de_dados.md
     - Documento de Visão: documentacao/documento_de_visao.md
+    - Guia de estilo: documentacao/guia_de_estilo.md
     - Protótipos: documentacao/prototipos.md
   - Contribuição:
     - Como Contribuir: contributing.md
+    - Template de Commit: templates_projeto/template_de_commit.md
+    - Template de Issue: templates_projeto/template_de_issue.md
