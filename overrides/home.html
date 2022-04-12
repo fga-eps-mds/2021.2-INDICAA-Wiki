@@ -1,0 +1,259 @@
+{% extends "main.html" %}
+{% block tabs %}
+    {{ super() }}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap%27'); 
+
+        .background{
+            display: flex;
+            position: relative;
+            height: 100vh;
+            background: url('assets/imagens/background.svg') no-repeat center;
+            background-size: cover;
+            justify-content: center;
+        }
+
+        .box{
+            width: 100%;
+            max-width: 1200px;
+            height: max-content;
+        }
+        
+        .apresentacao{
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+
+        .titulo-descritivo{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: clamp(7em, 1em + 6vh, 7.5em);
+            color: #F6F6F6;
+            margin: 0;
+            line-height: 90%;
+        }
+
+        .sub{
+            font-weight: 100;
+            font-size: clamp(4em, 1em + 4.5vh, 4.5em);
+        }
+
+        .minor{
+            margin-top: 1em;
+            display: flex;
+            position: relative;
+            font-size: clamp(1em, 1em + 2vh, 1.5em);
+            line-height: 1em;
+            margin-left: .5em;
+            width: 100%;
+            max-width: fit-content;
+            height: 130%;
+            align-items: center;
+            text-align: justify;
+            color: #f6f6f68e;
+        }
+        .minor::before{
+            content: '';
+            display: inline-block;
+            width: .1rem;
+            height: calc(100% + 1em);
+            background: #FDCA00;
+            position: absolute;
+            left: -.5em;
+        }
+
+        .illustration{
+            width: 100%;
+            height: 100%;
+            max-width: 550px;
+            margin-left: 5em;
+        }
+
+        .conteudo{
+            margin-top: 30vh;
+            font-family: "Roboto", sans-serif;
+            color: #1d1d1d;
+        }
+
+        .titulo {
+            font-weight: 700;
+            font-size: xx-large;
+            margin: 0 5vh 0 5vh;
+        }
+
+        #grupos{
+            text-align: center;
+            font-weight: 500;
+            font-size: x-large;
+        }
+
+        .descricao{
+            font-weight: 400;
+            font-size: large;
+            text-align: justify;
+            margin: 0 5vh 3vh 5vh;
+        }
+
+        .container-fotos{
+            display: flex;
+            font-family: "Roboto", sans-serif;
+            font-size: medium;
+            text-align: center;
+            justify-content: center;
+            padding: 1em 0 1em 0;
+            flex-wrap: wrap;
+        }
+
+        .fotos{
+            padding: 1em;
+            
+        }
+        @media only screen and (max-width: 768px) {
+            .box{
+                height: max-content;
+            }
+            .apresentacao{
+                height: 100%;
+                min-height: 90vh;
+                flex-direction: column;
+                justify-content: center;
+                
+            }
+            .titulo-descritivo{
+                font-size: clamp(3em, 5vh, 4.5em);
+            }
+            .sub{
+                font-size: clamp(2.5em, 5vh, 3.5em);
+            }
+            .minor{
+                height: fit-content;
+                font-size: clamp(1em, 5vh, 1.2em);
+            }
+            .illustration{
+                max-width: 300px;
+                max-height: 300px;
+                margin: 5em 0 0 0;
+            }
+        }
+
+    </style>
+
+    <section>
+        <div class="background">
+            <div class="box">
+                <div class="apresentacao">
+                    <div class="info">
+                        <p class="titulo-descritivo">Informações<br>administrativas</p>
+                        <p class="sub titulo-descritivo">ao seu alcance</p>
+                        <p class="sub titulo-descritivo minor">Acesse as informações detalhadas através de dashboards dos departamentos que deseja.
+                            Tenha um melhor controle da quantidade de alunos matriculados, vagas ofertadas e salas disponíveis.
+                            Facilite sua vida, use o INDICAA.</p>
+                    </div>
+                    <img src="assets/imagens/illustration.svg" alt="illustration" class="illustration">
+                </div>
+                <div class="conteudo">
+                    <section class="grupo">
+                        <p class="titulo">Sobre o Projeto</p>
+                        <p class="descricao">
+                            Com o retorno às atividades presenciais, faz-se necessária a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; 
+                            as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar as informações no site do Sigaa, 
+                            foi proposto um projeto com a ideia de criar um software capaz apresentar um painel com os indicadores do SIGAA, 
+                            de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.</p>
+                    </section>
+                    <section>
+                        <p class="titulo">Principais funcionalidades</p>
+                        <p class="descricao">Considerando o objetivo do produto, existe um conjunto de funcionalidades de maior importância, são elas: 
+                            <br>- Quantidade de disciplinas ofertadas por curso
+                            <br>- Quantidade de vagas ofertadas por curso 
+                            <br>- Quantidade de alunos matriculados por curso 
+                            <br>- Quantidade de salas disponiveis por curso</p>
+                    </section>
+                    <section>
+                        <p class="titulo">Licença</p>
+                        <p class="descricao">
+                            Este projeto está licenciado sob os termos da licença GNU GPL v3.0.<br>
+                            Caso queira contribuir, visualize o nosso contributing.</p>
+                    </section>
+                    <section>
+                        <p class="titulo">Desenvolvedores</p>
+                        <h1 class="titulo" id="grupos">Grupo 03</h1>
+                        <div class="container-fotos">
+                            <a href="https://github.com/Matheuspleal" class="fotos"><img src="https://avatars.githubusercontent.com/u/62526025?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Matheus Pimentel</b></sub></a><br /><a href="https://github.com/Matheuspleal">
+                            </a>
+                            <a href="https://github.com/AdneMoretti" class="fotos"><img src="https://avatars.githubusercontent.com/u/64036847?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Adne Moretti</b></sub></a><br /><a href="https://github.com/AdneMoretti">
+                            </a>
+                            <a href="https://github.com/MorettiGS" class="fotos"><img src="https://avatars.githubusercontent.com/u/78612945?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Gabriel Moretti</b></sub></a><br /><a href="https://github.com/MorettiGS">
+                            </a>
+                            <a href="https://github.com/gabrielm2q" class="fotos"><img src="https://avatars.githubusercontent.com/u/72149063?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Gabriel Mariano</b></sub></a><br /><a href="https://github.com/gabrielm2q">
+                            </a>
+                            <a href="https://github.com/guibrbs" class="fotos"><img src="https://avatars.githubusercontent.com/u/88190414?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Guilherme Barbosa</b></sub></a><br /><a href="https://github.com/guibrbs">
+                            </a>	
+                        </div>
+                        <h1 class="titulo" id="grupos">Grupo 01</h1>
+                        <div class="container-fotos">
+                            <a href="https://github.com/LeticiaAires" class="fotos">
+                                <img src="https://avatars.githubusercontent.com/u/72623771?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Leticia Aires</b></sub></a><br /><a href="https://github.com/LeticiaAires">
+                            </a>  
+                            <a href="https://github.com/lucasqueiroz23" class="fotos">
+                                <img src="https://avatars.githubusercontent.com/u/86672557?v=4" width="100px;" alt=""/ style="border-radius: 50%;"><br />
+                                <sub><b>Lucas Henrique</b></sub></a><br /><a href="https://github.com/lucasqueiroz23">
+                            </a>
+                           <a href="https://github.com/mc-gomes" class="fotos"><img src="https://avatars.githubusercontent.com/u/72279998?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Matheus Costa</b></sub></a><br /><a href="https://github.com/mc-gomes">
+                            </a>
+                            <a href="https://github.com/laurapinos" class="fotos"><img src="https://avatars.githubusercontent.com/u/62102447?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Laura Pinos </b></sub></a><br /><a href="https://github.com/laurapinos">        
+                            </a>
+                            <a href="https://github.com/vitorekr" class="fotos"><img src="https://avatars.githubusercontent.com/u/56610229?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Vitor Khül</b></sub></a><br /><a href="https://github.com/vitorekr">
+                            </a>
+                            <a href="https://github.com/OCaioOliveira" class="fotos"><img src="https://avatars.githubusercontent.com/u/54439337?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Caio César</b></sub></a><br /><a href="https://github.com/OCaioOliveira">
+                            </a>
+                        </div>
+                        <h1 class="titulo" id="grupos">Grupo 04</h1>
+                        <div class="container-fotos">
+                            <a href="https://github.com/guigudf" class="fotos"><img src="https://avatars.githubusercontent.com/u/78756768?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/guigudf"> 
+                            </a>
+		                    <a href="https://github.com/PedroSiq" class="fotos"><img src="https://avatars.githubusercontent.com/u/86636146?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Pedro Augusto</b></sub></a><br /><a href="https://github.com/PedroSiq"> 
+                            </a>
+    		                <a href="https://github.com/joaopaulob3" class="fotos"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>João Paulo</b></sub></a><br /><a href="https://github.com/joaopaulob3"> 
+                            </a>
+    		                <a href="https://github.com/thiago-vivan" class="fotos"><img src="https://avatars.githubusercontent.com/u/80918128?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Thiago Vivan</b></sub></a><br /><a href="https://github.com/thiago-vivan"> 
+                            </a>
+    		                <a href="https://github.com/Eruel6" class="fotos"><img src="https://avatars.githubusercontent.com/u/71983159?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Arthur Taylor</b></sub></a><br /><a href="https://github.com/Eruel6"> 
+                            </a>
+                            <a href="https://github.com/Thiab394" class="fotos"><img src="https://avatars.githubusercontent.com/u/71983200?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Thiago Oliveira</b></sub></a><br /><a href="https://github.com/Thiab394"> 
+                            </a>
+                            <a href="https://github.com/mateusvff" class="fotos"><img src="https://avatars.githubusercontent.com/u/71900095?v=4" width="100px;" alt="" style="border-radius: 50%;"/><br />
+                                <sub><b>Mateus Franco</b></sub></a><br /><a href="https://github.com/mateusvff">
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}
