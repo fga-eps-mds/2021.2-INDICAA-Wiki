@@ -75,7 +75,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 <p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessário a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
+<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
 
 ### 3.2 <a name="3_2">Restrições</a>
 
