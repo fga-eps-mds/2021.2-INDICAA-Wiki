@@ -95,7 +95,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
  **Descrição**| Esta funcionalidade permite o usuário pesquisar por departamento a partir da seleção de um campus |
  **Atores**| Usuário |
  **Pré-condições**| O usuário deve ter selecionado um campus e preencher o campo de pesquisa  |
- **Pós-condições**| O usuário deve ter conseguido realizado a pesquisa por um decanato |
+ **Pós-condições**| O usuário deve ter conseguido realizar a pesquisa por um decanato |
  **Fluxo principal**|1. O usuário abre a aplicação <br> 2. O usuário seleciona um campus <br> 3. O usuário preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuário tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
  **Fluxo Alternativo**| **FA01 - Não seleção do campus pelo usuário** <br> Caso o usuário nao selecione um campus a pesquisa nao poderá ser realzada|
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
