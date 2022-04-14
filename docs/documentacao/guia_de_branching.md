@@ -5,7 +5,7 @@
 Uma breve explicação sobre o fluxo de trabalho:
 ### main
 
-- A branch _main_ representa uma versão estável do produto, contendo código já testado, versionado e revisado, pronto para ser entregue ao usuário final. Esta branch partirá através da branch _develop_ através de pull requests aprovados ao final de cada release.
+- A branch _main_ representa uma versão estável do produto, contendo código já testado, versionado e revisado, pronto para ser entregue ao usuário final. Esta branch partirá através da branch _develop_ por meio de pull requests aprovados ao final de cada release.
 
 Regras:
 
