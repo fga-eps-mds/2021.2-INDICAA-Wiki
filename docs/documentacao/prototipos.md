@@ -27,7 +27,7 @@ Dentre as versões, escolhemos a versão 1.1 como a mais adequada ao protótipo 
 ## 3. Protótipo de Alta Fidelidade
 ## 3.1 Telas
 ### 3.1.1 Pesquisa
-Nessa tela é fornecido ao usuário uma barra de pesquisa, onde poderá pesquisar por departamento, curso e disciplina, 
+Nessa tela é fornecido ao usuário uma barra de pesquisa, onde poderá se pesquisar por departamento, curso e disciplina, 
 tendo em vista que sugestões aparecerão conforme o usuário digita o que deseja. 
 Alinhado com a perspectiva da pesquisa, filtros obrigatórios se encontram logo embaixo, caracterizado por campus da Universidade de Brasília.
 
