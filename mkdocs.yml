@@ -72,5 +72,6 @@ nav:
     - Protótipos: documentacao/prototipos.md
   - Contribuição:
     - Como Contribuir: contributing.md
+    - Código de conduta: CODE_OF_CONDUCT.md
     - Template de Commit: templates_projeto/template_de_commit.md
     - Template de Issue: templates_projeto/template_de_issue.md
