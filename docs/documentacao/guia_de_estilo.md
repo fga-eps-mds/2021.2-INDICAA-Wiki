@@ -26,7 +26,7 @@ Assim, esse nome se relaciona com o objetivo do projeto.
 
 ## 2.2. Fontes
 
-A principal fonte à ser utilizada no desenvolvimento do projeto será: 
+A principal fonte a ser utilizada no desenvolvimento do projeto será: 
 
  - **UnB Pro** (Link para download: [download](http://marca.unb.br/fontesunb.php).)
 
