@@ -135,7 +135,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 ----- | ----- 
 **Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuário como realizar uma pesquisa |
 **Atores** | Usuário |
-**Pré-condições** | O usuário deverá passar o cursor sobre o icone de ajuda na margem superior direita |
+**Pré-condições** | O usuário deverá passar o cursor sobre o ícone de ajuda na margem superior direita |
 **Pós-condições** | Será apresentado informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
 **Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
 **Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
