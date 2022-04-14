@@ -24,7 +24,7 @@ Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas m
 > "A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem em pouco tempo a rapidez e a qualidade do trabalho." Scrum: a arte de fazer o dobro do trabalho na metade do tempo, 2016
 
 #### 2.1.1 Product Backlog
-O product backlog é uma lista emergente e ordenada das tarefas necessárias para o desenvolvimento e melhora do produto. Nele estão contidas as funcionalidades à serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e também devem ser realizadas em todas as etapas da construção do produto.
+O product backlog é uma lista emergente e ordenada das tarefas necessárias para o desenvolvimento e melhora do produto. Nele estão contidas as funcionalidades a serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e também devem ser realizadas em todas as etapas da construção do produto.
 
 #### 2.1.2 Pápeis 
 - __Scrum Master:__ É o responsável pela eficiência do grupo, auxiliando a todos no entendimento do framework Scrum e atuando na gestão do grupo.
