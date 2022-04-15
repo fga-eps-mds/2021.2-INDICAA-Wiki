@@ -12,7 +12,7 @@
 11/04/2022 | 0.9 | revisão geral do documento | Arthur taylor
 
 ## 1. Introdução
-Neste documento estão contidas as informações sobre o desenvolvimento do protótipo, abordando os protóripos de baixa fidelidade e de alta fidelidade, para melhor visualização da ideia do projeto.
+Neste documento estão contidas as informações sobre o desenvolvimento do protótipo, abordando os protótipos de baixa fidelidade e de alta fidelidade, para melhor visualização da ideia do projeto.
 
 ## 2. Protótipo de Baixa Fidelidade
 Sendo a melhor alternativa para o início do escopo do projeto, o protótipo de baixa fidelidade descarta as incertezas, testa conceitos, procura o desenvolvimento do projeto.<br />
@@ -27,7 +27,7 @@ Dentre as versões, escolhemos a versão 1.1 como a mais adequada ao protótipo 
 ## 3. Protótipo de Alta Fidelidade
 ## 3.1 Telas
 ### 3.1.1 Pesquisa
-Nessa tela é fornecido ao usuário uma barra de pesquisa, onde poderá pesquisar por departamento, curso e disciplina, 
+Nessa tela é fornecido ao usuário uma barra de pesquisa, onde poderá se pesquisar por departamento, curso e disciplina, 
 tendo em vista que sugestões aparecerão conforme o usuário digita o que deseja. 
 Alinhado com a perspectiva da pesquisa, filtros obrigatórios se encontram logo embaixo, caracterizado por campus da Universidade de Brasília.
 
