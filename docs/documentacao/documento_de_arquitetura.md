@@ -45,7 +45,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 
 ### 1.4 <a name=1_4>Visão Geral</a>
 
-<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões. E tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|
