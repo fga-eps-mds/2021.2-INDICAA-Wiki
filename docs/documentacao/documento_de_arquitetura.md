@@ -25,7 +25,7 @@
 
 <p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
  
-<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é proporcionar uma melhor organização das informações 
+<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo do projeto é proporcionar uma melhor organização das informações 
 disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
@@ -45,7 +45,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 
 ### 1.4 <a name=1_4>Visão Geral</a>
 
-<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões. E tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|
@@ -75,7 +75,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 <p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessário a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
+<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
 
 ### 3.2 <a name="3_2">Restrições</a>
 
@@ -95,7 +95,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
  **Descrição**| Esta funcionalidade permite o usuário pesquisar por departamento a partir da seleção de um campus |
  **Atores**| Usuário |
  **Pré-condições**| O usuário deve ter selecionado um campus e preencher o campo de pesquisa  |
- **Pós-condições**| O usuário deve ter conseguido realizado a pesquisa por um decanato |
+ **Pós-condições**| O usuário deve ter conseguido realizar a pesquisa por um decanato |
  **Fluxo principal**|1. O usuário abre a aplicação <br> 2. O usuário seleciona um campus <br> 3. O usuário preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuário tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
  **Fluxo Alternativo**| **FA01 - Não seleção do campus pelo usuário** <br> Caso o usuário nao selecione um campus a pesquisa nao poderá ser realzada|
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
@@ -135,8 +135,8 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 ----- | ----- 
 **Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuário como realizar uma pesquisa |
 **Atores** | Usuário |
-**Pré-condições** | O usuário deverá passar o cursor sobre o icone de ajuda na margem superior direita |
-**Pós-condições** | Será apresentado informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
+**Pré-condições** | O usuário deverá passar o cursor sobre o ícone de ajuda na margem superior direita |
+**Pós-condições** | Serão apresentadas informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
 **Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
 **Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 

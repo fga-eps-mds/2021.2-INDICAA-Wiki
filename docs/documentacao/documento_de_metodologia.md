@@ -18,13 +18,13 @@
 Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
 
 ## 2. Metodologias
-Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento a processos e ferramentas. Assim, este fator será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos mo projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
+Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento de processos e ferramentas. Assim, este fator será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos no projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
 
 ### 2.1 Scrum
 > "A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem em pouco tempo a rapidez e a qualidade do trabalho." Scrum: a arte de fazer o dobro do trabalho na metade do tempo, 2016
 
 #### 2.1.1 Product Backlog
-O product backlog é uma lista emergente e ordenada das tarefas necessárias para o desenvolvimento e melhora do produto. Nele estão contidas as funcionalidades à serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e também devem ser realizadas em todas as etapas da construção do produto.
+O product backlog é uma lista emergente e ordenada das tarefas necessárias para o desenvolvimento e melhora do produto. Nele estão contidas as funcionalidades a serem implementadas, alterações em funcionalidades já existentes e correções de falhas. Mudanças no Product Backlog devem sempre ser um processo colaborativo e também devem ser realizadas em todas as etapas da construção do produto.
 
 #### 2.1.2 Pápeis 
 - __Scrum Master:__ É o responsável pela eficiência do grupo, auxiliando a todos no entendimento do framework Scrum e atuando na gestão do grupo.
@@ -90,7 +90,7 @@ Poderão ser utilizadas pelas equipes as seguintes práticas:
 No nosso projeto utilizamos como referência a sequência de Fibonacci.
 
 ## 3. Plano de Comunicação
-O Plano de Comunicação vem para assegurar que exista uma comunicação transparente entre a equipe, bem como documentar e organizar o conjunto de informações que a equipe gera durante todo o processo. Para que isto seja possível utilizaremos algumas ferramentar, tais como:
+O Plano de Comunicação vem para assegurar que exista uma comunicação transparente entre a equipe, bem como documentar e organizar o conjunto de informações que a equipe gera durante todo o processo. Para que isto seja possível utilizaremos algumas ferramentas, tais como:
  - Discord - reuniões diárias, treinamentos e decisões relevantes do projeto.
  - Telegram - diálogo rápido, organização de eventos e decisões de baixo impacto.
  - Github - armazenamento de código fonte, transparência na realização de tarefas e documentação de iterações.
@@ -102,7 +102,7 @@ O compartilhamento de informações e o apoio em eventuais dúvidas e dificuldad
 
 O incentivo a tais práticas parte, principalmente, dos(as) gestores(as) das equipes (Scrum Masters e Product Owners), todavia pode ser executado por quaisquer membros à disposição.
 
-Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros a pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para consulta posterior.
+Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros a pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para posterior consulta.
 
 ## 5. Referências
 
