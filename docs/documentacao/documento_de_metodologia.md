@@ -90,7 +90,7 @@ Poderão ser utilizadas pelas equipes as seguintes práticas:
 No nosso projeto utilizamos como referência a sequência de Fibonacci.
 
 ## 3. Plano de Comunicação
-O Plano de Comunicação vem para assegurar que exista uma comunicação transparente entre a equipe, bem como documentar e organizar o conjunto de informações que a equipe gera durante todo o processo. Para que isto seja possível utilizaremos algumas ferramentar, tais como:
+O Plano de Comunicação vem para assegurar que exista uma comunicação transparente entre a equipe, bem como documentar e organizar o conjunto de informações que a equipe gera durante todo o processo. Para que isto seja possível utilizaremos algumas ferramentas, tais como:
  - Discord - reuniões diárias, treinamentos e decisões relevantes do projeto.
  - Telegram - diálogo rápido, organização de eventos e decisões de baixo impacto.
  - Github - armazenamento de código fonte, transparência na realização de tarefas e documentação de iterações.
