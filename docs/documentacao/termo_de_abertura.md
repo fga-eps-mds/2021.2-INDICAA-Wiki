@@ -31,7 +31,7 @@ O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consis
 * Quantidade de salas disponíveis
 
 ## 3. Propósito e justificativa
-No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.
+No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral, de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.
 
 ## 4. Objetivos
 Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
@@ -46,7 +46,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 O público-alvo consiste na comunidade da Universidade de Brasília, isto é: Coordenadores, professores e estudantes. Tendo como foco os cargos administrativos.
 **Usuário** | **Descrição**
 --- | ---
-Coordenadores | Comunidade administrativa da UnB que visa, através dos dados disponibilizados dos cursos, tomar decisões que melhorem a organização destes.
+Coordenadores | Comunidade administrativa da UnB que visa, por meio de dados disponibilizados dos cursos, tomar decisões que melhorem a organização destes.
 Professores | Comunidade de docentes da UnB que visa obter informações sobre as matérias ofertadas, as salas disponíveis e a quantidade de alunos matriculados em suas matérias.
 Estudantes | Comunidade de discentes da UnB que buscam informações relativas às disciplinas, como a quantidade de vagas disponíveis e as respectivas salas.
 Outros | Quaisquer indivíduos que optarem por acessar dados relativos aos cursos da UnB.
