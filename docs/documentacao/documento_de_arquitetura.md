@@ -25,7 +25,7 @@
 
 <p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
  
-<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é proporcionar uma melhor organização das informações 
+<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo do projeto é proporcionar uma melhor organização das informações 
 disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
