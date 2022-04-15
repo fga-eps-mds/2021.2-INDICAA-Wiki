@@ -102,7 +102,7 @@ O compartilhamento de informações e o apoio em eventuais dúvidas e dificuldad
 
 O incentivo a tais práticas parte, principalmente, dos(as) gestores(as) das equipes (Scrum Masters e Product Owners), todavia pode ser executado por quaisquer membros à disposição.
 
-Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros a pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para consulta posterior.
+Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros a pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para posterior consulta.
 
 ## 5. Referências
 
