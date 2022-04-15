@@ -18,7 +18,7 @@
 -   Plano de gerenciamento de riscos
 -   Identidade visual do projeto
 
-As documentações citadas se encontram no [gitpages do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA/#/).
+As documentações citadas se encontram no gitpages do projeto.
 
 ### :rocket: Features
 
