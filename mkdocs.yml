@@ -19,6 +19,12 @@ theme:
         - toc.follow
 extra_css:
     - stylesheets/extra.css
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
 plugins:
     - search
     - mkdocstrings:
