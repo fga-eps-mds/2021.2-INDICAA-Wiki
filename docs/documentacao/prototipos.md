@@ -17,12 +17,10 @@ Neste documento estão contidas as informações sobre o desenvolvimento do prot
 ## 2. Protótipo de Baixa Fidelidade
 Sendo a melhor alternativa para o início do escopo do projeto, o protótipo de baixa fidelidade descarta as incertezas, testa conceitos, procura o desenvolvimento do projeto.<br />
 Os protótipos a seguir foram desenvolvidos a partir de uma ideia inicial, versionando eles e adaptando de acordo com os requisitos do projeto.
-- [Versão 1](https://github.com/fga-eps-mds/Projeto01/issues/33#issuecomment-1036697986)
-- [Versão 1.1](https://github.com/fga-eps-mds/Projeto01/issues/33#issuecomment-1043604238)
-- [Versão 2](https://github.com/fga-eps-mds/Projeto01/issues/33#issuecomment-1036726061)
-- [Versão 2.1](https://github.com/fga-eps-mds/Projeto01/issues/33#issuecomment-1043604238)
-
-Dentre as versões, escolhemos a versão 1.1 como a mais adequada ao protótipo de baixa fidelidade.
+### Versão 1 ![Versão 1](../assets//imagens//prototipos/versao1.png)
+### Versão 2 ![Versão 3](../assets//imagens//prototipos/versao3.png)
+### Versão 3 ![Versão 4](../assets//imagens//prototipos/versao4.png)
+### Versão 4 ![Versão 2](../assets//imagens//prototipos/versao2.png)
 
 ## 3. Protótipo de Alta Fidelidade
 ## 3.1 Telas
