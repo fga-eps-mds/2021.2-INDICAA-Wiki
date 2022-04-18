@@ -9,7 +9,8 @@
 21/02/2022 | 0.6 | Revisão do Protótipo | Gabriel Mariano da Silva
 22/02/2022 | 0.7 | Correções em aspectos funcionais | Caio César Oliveira
 03/03/2022 | 0.8 | Adição da logo e alterações visuais | Guilherme Barbosa Ferreira e Gabriel Moretti de Souza
-11/04/2022 | 0.9 | revisão geral do documento | Arthur taylor
+11/04/2022 | 0.9 | Revisão geral do documento | Arthur taylor
+18/04/2022 | 1.0 | Finalização do documento | Guilherme Barbosa Ferreira e Matheus Pimentel Leal
 
 ## 1. Introdução
 Neste documento estão contidas as informações sobre o desenvolvimento do protótipo, abordando os protótipos de baixa fidelidade e de alta fidelidade, para melhor visualização da ideia do projeto.
@@ -23,17 +24,13 @@ Os protótipos a seguir foram desenvolvidos a partir de uma ideia inicial, versi
 ### Versão 4 ![Versão 2](../assets//imagens//prototipos/versao2.png)
 
 ## 3. Protótipo de Alta Fidelidade
-## 3.1 Telas
-### 3.1.1 Pesquisa
-Nessa tela é fornecido ao usuário uma barra de pesquisa, onde poderá se pesquisar por departamento, curso e disciplina, 
-tendo em vista que sugestões aparecerão conforme o usuário digita o que deseja. 
-Alinhado com a perspectiva da pesquisa, filtros obrigatórios se encontram logo embaixo, caracterizado por campus da Universidade de Brasília.
+Um protótipo de alta fidelidade (às vezes chamado de _high-fi_ ou _hi-fi_) é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidade. <br>
+Os protótipos de alta fidelidade abrangem não apenas a **interface da pessoa usuária (UI)** do produto em termos visuais e estéticos, mas também os aspectos da **experiência do(a) usuário(a) (UX)** em termos de interações, fluxo e comportamento.
 
-### 3.1.2 Resultado
-Após o usuário realizar a pesquisa que deseja, é exibido o resultado da mesma, caracterizado por gráficos. A esquerda da página encontra-se um filtro por modalidade (remoto, 
-presencial e semi-presencial) e disponibilidade (vagas disponíveis e lotação máxima). Um botão de detalhar é disponibilizado para, caso o usuário sinta a necessidade, seja
-capaz de detalhar o resultado da sua pesquisa.
+## 3.1 Definição do Protótipo
+Com a utilização do **Metabase**, a equipe do projeto INDICAA decidiu não desenvolver um front-end dedicado ao projeto. <br>
+Por isso, a equipe responsável pela documentação do projeto, incluindo o GitHub Pages, optou pela utilização do MkDocs, um gerador de sites voltado para a construção e documentação de projetos. O tema escolhido do MkDocs foi o _Material for MkDocs_.
+### [Protótipos de Alta Fidelidade](https://www.figma.com/file/jwle1wmYYdsTGcWYgGO24S/Front-end-INDICAA?node-id=0%3A1)
 
-## 3.2 Definição do Protótipo
-
-[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/34#issuecomment-1058527589)
+## 4. Referências
+TERA. Prototipagem de alta fidelidade: o que é, quando, por que e como usar?. 23 mar. 2020. Disponível em: [https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b](https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b). Acesso em: 18 abr. 2022.
