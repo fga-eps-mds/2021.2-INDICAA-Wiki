@@ -61,15 +61,15 @@ O produto final consistirá em uma aplicação, onde será possível visualizar
  um painel com informações sobre os cursos ofertados. Funcionando como um filtro, com o uso de 
  palavras chaves para focar a busca por elementos específicos. Consequentemente, a gestão por parte da coordenação acadêmica, assim como as atividades regulares de docentes e discentes se tornará uma tarefa simples. 
  
- ### 2.3 Oportunidade de negócio
+### 2.3 Oportunidade de negócio
 
 O produto possibilita que o usuário busque por matérias específicas com relação ao curso em questão, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
 disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
 por parte do estudante, quanto para a análise de dados por parte da coordenação ou pelos próprios professores.
 
- ## 3. Descrição dos usuários e envolvidos
+## 3. Descrição dos usuários e envolvidos
  
- ### 3.1 Descrição dos usuários
+### 3.1 Descrição dos usuários
  
 |**Nome**|**Descrição**|
 |:-|:-|
@@ -192,7 +192,7 @@ O discente poderá ter acesso aos seguintes recursos:
 
 A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
  
- ## 6. Especificação de requisitos
+## 6. Especificação de requisitos
 Requisitos de software são atribuições que o mesmo deve executar, funcionam como características de um sistema, de modo a se tornarem objetivos e métricas de sucesso para o projeto.
 Ou seja, um dos critérios para avaliar se o software foi bem sucedido é o quão fiel ele foi aos seus requisitos pré-definidos. Segue abaixo os Requisitos Funcionais e Não Funcionais: 
 
