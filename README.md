@@ -31,11 +31,60 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 
 ### 🐧 Ubuntu
 
-`As instruções para a execução seguirão aqui`
+🐋 Docker cli:
+
+Confira se o docker está instalado em sua máquina.
+
+```sh
+docker version
+```
+O comando acima deve retornar uma mensagem com a versão do docker instalada em sua máquina. Caso o Docker não esteja instalado, visite a [página oficial de instruções de instalação](https://docs.docker.com/engine/install/ubuntu/) e faça o passo a passo descrito.
+
+É recomendada a utilização de versões >= _**20.10.14**_.
+
+🐍 Python:
+
+Verifique a versão instalada do python.
+
+```sh
+python --version
+```
+ou
+```sh
+python3 --version
+```
+Os comandos acima devem retornar algo como: 
+```Python 3.9.0```
+. Isso significa que o python está instalado e sua versão é a 
+3.9.0.
+
+É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://python.org.br/instalacao-linux/).
 
 ### 🪟 Windows
 
-`As instruções para a execução seguirão aqui`
+🐋 Docker desktop:
+
+Caso o Docker não esteja instalado em sua máquina, visite a [página de instruções oficiais de instalação](https://docs.docker.com/desktop/windows/install/) e siga o passo a passo descrito.
+
+🐍 Python:
+
+Verifique a versão instalada do python.
+```sh
+python --version
+```
+ou
+```sh
+python3 --version
+```
+Os comandos acima devem retornar algo como: 
+```Python 3.9.0```
+. Isso significa que o python está instalado e sua versão é a 
+3.9.0
+.
+
+É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://docs.python.org/pt-br/3/using/windows.html#launcher). 
+
+**_Obs.: Selecionar a opção Add Python 3.x to PATH_**
 
 ## 🤝 Contribuições
 
