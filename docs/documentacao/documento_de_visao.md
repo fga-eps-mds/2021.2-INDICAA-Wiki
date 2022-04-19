@@ -14,16 +14,16 @@
 |05/03/2022|0.9.1|Correção do Documento|Gabriel Mariano|
 |05/03/2022|0.9.2|Correção do Documento|Letícia|
 
-## 1. <a name="1">Introdução</a>
+## 1. Introdução
 
-### 1.1 <a name ="1_1">Propósito</a>
+### 1.1 Propósito
 
-<p align="justify"> &emsp;&emsp; O presente documento visa apresentar o produto,
- mostrando suas características, tanto funcionais como não funcionais.
- Além disso será mostrado como foi o desenvolvimento, relatos dos envolvidos e
- informações para melhor entendimento do projeto. </p>
+O presente documento visa apresentar o produto,
+mostrando suas características, tanto funcionais como não funcionais.
+Além disso será mostrado como foi o desenvolvimento, relatos dos envolvidos e
+informações para melhor entendimento do projeto.
 
-### 1.2 <a name=1_3>Siglas e seus significados</a>
+### 1.2 Siglas e seus significados
 
 Tabela com o significado de abreviações para termos usados ao longo do documento.
 
@@ -36,40 +36,40 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**RF**| Requisitos Funcionais
 |**RNF**| Requisitos Não Funcionais
 
-### 1.3 <a name="1_2">Escopo</a>
+### 1.3 Escopo
 
-<p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
+No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.
  
-<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
+Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
 disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
 de informações será mais simples, ajudando tanto a parte 
-de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
+de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes.
   
-## 2. <a name="2">Posicionamento</a>
+## 2. Posicionamento
 
-### 2.1 <a name="2_2">Descrição do problema</a>
+### 2.1 Descrição do problema
 
 | O problema é | que afeta | cujo impacto é | uma boa solução seria |
 | ------------ | --------- | -------------- | ----------------------|
 | Dificuldade na busca por informações simples pelo SIGAA. | Coordenação acadêmica, alunos e professores | A carência de informações necessárias para atividades acadêmicas | Organização das informações em uma aplicação de fácil entendimento. |
 
-### 2.2 <a name="2_3">Descrição do posicionamento do produto</a>
+### 2.2 Descrição do posicionamento do produto
 
-<p align="justify">&emsp;&emsp; O produto final consistirá em uma aplicação, onde será possível visualizar 
+O produto final consistirá em uma aplicação, onde será possível visualizar 
  um painel com informações sobre os cursos ofertados. Funcionando como um filtro, com o uso de 
- palavras chaves para focar a busca por elementos específicos. Consequentemente, a gestão por parte da coordenação acadêmica, assim como as atividades regulares de docentes e discentes se tornará uma tarefa simples. </p>
+ palavras chaves para focar a busca por elementos específicos. Consequentemente, a gestão por parte da coordenação acadêmica, assim como as atividades regulares de docentes e discentes se tornará uma tarefa simples. 
  
- ### 2.3 <a name="2_1">Oportunidade de negócio</a>
+ ### 2.3 Oportunidade de negócio
 
-<p align="justify">&emsp;&emsp; O produto possibilita que o usuário busque por matérias específicas com relação ao curso em questão, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
- disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
- por parte do estudante, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
+O produto possibilita que o usuário busque por matérias específicas com relação ao curso em questão, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
+disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
+por parte do estudante, quanto para a análise de dados por parte da coordenação ou pelos próprios professores.
 
- ## 3. <a name="3">Descrição dos usuários e envolvidos</a>
+ ## 3. Descrição dos usuários e envolvidos
  
- ### 3.1 <a name="3.1">Descrição dos usuários</a>
+ ### 3.1 Descrição dos usuários
  
 |**Nome**|**Descrição**|
 |:-|:-|
@@ -78,21 +78,21 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 | Estudantes da UnB | Estudantes buscando informações para organização de horário, visando a matrícula em disciplina ou verificando a quantidade de vagas. |
 | Outros | Quaisquer indivíduos que optarem por acessar dados relativos aos cursos da UnB. |
 
-### 3.2 <a name="3.2">Descrição dos envolvidos</a>
+### 3.2 Descrição dos envolvidos
 |**Nome**|**Descrição**|**Responsabilidade**|
 |:-:|:-:|:-:|
 |Grupo de desenvolvimento| Estudantes de MDS |Projetar, desenvolver, testar, manter e gerir o software proposto e todos os documentos relacionados.|
 |Grupo de avaliação| Professora e monitores de MDS |Ajudar o grupo de desenvolvimento com conselhos e feedback sobre o projeto.|
 
-### 3.3 <a name="3.3">Principais necessidades dos usuários</a>
+### 3.3 Principais necessidades dos usuários
 |**Usuário**|**Necessidade**|**Solução Atual**|**Solução Proposta**|
 |:-:|:-:|:-:|:-:|
 | Coordenadores da UnB | Analisar e otimizar a gestão de espaços da universidade de acordo com os dados disponibilizados pelo SIGAA | Procurar e analisar, manualmente (ou de maneira não automatizada), os dados disponibilizados no SIGAA | Tratar e dispor os dados necessários de maneira automatizada, prática e visual |
 | Professores da UnB | Analisar informações relativas a disciplinas ofertadas no SIGAA  | Caso precise, pedir ajuda para técnicos disponíveis  | Tornar o processo de adquirir a informação necessária mais fácil |
 | Estudantes da UnB | Compreender informações necessárias, porém não encontradas com facilidade, no SIGAA | Tentar entender como encontrar essas informações baseado na ajuda de colegas  | Tornar o próprio processo de adquirir a informação mais fácil, tornando o SIGAA um pouco mais user-friendly  |
 
-### 3.4 <a name="3.4">Perfis dos envolvidos</a>
-#### 3.4.1 <a name="3.4.1">Grupo de desenvolvimento</a>
+### 3.4 Perfis dos envolvidos
+#### 3.4.1 Grupo de desenvolvimento
 
 Grupo 1:
 
@@ -123,29 +123,29 @@ Grupo 4:
 | Product Owner | Pedro Augusto Santos Siqueira |
 | Desenvolvedor | Guilherme dos Santos Araujo <br /> Thiago Oliveira Cunha <br /> João Paulo da Silva Freitas <br /> Arthur Taylor de Jesus Popov <br /> Thiago Vivan Bastos <br /> |
 
-#### 3.4.2 <a name="3.4.2">Grupo de avaliação</a>
+#### 3.4.2 Grupo de avaliação
 |**Representantes**|**Tipo**|**Responsabilidade**|**Critério de Sucesso**|**Envolvimento**|
 |:---:|:-:|:-:|:-:|:-:|
 | Carla Rocha | Professora de MDS | Auxiliar o grupo de desenvolvimento com feedback e conselhos | Entrega do projeto dentro do prazo limite |Baixo
 
-### 3.5 <a name="3.5">Perfis dos Usuários</a>
+### 3.5 Perfis dos Usuários
 
-#### 3.5.1 <a name="3.5.2">Coordenadores da UnB</a>
+#### 3.5.1 Coordenadores da UnB
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
 | Responsáveis pela gestão de espaços da UnB interessados em otimizar esse processo | Coordenadores e Gestores da UnB | Desfrutar do produto e disponibilizar o feedback | Encontrar informações (outrora complicadas de se achar) com facilidade | Alto
 
-#### 3.5.2 <a name="3.5.2">Professores da UnB</a>
+#### 3.5.2 Professores da UnB
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
 | Responsáveis por disciplinas acadêmicas interessados em conseguir administrá-las com mais facilidade | Professores da UnB | Desfrutar do produto, disponibilizando, também, feedback| Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo
 
-#### 3.5.3 <a name="3.5.1">Estudantes da UnB</a>
+#### 3.5.3 Estudantes da UnB
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
 | Interessados em adquirir informações necessárias, encontradas apenas no SIGAA, para cumprir demandas acadêmicas | Alunos da UnB | Desfrutar do produto, disponibilizando, também, feedback | Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo
 
-#### 3.5.4 <a name="3.5.3">Outros</a>
+#### 3.5.4 Outros
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
 | Quaisquer pessoas que quiserem acessar os dados disponibilizados pelo SIGAA com facilidade | Quaisquer pessoas | Desfrutar do produto | Encontrar informações com facilidade | Baixo/Nenhum
@@ -153,48 +153,48 @@ Grupo 4:
 
 
 
-## 4. <a name="4">Visão Geral do Produto</a>
+## 4. Visão Geral do Produto
 
-### 4.1.  <a name="4.1">Perspectivas</a>
+### 4.1. Perspectivas
 
-<p align="justify">&emsp;&emsp;O projeto tem como fito elaborar um painel com os indicadores da lista de ofertas do SIGAA, de forma a possibilitar, ao usuário, visualização facilitada referente à quantidade de: disciplinas ofertadas; contingente de vagas; alunos matriculados, bem como salas disponíveis por curso. Desse modo, viabilizando o acesso fácil e rápido à informações tanto para o corpo docente como discente e, assim, contribuindo para uma maior qualidade do site SIGAA e suas implicações.  
+O projeto tem como fito elaborar um painel com os indicadores da lista de ofertas do SIGAA, de forma a possibilitar, ao usuário, visualização facilitada referente à quantidade de: disciplinas ofertadas; contingente de vagas; alunos matriculados, bem como salas disponíveis por curso. Desse modo, viabilizando o acesso fácil e rápido à informações tanto para o corpo docente como discente e, assim, contribuindo para uma maior qualidade do site SIGAA e suas implicações.  
 
-### 4.2.  <a name="4.2">Resumo das Capacidades</a>
+### 4.2. Resumo das Capacidades
 
-<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos gestores, alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matrícula em disciplinas, análise de dados e gestão de processos.  
+A aplicação proporcionará uma interface adaptada à experiência de usuário dos gestores, alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matrícula em disciplinas, análise de dados e gestão de processos.  
  
-## 5. <a name="5">Recursos do Produto</a>
+## 5. Recursos do Produto
 
-### 5.1.  <a name="5.2">Recursos dos coordenadores</a>
+### 5.1. Recursos dos coordenadores
 
-<p align="justify">&emsp;&emsp; O coordenador poderá ter acesso aos seguintes recursos:
+O coordenador poderá ter acesso aos seguintes recursos:
  
  - Verificar a ocupação dos campus e de suas respectivas disciplinas disponibilizadas.
  - Verificar ocupação de salas pelas disciplinas disponibilizadas.
  - Verificar a disposição das disciplinas ao longo dos dias.
  
-### 5.2.  <a name="5.2">Recursos dos docentes</a>
+### 5.2. Recursos dos docentes
 
-<p align="justify">&emsp;&emsp; O docente poderá ter acesso aos seguintes recursos:
+O docente poderá ter acesso aos seguintes recursos:
  
  - Verificar disponibilidade de salas.
  - Verificar a quantidade de alunos matriculados em suas matérias.
 
-### 5.3.  <a name="5.1">Recursos dos discentes</a>
+### 5.3. Recursos dos discentes
 
-<p align="justify">&emsp;&emsp; O discente poderá ter acesso aos seguintes recursos:
+O discente poderá ter acesso aos seguintes recursos:
  
  - Verificar disciplinas ofertadas.
  - Visualizar os horários das disciplinas de forma fácil.
  - Visualizar salas disponíveis por curso.
  
-### 5.3.  <a name="5.3">Filtro</a>
+### 5.3. Filtro
 
-<p align="justify">&emsp;&emsp; A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
+A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
  
  ## 6. Especificação de requisitos
-<p align="justify">&emsp;&emsp; Requisitos de software são atribuições que o mesmo deve executar, funcionam como características de um sistema, de modo a se tornarem objetivos e métricas de sucesso para o projeto.
-<p align="justify">&emsp;&emsp; Ou seja, um dos critérios para avaliar se o software foi bem sucedido é o quão fiel ele foi aos seus requisitos pré-definidos. Segue abaixo os Requisitos Funcionais e Não Funcionais: 
+Requisitos de software são atribuições que o mesmo deve executar, funcionam como características de um sistema, de modo a se tornarem objetivos e métricas de sucesso para o projeto.
+Ou seja, um dos critérios para avaliar se o software foi bem sucedido é o quão fiel ele foi aos seus requisitos pré-definidos. Segue abaixo os Requisitos Funcionais e Não Funcionais: 
 
 ### 6.1. Funcionais
 | **Número**| **Especificação**                                                                                             |
@@ -227,7 +227,7 @@ Grupo 4:
 | RNF8     	| O sistema deve ser responsivo                                                                                 |
 | RNF9     	| O sistema deve armazenar dados em um banco de dados                                                           |
  
-## 7. <a name="5">Referências</a>
+## 7. Referências
  
  RAFAEL E VITOR; et al. Documento de Visão - Anunbis. Disponível em: <https://fga-eps-mds.github.io/2020.2-Anunbis/documentacao/documento-de-visao/>. Acesso em: 31 jan 2022.
  
