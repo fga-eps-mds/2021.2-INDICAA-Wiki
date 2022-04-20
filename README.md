@@ -81,13 +81,25 @@ git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki
 ```
 Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
 ```sh
-pip install mkdocs-material && mkdocstrings
+pip install mkdocs-material mkdocstrings
 ```
 Rodar o gitpages localmente:
 ```sh
 mkdocs serve
 ```
 Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
+
+🚀 Metabase
+
+Com o _**docker**_ instalado em sua máquina baixe a imagem mais recente do metabase
+```sh
+docker pull metabase/metabase:latest
+```
+Inicie o container do Metabase
+```sh
+docker run -d -p 3000:3000 --name metabase metabase/metabase
+```
+Agora o Metabase _community edition_ deve estar disponível em: ```http://127.0.0.1:3000/```
 
 #
 
@@ -113,9 +125,40 @@ Os comandos acima devem retornar algo como:
 3.9.0
 .
 
-É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://docs.python.org/pt-br/3/using/windows.html#launcher). 
+É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://docs.python.org/pt-br/3/using/windows.html#launcher).
 
 **_Obs.: Selecionar a opção Add Python 3.x to PATH_**
+
+#
+### Execução
+
+🚀 Front-end (git pages)
+
+Clonar este repositório:
+```sh
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki 
+```
+Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
+```sh
+pip install mkdocs-material mkdocstrings
+```
+Rodar o gitpages localmente:
+```sh
+python -m mkdocs serve
+```
+Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
+
+🚀 Metabase
+
+Com o _**docker**_ instalado em sua máquina baixe a imagem mais recente do metabase
+```sh
+docker pull metabase/metabase:latest
+```
+Inicie o container do Metabase
+```sh
+docker run -d -p 3000:3000 --name metabase metabase/metabase
+```
+Agora o Metabase _community edition_ deve estar disponível em: ```http://127.0.0.1:3000/```
 
 # 🤝 Contribuições
 
