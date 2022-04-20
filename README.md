@@ -68,6 +68,8 @@ Os comandos acima devem retornar algo como:
 
 É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://python.org.br/instalacao-linux/).
 
+#
+
 ### 🪟 Windows
 
 🐋 Docker desktop:
