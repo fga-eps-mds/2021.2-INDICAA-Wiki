@@ -97,7 +97,7 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 ## 4. <a name="4">Visão de Casos de Uso</a>
 
 ### 4.1 <a name="4_1">Diagrama de Casos de Uso</a>
-![](https://raw.githubusercontent.com/fga-eps-mds/2021.2-INDICAA/main/docs/assets/Diagrama_casos_de_uso.png)
+![Diagrama_casos_de_uso](https://user-images.githubusercontent.com/72623771/164127527-459d0b41-0208-43e2-a0da-d3dd3d62512e.png)
 
 ### 4.2 <a name="4_2">Descrição dos Casos de Uso</a>
 #### FU01 - Pesquisa
