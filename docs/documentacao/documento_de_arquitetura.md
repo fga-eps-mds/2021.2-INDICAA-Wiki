@@ -15,13 +15,13 @@
 |26/03/2022|0.9.2| Atualização do escopo e pequenas correções | Gabriel Moretti e Matheus Pimentel Leal
 
 
-## 1. <a name="1">Introdução</a>
+## 1. Introdução</a>
 
-### 1.1 <a name ="1_1">Objetivo</a>
+### 1.1 Objetivo</a>
 
 <p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
 
-### 1.2 <a name="1_2">Escopo</a>
+### 1.2 Escopo</a>
 
 <p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
  
@@ -32,7 +32,7 @@ de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilh
 de informações será mais simples, ajudando tanto a parte 
 de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
 
-### 1.3 <a name=1_3>Definições, acrônimos e abreviações</a>
+### 1.3 Definições, acrônimos e abreviações</a>
 
 |Sigla |Significado |
 --|--
@@ -43,9 +43,9 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 |**FU**| Funcionalidade de Usuário
 |**BI**| Business Intelligence
 
-### 1.4 <a name=1_4>Visão Geral</a>
+### 1.4 Visão Geral</a>
 
-<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+ &emsp;&emsp; Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|
@@ -58,12 +58,12 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 |**7**|**[Referências](#7-a-name14referênciasa)**| Fornece ao leitor uma visão geral das referência utilizadas durante a criação deste documento
 
 
-## 2. <a name="2">Representação da Arquitetura</a>
-<p align="justify">&emsp;&emsp; (descrição rápida do funcionamento do Software INDICAA com uma imagem exemplo) </p>
+## 2. Representação da Arquitetura</a>
+&emsp;&emsp; (descrição rápida do funcionamento do Software INDICAA com uma imagem exemplo) </p>
 
-### 2.1 <a name="2_1">Tecnologias</a>
+### 2.1 Tecnologias</a>
 
-<p align="justify">&emsp;&emsp; No que tange às linguagens e ferramentas utilizadas para desenvolvimento do software, tem-se:</p>
+&emsp;&emsp; No que tange às linguagens e ferramentas utilizadas para desenvolvimento do software, tem-se:</p>
 <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> </p>
 <img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> </p>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> </p>
@@ -77,29 +77,29 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
  </p>
  
  
-## 3. <a name="3">Metas e Restrições da Arquitetura</a>
+## 3. Metas e Restrições da Arquitetura</a>
  
- ### 3.1 <a name="3_1">Metas</a>
+ ### 3.1 Metas</a>
  
-<p align="justify">&emsp;&emsp; Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:  </p>
-<p align="justify">&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
-<p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
-<p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
-<p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
+&emsp;&emsp; Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:  </p>
+&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
+&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
+&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
+&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
+&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
 
-### 3.2 <a name="3_2">Restrições</a>
+### 3.2 Restrições</a>
 
-<p align="justify">&emsp;&emsp; • Possuir conexão com a internet </p>
-<p align="justify">&emsp;&emsp; • Dependência da plataforma SIGAA </p>
-<p align="justify">&emsp;&emsp; • Eventual demora no tempo de resposta para atualização das informações no SIGAA </p>
+&emsp;&emsp; • Possuir conexão com a internet </p>
+&emsp;&emsp; • Dependência da plataforma SIGAA </p>
+&emsp;&emsp; • Eventual demora no tempo de resposta para atualização das informações no SIGAA </p>
 
-## 4. <a name="4">Visão de Casos de Uso</a>
+## 4. Visão de Casos de Uso</a>
 
-### 4.1 <a name="4_1">Diagrama de Casos de Uso</a>
+### 4.1 Diagrama de Casos de Uso</a>
 ![Diagrama_casos_de_uso](https://user-images.githubusercontent.com/72623771/164127527-459d0b41-0208-43e2-a0da-d3dd3d62512e.png)
 
-### 4.2 <a name="4_2">Descrição dos Casos de Uso</a>
+### 4.2 Descrição dos Casos de Uso</a>
 #### FU01 - Pesquisa
 |||
 ------|------
@@ -151,16 +151,16 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 **Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
 **Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
-## 5. <a name="5">Visão Lógica</a>
+## 5. Visão Lógica</a>
 
-### 5.1 <a name="5_1">Visão Geral</a>
+### 5.1 Visão Geral</a>
 
-### 5.2 <a name="5_2">Diagrama de Pacotes</a>
+### 5.2 Diagrama de Pacotes</a>
 ![](https://user-images.githubusercontent.com/88190414/156471832-18df42d5-aa06-400b-8f3d-c9e683b89c16.png)
 
-## 6. <a name="6">Desempenho e Qualidade</a>
+## 6. Desempenho e Qualidade</a>
 
-## 7 <a name=1_4>Referências</a>
+## 7 Referências</a>
  MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
  
  CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
