@@ -27,7 +27,15 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 -   <a href="https://github.com/fga-eps-mds/2021.2-INDICAA/releases/tag/v0.1"><img src="https://img.shields.io/badge/Release_1-v0.1-green?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-07%2F03%2F2022-lightgrey?style=for-the-badge"></img></a>
 -   <img src="https://img.shields.io/badge/Release_2-v0.2-yellow?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-26%2F04%2F2022-lightgrey?style=for-the-badge"></img>
 
-## 🚀💾 Executando o projeto
+# 🚀💾 Instalação e execução do projeto
+
+## 🌎 Acesso ao projeto em sua versão de produção (na web)
+
+- [Metabase](https://indicaa.herokuapp.com/)
+  
+- [API](https://indicaa-unb-apii.herokuapp.com/)
+
+## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
 
 ### 🐧 Ubuntu
 
@@ -86,10 +94,10 @@ Os comandos acima devem retornar algo como:
 
 **_Obs.: Selecionar a opção Add Python 3.x to PATH_**
 
-## 🤝 Contribuições
+# 🤝 Contribuições
 
 O projeto INDICAA é um projeto Open Source e de software livre desenvolvido por alunos da disciplina de Métodos de Desenvolvimento de software da UnB. Com isso, o projeto é de livre contribuição e reprodução. Vale apenas ressaltar que é necessário que sejam seguidas as [regras de contribuição](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/contributing/) e o [código de conduta do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/CODE_OF_CONDUCT/).
 
-## 🔐 Licença
+# 🔐 Licença
 
 Este projeto está licenciado sob os termos estabelecidos pela [GNU General Public License v3.0](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/LICENSE).
