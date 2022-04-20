@@ -38,6 +38,8 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 ## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
 
 ### 🐧 Ubuntu
+#
+### Instalação das tecnologias
 
 🐋 Docker cli:
 
@@ -67,6 +69,25 @@ Os comandos acima devem retornar algo como:
 3.9.0.
 
 É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://python.org.br/instalacao-linux/).
+
+#
+### Execução
+
+🚀 Front-end (git pages)
+
+Clonar este repositório:
+```sh
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki 
+```
+Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
+```sh
+pip install mkdocs-material && mkdocstrings
+```
+Rodar o gitpages localmente:
+```sh
+mkdocs serve
+```
+Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
 
 #
 
