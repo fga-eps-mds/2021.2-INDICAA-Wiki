@@ -63,7 +63,18 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 
 ### 2.1 <a name="2_1">Tecnologias</a>
 
-<p align="justify">&emsp;&emsp; (lista com as ferramentas utilizadas para desenvolvimento do software se possível com uma imagem/logo para ilustrar) </p>
+<p align="justify">&emsp;&emsp; No que tange às linguagens e ferramentas utilizadas para desenvolvimento do software, tem-se:</p>
+<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"> </p>
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"></p>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> </p>
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"> </p>
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> </p>
+ </p>
  
  
 ## 3. <a name="3">Metas e Restrições da Arquitetura</a>
