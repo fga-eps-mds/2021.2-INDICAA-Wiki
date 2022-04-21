@@ -20,18 +20,13 @@
 
 ## 1.1 Objetivo
 
-<p align="justify"> O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
+<p align="justify"> O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto <i>INDICAA</i>, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
 
 ## 1.2 Escopo
 
-<p align="justify">  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
+<p align="justify">  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da <i>UnB</i>. Nesse contexto, a equipe de coordenação voltou seus esforços para realizar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
  
-<p align="justify"> Nesse contexto, o objetivo do projeto é proporcionar uma melhor organização das informações 
-disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
-de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
-de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
-de informações será mais simples, ajudando tanto a parte 
-de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
+<p align="justify"> Nesse contexto, o objetivo do projeto é proporcionar uma melhor organização das informações disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
 
 ## 1.3 Definições, acrônimos e abreviações
 
@@ -43,10 +38,11 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
 |**FU**| Funcionalidade de Usuário
 |**BI**| Business Intelligence
+|**SQL**| Standard Query Language
 
 ## 1.4 Visão Geral
 
-Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:
 
 | |Tópico |Descrição |
 |-|-|-|
@@ -61,7 +57,11 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 # 2. Representação da Arquitetura
 
-(descrição rápida do funcionamento do Software INDICAA com uma imagem exemplo) </p>
+<p align="justify">Este projeto utiliza diversas tecnologias que se complementam para a criação de uma aplicação web. A figura abaixo mostra um diagrama com a representação arquitetural do projeto.</p>
+
+(inserir imagem aqui)
+
+<p align="justify">O <i>INDICAA</i> se baseia em realizar o scraping de dados do site acadêmica <i>SIGAA</i>, mais especificamente a seção de matérias ofertadas. O usuário acessa o aplicação <i>Metabase</i> por meio do naveagdor e assim, é possibilitada a visualização dos mesmos dados disponibilizados no sigaa, porém, de maneira mais visual e atrativa. Ele também pode realizar a criação de <i>dashboards</i> interativos por meio da interface do <i>Metabase</i>, gerar perguntas que retornam respostas com base nos dados obtidos por meio do scraping do <i>SIGAA</i>, realizar buscas diretamente no banco de dados por meio da linguagem <i>SQL</i> e criar coleções (que podem conter dashboards, perguntas e buscas <i>SQL</i> ao banco de dados).</p>
 
 ## 2.1 Tecnologias
 
@@ -75,20 +75,20 @@ No que tange às linguagens e ferramentas utilizadas para desenvolvimento do sof
  
 ## 3.1 Metas
  
-Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:  
+<p align="justify">Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do <i>SIGAA</i> listados a seguir:</p>
 
 - Quantidade de disciplinas ofertadas por curso
 - Quantidade de vagas ofertadas por curso
 - Quantidade de alunos matriculados por curso
 - Quantidade de salas disponíveis por curso
 
-Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores.
+<p align="justify">Para cumprir tais metas, será necessária a utilização de um <i>Webcrawler</i> com o intuito de retirar as informações do <i>SIGAA</i>, salvá-las em um banco de dados e utilizar ferramentas de <i>BI</i> para a amostragem dos indicadores.</p>
 
 ## 3.2 Restrições
 
 - Possuir conexão com a internet
-- Dependência da plataforma SIGAA
-- Eventual demora no tempo de resposta para atualização das informações no SIGAA
+- Dependência da plataforma <i>SIGAA</i>
+- Eventual demora no tempo de resposta para atualização das informações no <i>SIGAA</i>
 
 # 4. Visão de Casos de Uso
 
