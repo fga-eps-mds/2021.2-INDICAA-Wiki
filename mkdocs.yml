@@ -70,6 +70,8 @@ nav:
           - Gerenciamento de Comunicação: documentacao/gerenciamento_de_comunicacao.md
           - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
           - Estrutura de Branches: documentacao/guia_de_branching.md
+    - Post Mortem:
+          - Grupo 3: documentacao/post_mortem/grupo_3.md
     - Produto:
           - Documento de Requisitos: documentacao/documento_de_requisitos.md
           - Documento de Arquitetura: documentacao/documento_de_arquitetura.md
