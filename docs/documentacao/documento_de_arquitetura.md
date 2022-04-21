@@ -92,9 +92,7 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 ## 4.1 Diagrama de Casos de Uso
 
-<strong>NECESSITA REFORMULAÇÃO</strong>
-
-![Diagrama_casos_de_uso](https://user-images.githubusercontent.com/72623771/164127527-459d0b41-0208-43e2-a0da-d3dd3d62512e.png)
+![Diagrama de casos de uso](../assets/imagens/Diagrama_casos_de_uso.png)
 
 ## 4.2 Descrição dos Casos de Uso
 
@@ -157,13 +155,13 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 ## 5.1 Visão Geral
 
 ## 5.2 Diagrama de Pacotes
-![](https://user-images.githubusercontent.com/88190414/156471832-18df42d5-aa06-400b-8f3d-c9e683b89c16.png)
+![Diagrama de pacotes](../assets/imagens/diagrama_de_pacotes.png)
 
 # 6. Desempenho e Qualidade
 
 # 7 Referências
- MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
  
- CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
  
 EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/>. Acesso em: 07/02/2022.
