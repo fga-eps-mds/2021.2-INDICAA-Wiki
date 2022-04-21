@@ -56,7 +56,6 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 
 # 2. Representação da Arquitetura
-(descrição rápida do funcionamento do Software INDICAA com uma imagem exemplo) </p>
 
 <p align="justify">Este projeto utiliza diversas tecnologias que se complementam para a criação de uma aplicação web. A figura abaixo mostra um diagrama com a representação arquitetural do projeto.</p>
 
@@ -81,7 +80,7 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 - Quantidade de _alunos matriculados_ por curso
 - Quantidade de _salas disponíveis_ por curso
 
-<p align="justify">Para cumprir tais metas, será necessária a utilização de um <i>Webcrawler</i> com o intuito de retirar as informações do <i>SIGAA</i>, salvá-las em um banco de dados e utilizar ferramentas de <i>BI</i> para a amostragem dos indicadores.</p>
+<p align="justify">Para cumprir tais metas, será necessária a utilização de um <i>Web scraper</i> com o intuito de retirar as informações de ofertas de metérias do <i>SIGAA</i>, salvá-las em um banco de dados e utilizar ferramentas de <i>BI</i> para a visualização dos indicadores.</p>
 
 ## 3.2 Restrições
 
@@ -92,9 +91,14 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 # 4. Visão de Casos de Uso
 
 ## 4.1 Diagrama de Casos de Uso
+
+<strong>NECESSITA REFORMULAÇÃO</strong>
+
 ![Diagrama_casos_de_uso](https://user-images.githubusercontent.com/72623771/164127527-459d0b41-0208-43e2-a0da-d3dd3d62512e.png)
 
 ## 4.2 Descrição dos Casos de Uso
+
+<strong>NECESSITA REFORMULAÇÃO</strong>
 
 ### FU01 - Pesquisa
 |||
