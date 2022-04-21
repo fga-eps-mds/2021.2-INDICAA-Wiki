@@ -20,7 +20,7 @@
 
 ## 1.1 Objetivo</a>
 
-<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
+<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.</p>
 
 ## 1.2 Escopo</a>
 
@@ -31,7 +31,7 @@ disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terã
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
 de informações será mais simples, ajudando tanto a parte 
-de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
+de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes.</p>
 
 ## 1.3 Definições, acrônimos e abreviações</a>
 
@@ -65,35 +65,35 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 ## 2.1 Tecnologias</a>
 
 &emsp;&emsp; No que tange às linguagens e ferramentas utilizadas para desenvolvimento do software, tem-se:</p>
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"> </p>
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"></p>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> </p>
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"> </p>
+<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> 
+<img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> 
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> 
+<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> 
+<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"> 
+<img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"> 
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> 
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"> 
 <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> </p>
- </p>
+</p>
  
  
 # 3. Metas e Restrições da Arquitetura</a>
  
  ## 3.1 Metas</a>
  
-&emsp;&emsp; Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:  </p>
-&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
-&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
-&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
-&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
+&emsp;&emsp; Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:</p>
+&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso</p>
+&emsp;&emsp; •	Quantidade de vagas ofertadas por curso</p>
+&emsp;&emsp; •	Quantidade de alunos matriculados por curso</p>
+&emsp;&emsp; •	Quantidade de salas disponíveis por curso</p>
+&emsp;&emsp; Para cumprir tais metas, será necessária a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores.</p>
 
 ## 3.2 Restrições</a>
 
-&emsp;&emsp; • Possuir conexão com a internet </p>
-&emsp;&emsp; • Dependência da plataforma SIGAA </p>
-&emsp;&emsp; • Eventual demora no tempo de resposta para atualização das informações no SIGAA </p>
+&emsp;&emsp; • Possuir conexão com a internet</p>
+&emsp;&emsp; • Dependência da plataforma SIGAA</p>
+&emsp;&emsp; • Eventual demora no tempo de resposta para atualização das informações no SIGAA</p>
 
 # 4. Visão de Casos de Uso</a>
 
