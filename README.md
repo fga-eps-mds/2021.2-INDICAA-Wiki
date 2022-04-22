@@ -138,7 +138,7 @@ Rodar o gitpages localmente:
 ```sh
 python -m mkdocs serve
 ```
-Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
+Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:6969/```
 
 🧭 API
 
