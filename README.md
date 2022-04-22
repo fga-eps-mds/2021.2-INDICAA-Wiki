@@ -126,6 +126,10 @@ Clonar este repositório:
 ```sh
 git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki
 ```
+Entrar na pasta em que o clone está localizado:
+```sh
+cd 2021.2-INDICAA-Wiki
+```
 Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
 ```sh
 pip install mkdocs-material mkdocstrings
@@ -156,9 +160,6 @@ A instrução acima rodará a ```aplicação``` do INDICAA, ou seja, criará um 
 A API deve estar disponível em ```http://127.0.0.1:8000/```
 
 _**Obs.:**_ Note que terá uma demora na execução e esse processo é totalmente normal.
-
-📊 Metabase
-
 
 # 🤝 Contribuições
 
