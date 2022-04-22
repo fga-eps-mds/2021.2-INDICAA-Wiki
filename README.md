@@ -92,6 +92,7 @@ Rodar o gitpages localmente:
 mkdocs serve
 ```
 Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:6969/```
+
 🧭 API
 
 Clonar o repositório [INDICAA](https://github.com/fga-eps-mds/2021.2-INDICAA/):
@@ -171,6 +172,36 @@ Rodar o gitpages localmente:
 python -m mkdocs serve
 ```
 Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:6969/```
+
+🧭 API
+
+Clonar o repositório [INDICAA](https://github.com/fga-eps-mds/2021.2-INDICAA/):
+```sh
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA
+```
+Entrar na pasta em que o clone está localizado:
+```sh
+cd 2021.2-INDICAA
+```
+
+Com o docker instalado na sua máquina, rodar:
+```sh
+docker-compose up
+```
+A instrução acima rodará a ```aplicação``` do INDICAA, ou seja, criará um banco de dados **POSTGRE**, posteriormente é feito o scraping das informações obtidas através do [SIGAA](https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino) e, por fim, será hospedado o Metabase, a partir de uma imagem do **Docker Hub**.
+
+A **API** deve estar disponível em: ```http://127.0.0.1:8000/```
+
+E o **Banco de Dados POSTGRE** deve estar disponível em: ```http://127.0.0.1:5432/```
+
+_**Obs.:**_ Note que terá uma demora na execução e esse processo é totalmente normal.
+
+📊 Metabase
+
+O **Metabase** deve estar disponível em: ```http://127.0.0.1:3000/```
+
+Como é o primeiro acesso a imagem criada pelo **Docker Hub**, será necessário realizar uma configuração prévia, seguindo as etapas descritas na [issue.](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/87#issuecomment-1075163142)
+
 # 🤝 Contribuições
 
 O projeto INDICAA é um projeto Open Source e de software livre desenvolvido por alunos da disciplina de Métodos de Desenvolvimento de software da UnB. Com isso, o projeto é de livre contribuição e reprodução. Vale apenas ressaltar que é necessário que sejam seguidas as [regras de contribuição](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/contributing/) e o [código de conduta do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/CODE_OF_CONDUCT/).
