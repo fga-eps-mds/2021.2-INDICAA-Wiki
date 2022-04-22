@@ -98,12 +98,10 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 ## 4.2 Descrição dos Casos de Uso
 
-<strong>NECESSITA REFORMULAÇÃO</strong>
-
 ### FU01 - Pesquisar
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite ao usuário a pesquisa a partir de um texto fornecido |
+**Descrição**| Esta funcionalidade permite ao usuário a pesquisa a partir de um texto fornecido, no _Metabase_ |
 **Atores**| Usuário |
 **Pré-condições**| O campo de pesquisa deve ter sido prenchido pelo usuário  |
 **Pós-condições**| Os resultados correspondentes serão disponibilizados na tela ao usuário |
@@ -114,7 +112,7 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 ### FU02 - Visualizar coleções e bancos de dados
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite ao usuário a visualização dos dados inseridos em coleções, ou a visualização dos dados dos bancos de dados conectados |
+**Descrição**| Esta funcionalidade permite ao usuário a visualização dos dados inseridos em coleções ou a visualização dos dados dos bancos de dados conectados, no _Metabase_ |
 **Atores**| Usuário |
 **Pré-condições**| O usuário deve ter ido até a seção _Our analytics_ e selecionado um item da coleção, ou até o botão _Browse data_ na barra superior e selecionado um banco de dados |
 **Pós-condições**| O usuário deve ter conseguido visualizar os dados de um item da coleção ou os dados inseridos no banco de dados |
@@ -125,33 +123,57 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 ### FU03 - Criar coleções e itens
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite ao usuário a criação de coleções de itens e itens |
+**Descrição**| Esta funcionalidade permite ao usuário a criação de coleções e itens no _Metabase_ |
 **Atores**| Usuário |
 **Pré-condições**| O usuário deve ter realizado a pesquisa |
 **Pós-condições**| O usuário deve ter conseguido filtrar sua pesquisa tanto por modalidade quanto por disponibilidade |
 **Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br/> 2. O usuário visualiza as opçoes de filtragem á esquerda da pagina <br/> |
 **Fluxo de exceção**| **FE01 - Conexão** <br/> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso |
 
-### FU07 - Visualizar gráficos
+### FU04 - Arquivar Coleções e itens
 |||
 ----- | ----- 
-**Descrição** | Este caso de uso se refere à funcionalidade que permite que o usuário visualize informações menos detalhadas sobre as vagas e salas ocupadas|
+**Descrição** | Esta funcionalidade permite ao usuário arquivar coleções e itens no _Metabase_ |
 **Atores** | Usuário |
-**Pré-condições** | O usuário deverá ter realizado a pesquisa [FU01] |
-**Pós-condições** | O gráfico sobre as vagas e salas ocupadas deverá estar apresentado na tela para o usuário |
-**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br/> 2. O gráfico é apresentado na tela <br/> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
+**Pré-condições** | O usuário deverá ter criado ao menos um item ou coleção |
+**Pós-condições** | A coleção ou item deve ter sido arquivada |
+**Fluxo principal** | 1. O usuário vai até a seção _Our analytics_ <br/> 2. O usuário seleciona um item ou coleção clicando nos '...' na extrema direita do item <br/> 3. O usuário clica em _Archive_. <br/> 5. A coleção ou item é arquivado  
 **Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
-### FU08 - Manual de Uso
+### FU05 - Filtrar pesquisa
 
 |||
 ----- | ----- 
-**Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuário como realizar uma pesquisa |
+**Descrição** | Esta funcionalidade permite ao usuário filtrar uma pesquisa com base nos parâmetros passados |
 **Atores** | Usuário |
-**Pré-condições** | O usuário deverá passar o cursor sobre o ícone de ajuda na margem superior direita |
-**Pós-condições** | Serão apresentadas informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
-**Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br/> 2. É Apresentado um popup com as infromações de uso 
+**Pré-condições** | O usuário deverá ter pesquisado algo [FU01] |
+**Pós-condições** |  Serão apresentadas informações com base no filtro selecionado |
+**Fluxo principal** | 1. O usuário preenche e faz uma pesquisa [FU01]  <br/> 2. São apresentados os resultados da pesquisa <br/> 3. O usuário seleciona um dos seguintes filtos: _All results_, _Dashboards_, _Raw tables_ e _Questions_. <br/> 4. As informações filtradas aparecem na tela
 **Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+
+### FU06 - Detalhar dados
+
+|||
+----- | ----- 
+**Descrição** | Esta funcionalidade permite ao usuário ver mais detalhadamente os dados dispostos (seja por meio de gráficos ou números) |
+**Atores** | Usuário |
+**Pré-condições** | O usuário deverá estar visualizando algo [FU02] |
+**Pós-condições** | Serão apresentadas informações mais detalhadas relativas ao dado selecionado |
+**Fluxo principal** | 1. O usuário está visualizando uma coleção [FU02]  <br/> 2. O usuário clica no título de um _card_ de dados <br/> 3. Os dados detalhados são mostrados ao usuário
+**Fluxo secundário** | 1. O usuário está visualizando os dados de um banco de dados[FU02]  <br/> 2. O usuário clica no id de um dado registrado no banco de dados <br/> 3. Os dados detalhados são mostrados ao usuário
+**Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+
+### FU07 - Deletar coleções e itens
+
+|||
+----- | ----- 
+**Descrição** | Esta funcionalidade permite ao usuário deletar coleções ou itens arquivados |
+**Atores** | Usuário |
+**Pré-condições** | O usuário deverá ter arquivado coleções ou itens [FU04] |
+**Pós-condições** | A coleção ou item selecionado, será deletado |
+**Fluxo principal** | 1. O usuário deve estar visualizando dados[FU02] <br/> 2. O usuário clica em _view archive_ na parte inferior da visualização de dados <br/> 3. O usuário está visualizando coleções e itens arquivados anteriormente [FU04] <br/> 4. O usuário descansa o cursor sobre o ícone do item que deseja deletar e o seleciona <br/> 5. O usuário seleciona a opção _Delete_ na parte inferior da visualização <br/> 6. A coleção ou dado selecionado, é deletado
+**Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+
 
 # 5. Visão Lógica
 
