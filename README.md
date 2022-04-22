@@ -37,8 +37,6 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 
 ## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
 
-### 🐧 Ubuntu
-#
 ### Instalação das tecnologias
 
 🐋 Docker cli:
@@ -73,7 +71,7 @@ Os comandos acima devem retornar algo como:
 #
 ### Execução
 
-🚀 Front-end (git pages)
+🚀 GitHub Pages
 
 Clonar este repositório:
 ```sh
@@ -122,85 +120,7 @@ O **Metabase** deve estar disponível em: ```http://127.0.0.1:3000/```
 
 Como é o primeiro acesso a imagem criada pelo **Docker Hub**, será necessário realizar uma configuração prévia, seguindo as etapas descritas na [issue.](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/87#issuecomment-1075163142)
 
-#
 
-### 🪟 Windows
-
-🐋 Docker desktop:
-
-Caso o Docker não esteja instalado em sua máquina, visite a [página de instruções oficiais de instalação](https://docs.docker.com/desktop/windows/install/) e siga o passo a passo descrito.
-
-🐍 Python:
-
-Verifique a versão instalada do python.
-```sh
-python --version
-```
-ou
-```sh
-python3 --version
-```
-Os comandos acima devem retornar algo como: 
-```Python 3.9.0```
-. Isso significa que o python está instalado e sua versão é a 
-3.9.0
-.
-
-É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://docs.python.org/pt-br/3/using/windows.html#launcher).
-
-**_Obs.: Selecionar a opção Add Python 3.x to PATH_**
-
-#
-### Execução
-
-🚀 Front-end (git pages)
-
-Clonar este repositório:
-```sh
-git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki
-```
-Entrar na pasta em que o clone está localizado:
-```sh
-cd 2021.2-INDICAA-Wiki
-```
-Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
-```sh
-pip install mkdocs-material mkdocstrings
-```
-Rodar o gitpages localmente:
-```sh
-python -m mkdocs serve
-```
-Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:6969/```
-
-🧭 API
-
-Clonar o repositório [INDICAA](https://github.com/fga-eps-mds/2021.2-INDICAA/):
-```sh
-git clone https://github.com/fga-eps-mds/2021.2-INDICAA
-```
-Entrar na pasta em que o clone está localizado:
-```sh
-cd 2021.2-INDICAA
-```
-
-Com o docker instalado na sua máquina, rodar:
-```sh
-docker-compose up
-```
-A instrução acima rodará a ```aplicação``` do INDICAA, ou seja, criará um banco de dados **POSTGRE**, posteriormente é feito o scraping das informações obtidas através do [SIGAA](https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino) e, por fim, será hospedado o Metabase, a partir de uma imagem do **Docker Hub**.
-
-A **API** deve estar disponível em: ```http://127.0.0.1:8000/```
-
-E o **Banco de Dados POSTGRE** deve estar disponível em: ```http://127.0.0.1:5432/```
-
-_**Obs.:**_ Note que terá uma demora na execução e esse processo é totalmente normal.
-
-📊 Metabase
-
-O **Metabase** deve estar disponível em: ```http://127.0.0.1:3000/```
-
-Como é o primeiro acesso a imagem criada pelo **Docker Hub**, será necessário realizar uma configuração prévia, seguindo as etapas descritas na [issue.](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/87#issuecomment-1075163142)
 
 # 🤝 Contribuições
 
