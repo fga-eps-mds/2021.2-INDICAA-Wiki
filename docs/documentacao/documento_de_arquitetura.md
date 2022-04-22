@@ -59,7 +59,7 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 <p align="justify">Este projeto utiliza diversas tecnologias que se complementam para a criação de uma aplicação web. A figura abaixo mostra um diagrama com a representação arquitetural do projeto.</p>
 
-(inserir imagem aqui)
+![Representação arquitetural do projeto INDICAA](../assets/imagens/representacao_arquitetural.png)
 
 <p align="justify">O <i>INDICAA</i> se baseia em realizar o scraping de dados do site acadêmica <i>SIGAA</i>, mais especificamente a seção de matérias ofertadas. O usuário acessa o aplicação <i>Metabase</i> por meio do naveagdor e assim, é possibilitada a visualização dos mesmos dados disponibilizados no sigaa, porém, de maneira mais visual e atrativa. Ele também pode realizar a criação de <i>dashboards</i> interativos por meio da interface do <i>Metabase</i>, gerar perguntas que retornam respostas com base nos dados obtidos por meio do scraping do <i>SIGAA</i>, realizar buscas diretamente no banco de dados por meio da linguagem <i>SQL</i> e criar coleções (que podem conter dashboards, perguntas e buscas <i>SQL</i> ao banco de dados).</p>
 
@@ -69,7 +69,9 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 <div align="center">
     <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> <img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"> <img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"> <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"><br/><br/>
 </div>
- 
+
+<strong>inserir descrição breve sobre as tecnologias</strong>
+
 # 3 Metas e Restrições da Arquitetura
 ## 3.1 Metas
 
@@ -92,42 +94,43 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 ## 4.1 Diagrama de Casos de Uso
 
-![Diagrama de casos de uso](../assets/imagens/Diagrama_casos_de_uso.png)
+![Diagrama de casos de uso](../assets/imagens/diagrama_casos_de_uso.png)
 
 ## 4.2 Descrição dos Casos de Uso
 
 <strong>NECESSITA REFORMULAÇÃO</strong>
 
-### FU01 - Pesquisa
+### FU01 - Pesquisar
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite o usuário pesquisar por departamento a partir da seleção de um campus |
+**Descrição**| Esta funcionalidade permite ao usuário a pesquisa a partir de um texto fornecido |
 **Atores**| Usuário |
-**Pré-condições**| O usuário deve ter selecionado um campus e preencher o campo de pesquisa  |
-**Pós-condições**| O usuário deve ter conseguido realizar a pesquisa por um decanato |
-**Fluxo principal**|1. O usuário abre a aplicação <br> 2. O usuário seleciona um campus <br> 3. O usuário preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuário tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
-**Fluxo Alternativo**| **FA01 - Não seleção do campus pelo usuário** <br> Caso o usuário nao selecione um campus a pesquisa nao poderá ser realzada|
-**Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
+**Pré-condições**| O campo de pesquisa deve ter sido prenchido pelo usuário  |
+**Pós-condições**| Os resultados correspondentes serão disponibilizados na tela ao usuário |
+**Fluxo principal**|1. O usuário abre a aplicação <br/> 2. O usuário clica no campo de pesquisa <br/> 3. O usuário preenche o campo de pesquisa<br/> 4. A pesquisa é realizada e o usuário tem acesso aos resultados |
+**Fluxo Alternativo**| **FA01 - Barra de pesquisa selecionada mas não preenchida** <br/> Caso o usuário selecione a barra de pesquisa mas não a preencha, sugestões com base nos dados recentemente vistos aparecerão. |
+**Fluxo de exceção**| **FE01 - Conexão** <br/> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso |
 
-### FU02 - Visualizar salas disponíveis
+### FU02 - Visualizar coleções e bancos de dados
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite o usuário visualizar as salas disponíveis de forma mais detalhada pela lista |
+**Descrição**| Esta funcionalidade permite ao usuário a visualização dos dados inseridos em coleções, ou a visualização dos dados dos bancos de dados conectados |
 **Atores**| Usuário |
-**Pré-condições**| O usuário deve ter realizado a pesquisa e clicado para detalhar os gráficos |
-**Pós-condições**| O usuário deve ter conseguido visualizar as salas disponíveis de forma detalhada |
-**Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br> 2. O usuário clica em detalhar <br> 3. O usuário visualiza uma lista com as informaçoes |
-**Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
+**Pré-condições**| O usuário deve ter ido até a seção _Our analytics_ e selecionado um item da coleção, ou até o botão _Browse data_ na barra superior e selecionado um banco de dados |
+**Pós-condições**| O usuário deve ter conseguido visualizar os dados de um item da coleção ou os dados inseridos no banco de dados |
+**Fluxo principal**|1. O usuário vai até a seção _Our analytics_ <br/> 2. O usuário clica em _Browse all items_ <br/> 3. O usuário visualiza uma lista com os itens disponíveis <br/> 4. O usuário seleciona um item da lista <br/> 5. A janela de visualização de dados aparece, e o usuário tem acesso aos dados |
+**Fluxo secundário**|1. O usuário vai até a seção _Browse data_ <br/> 2. O usuário clica em um banco de dados cadastrado <br/> 3. O usuário visualiza uma lista com as tabelas disponíveis <br/> 4. O usuário seleciona um tabela da lista <br/> 5. A janela de visualização de dados aparece, e o usuário tem acesso aos dados |
+**Fluxo de exceção**| **FE01 - Conexão** <br/> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso |
 
-### FU03 - Filtrar Pesquisa
+### FU03 - Criar coleções e itens
 |||
 ------|------
-**Descrição**| Esta funcionalidade permite o usuário filtrar sua pesquisa a partir do [FU07] ou do [FU04] |
+**Descrição**| Esta funcionalidade permite ao usuário a criação de coleções de itens e itens |
 **Atores**| Usuário |
 **Pré-condições**| O usuário deve ter realizado a pesquisa |
 **Pós-condições**| O usuário deve ter conseguido filtrar sua pesquisa tanto por modalidade quanto por disponibilidade |
-**Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br> 2. O usuário visualiza as opçoes de filtragem á esquerda da pagina <br> |
-**Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
+**Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br/> 2. O usuário visualiza as opçoes de filtragem á esquerda da pagina <br/> |
+**Fluxo de exceção**| **FE01 - Conexão** <br/> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso |
 
 ### FU07 - Visualizar gráficos
 |||
@@ -136,8 +139,8 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 **Atores** | Usuário |
 **Pré-condições** | O usuário deverá ter realizado a pesquisa [FU01] |
 **Pós-condições** | O gráfico sobre as vagas e salas ocupadas deverá estar apresentado na tela para o usuário |
-**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br> 2. O gráfico é apresentado na tela <br> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
-**Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br/> 2. O gráfico é apresentado na tela <br/> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
+**Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
 ### FU08 - Manual de Uso
 
@@ -147,8 +150,8 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 **Atores** | Usuário |
 **Pré-condições** | O usuário deverá passar o cursor sobre o ícone de ajuda na margem superior direita |
 **Pós-condições** | Serão apresentadas informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
-**Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
-**Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+**Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br/> 2. É Apresentado um popup com as infromações de uso 
+**Fluxo de exceção** | **FE01 - Conexão** <br/>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
 # 5. Visão Lógica
 
