@@ -89,18 +89,6 @@ mkdocs serve
 ```
 Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
 
-🚀 Metabase
-
-Com o _**docker**_ instalado em sua máquina baixe a imagem mais recente do metabase
-```sh
-docker pull metabase/metabase:latest
-```
-Inicie o container do Metabase
-```sh
-docker run -d -p 3000:3000 --name metabase metabase/metabase
-```
-Agora o Metabase _community edition_ deve estar disponível em: ```http://127.0.0.1:3000/```
-
 #
 
 ### 🪟 Windows
@@ -147,18 +135,6 @@ Rodar o gitpages localmente:
 python -m mkdocs serve
 ```
 Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:8000/```
-
-🚀 Metabase
-
-Com o _**docker**_ instalado em sua máquina baixe a imagem mais recente do metabase
-```sh
-docker pull metabase/metabase:latest
-```
-Inicie o container do Metabase
-```sh
-docker run -d -p 3000:3000 --name metabase metabase/metabase
-```
-Agora o Metabase _community edition_ deve estar disponível em: ```http://127.0.0.1:3000/```
 
 # 🤝 Contribuições
 
