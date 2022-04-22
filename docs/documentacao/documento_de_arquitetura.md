@@ -8,7 +8,7 @@
 |01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
 |01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
 |07/02/2022|0.6|Adição do tópico de visão geral do projeto|João Paulo|
-|15/02/2022|0.7|Adição dos tópicos faltantes: Visão de Casos de Uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
+|15/02/2022|0.7|Adição dos tópicos faltantes: Visão de casos de uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
 |02/03/2022|0.8|Adição do diagrama de pacotes | Guilherme Barbosa e Gabriel Mariano|
 |03/03/2022|0.9|Adição do diagrama de casos de uso | Guilherme Santos|
 |05/03/2022|0.9.1| Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
@@ -42,14 +42,14 @@
 
 ## 1.4 Visão Geral
 
-Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:
+Este documento está dividido em 6 grandes tópicos com subdivisões e tem como objetivo final detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos e a seção de referências podem ser encontrados a seguir:
 
 | |Tópico |Descrição |
 |-|-|-|
 |**1**|**Introdução**| Fornece ao leitor uma visão geral do conteúdo abordado no documento
 |**2**|**Representação Arquitetural**| Detalha a arquitetura utilizada no projeto e como ela está organizada
 |**3**|**Metas e Restrições da Arquitetura**| Descreve os objetivos do projeto, bem como suas restrições, do ponto de vista arquitetural
-|**4**|**Visão dos Casos de Uso**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
+|**4**|**Visão dos casos de uso**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
 |**5**|**Visão Lógica**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
 |**6**|**Desempenho e Qualidade**| Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas
 |**7**|**Referências**| Fornece ao leitor uma visão geral das referência utilizadas durante a criação deste documento
@@ -70,7 +70,35 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
     <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"> <img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"> <img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"> <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"><br/><br/>
 </div>
 
-<strong>inserir descrição breve sobre as tecnologias</strong>
+## <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+O WebDriver manipula um navegador nativamente, como um usuário faria, seja localmente ou em uma máquina remota usando o servidor Selenium, marca um salto em termos de automação do navegador.
+
+## <img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white">
+Django REST Framework ou DRF é uma biblioteca que permite a construção de APIs REST utilizando a estrutura do Django. Lançado em Fevereiro de 2011, o DRF, por funcionar sob a estrutura do Django, permite a construção de APIs em qualquer plataforma, seja Windows, macOS ou Linux.
+
+## <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+O Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows
+
+## <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
+Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
+
+## <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white">
+Canva é uma plataforma de design gráfico que permite aos usuários criar gráficos de mídia social, apresentações, infográficos, pôsteres e outros conteúdos visuais. Está disponível online e em dispositivos móveis e integra milhões de imagens, fontes, modelos e ilustrações.
+
+## <img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff">
+O Metabase é uma solução open-source de business intelligence  que permite que usuários possam construir, explorar, analisar e compartilhar gráficos e dashboards de forma simples.
+
+## <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+Heroku é uma plataforma de nuvem como serviço que suporta várias linguagens de programação.
+
+## <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.
+
+## <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
+Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
+
+## <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+Discord é um aplicativo de voz sobre IP proprietário e gratuito, projetado inicialmente para comunidades de jogos.
 
 # 3 Metas e Restrições da Arquitetura
 ## 3.1 Metas
@@ -90,13 +118,13 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 - Dependência da plataforma <i>SIGAA</i>
 - Eventual demora no tempo de resposta para atualização das informações no <i>SIGAA</i>
 
-# 4. Visão de Casos de Uso
+# 4. Visão de casos de uso
 
-## 4.1 Diagrama de Casos de Uso
+## 4.1 Diagrama de casos de uso
 
 ![Diagrama de casos de uso](../assets/imagens/diagrama_casos_de_uso.png)
 
-## 4.2 Descrição dos Casos de Uso
+## 4.2 Descrição dos casos de uso
 
 ### FU01 - Pesquisar
 |||
