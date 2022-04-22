@@ -39,6 +39,8 @@
 |**FU**| Funcionalidade de Usuário
 |**BI**| Business Intelligence
 |**SQL**| Standard Query Language
+|**ORM**| Object–relational mapping
+|**REST**| Representational State Transfer
 
 ## 1.4 Visão Geral
 
@@ -56,10 +58,6 @@ Este documento está dividido em 6 grandes tópicos com subdivisões e tem como 
 
 
 # 2. Representação da Arquitetura
-
-<p align="justify">Este projeto utiliza diversas tecnologias que se complementam para a criação de uma aplicação web. A figura abaixo mostra um diagrama com a representação arquitetural do projeto.</p>
-
-![Representação arquitetural do projeto INDICAA](../assets/imagens/representacao_arquitetural.png)
 
 <p align="justify">O <i>INDICAA</i> se baseia em realizar o scraping de dados do site acadêmica <i>SIGAA</i>, mais especificamente a seção de matérias ofertadas. O usuário acessa o aplicação <i>Metabase</i> por meio do naveagdor e assim, é possibilitada a visualização dos mesmos dados disponibilizados no sigaa, porém, de maneira mais visual e atrativa. Ele também pode realizar a criação de <i>dashboards</i> interativos por meio da interface do <i>Metabase</i>, gerar perguntas que retornam respostas com base nos dados obtidos por meio do scraping do <i>SIGAA</i>, realizar buscas diretamente no banco de dados por meio da linguagem <i>SQL</i> e criar coleções (que podem conter dashboards, perguntas e buscas <i>SQL</i> ao banco de dados).</p>
 
@@ -206,6 +204,17 @@ Discord é um aplicativo de voz sobre IP proprietário e gratuito, projetado ini
 # 5. Visão Lógica
 
 ## 5.1 Visão Geral
+
+![Representação arquitetural do projeto INDICAA](../assets/imagens/representacao_arquitetural.png)
+
+<p align="justify">As ações do usuário em ambiente desktop, serão interpretadas pelo Metabase como eventos, onde cada evento está associado com um <i>Handler</i> que irá disparar uma ação. Algumas destas ações poderão ser tratadas no lado do cliente (<i>client side</i>), tais como ações de interatividade que não precisam de comunicação externa.</p>
+<p align="justify">Já em outras ações, será necessária a consulta à um banco de dados no lado do servidor (<i>server side</i>). Assim, sendo necessário o envio de uma solicitação (<i>request</i>) ao servidor, utilizando o protocolo de requisições <i>HTTP</i> e tendo em vista as regras de interface <i>REST</i></p>
+<p align=justify>Assim que o servidor recebe a solicitação do cliente, será necessária a interpretação da requisição com base na <i>url</i> e no método <i>HTTP</i> utilizado. Essa computação é realizada no módulo <i>url dispatcher</i>, onde o mapeamento para 'ponto final' da aplicação é realizado, e o módulo que possui as informações solicitadas é disponibilizado.</p>
+<p align=justify>Quando a aplicação <i>Django REST</i> está integrada com o <i>Django</i>, duas etapas são definidas. Primeiramente o <i>Django</i> verifica se a url requisitada faz parte da <i>API</i> que o <i>Django REST</i> fornece, se esta fizer parte, o <i>Django</i> passa o controle para o <i>Django REST</i> finalizar o processamento e o mapeamento da requisição.</p>
+<p align=justify>Uma vez que a <i>url</i> já foi mapeada para o módulo que possui as informações requisitadas. Este, geralmente uma classe dos <i>models.py</i>, será responsável por utilizar o <i>ORM</i> para mapear um modelo da aplicação com um modelo do banco de dados. Após o devido mapeamento, o banco de dados irá retornar um conjunto de informações que serão tratadas pelo <i>Django REST</i>.</p>
+<p align=justify>Já com os dados em mãos <i>Django REST</i>, poderá serializar as informações no formato padrão da <i>API</i>, geralmente no formato <i>JSON</i>. Esta serialização é responsável por definir uma interface que vários sistemas poderão consumir.</p>
+<p align=justify>Uma vez que os dados já foram serializados, o <i>Django REST</i> passa o controle para o <i>Django</i>. Que será responsável por retornar uma respost para o lado do cliente.</p>
+<p align=justify>Por fim, a resposta é obtida pelo <i>Metabase</i>, e agora com os dados requisitados em mãos, ele será responsável por fornecer esses dados o usuário da aplicação. O <i>Metabase</i> fica responsável pela disponibilização dos dados contidos no banco de dados, e o usuário pode realizar as ações definidas pelas funcionalidades do usuário (<i>FUs</i>).</p>
 
 ## 5.2 Diagrama de Pacotes
 ![Diagrama de pacotes](../assets/imagens/diagrama_de_pacotes.png)
