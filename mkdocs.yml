@@ -30,6 +30,7 @@ plugins:
     - mkdocstrings:
           watch:
               - overrides
+dev_addr: 127.0.0.1:6969
 repo_url: https://github.com/fga-eps-mds/2021.2-INDICAA
 nav:
     - Home: index.md
