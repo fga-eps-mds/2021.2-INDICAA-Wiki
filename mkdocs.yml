@@ -20,11 +20,11 @@ theme:
 extra_css:
     - stylesheets/extra.css
 markdown_extensions:
-  - md_in_html
-  - attr_list
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+    - md_in_html
+    - attr_list
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
 plugins:
     - search
     - mkdocstrings:
@@ -52,6 +52,7 @@ nav:
                 - Sprint 9: atas/grupo3/sprint9Grupo3.md
                 - Sprint 10: atas/grupo3/sprint10Grupo3.md
                 - Sprint 11: atas/grupo3/sprint11Grupo3.md
+                - Sprint 12: atas/grupo3/sprint12Grupo3.md
           - Grupo 4:
                 - Sprint 0:
                       - Planejamento: atas/grupo4/sprint0/planejamento.md
