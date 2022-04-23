@@ -6,41 +6,56 @@
 | 03/03/2022 | 1.0 | Criação da primeira versão do documento | Adne Moretti, Gabriel Moretti, Pedro Siqueira e Vitor Eduardo|
 
 ## 1. Introdução
+
 O documento em questão visa informar detalhadamente os riscos que podem afetar o projeto INDICAA. Categorizando e descrevendo os mesmos entre as respectivas responsabilidades e papéis e criando a estrutura analítica dos riscos.
+
 ## 2. Objetivo
+
 O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim, guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
+
 ## 3. Estrutura Analítica dos Riscos
+
 Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
 
-![](/docs/assets/Diagrama-EAR.png)
+![Diagrama EAR](../assets/imagens/Diagrama-EAR.png)
+
 ### Diagrama de riscos do projeto
 
 ### 3.1. Risco Técnico
+
 | **Tipo** | **Descrição** |
 | --- | --- |
 | Requisitos | Riscos gerados pela falta de mapeamento e elicitação de requisitos |
 | Tecnologias | Riscos gerados pela tecnologia usada |
 | Complexidade | Riscos gerados pela falta de conhecimento e pela forma na qual a equipe de desenvolvimento se adapta a tecnologia escolhida |
 | Qualidade | Riscos decorrentes da qualidade do produto final |
+
 ### 3.2. Risco de Gerenciamento
+
 | **Tipo** | **Descrição** |
 | --- | --- |
 | Estimativa | Riscos que podem afetar o tempo de produção do projeto|
 | Controle | Riscos relacionados ao controle de atividades |
 | Planejamento | Riscos relacionados ao planejamento de confecção do projeto |
 | Comunicação | Riscos relacionados às atividades e meio de comunicação, como ruídos ou falta de comunicação da equipe |
+
 ### 3.3. Risco Organizacional
+
 | **Tipo** | **Descrição** |
 | --- | --- |
 | Recursos | Riscos gerados pela falta de recursos humanos e/ou tecnológicos, como perda ou defeitos em equipamentos ou membros que abandonam o projeto |
 | Priorização | Riscos gerados pela má escolha de histórias de usuários na Sprint |
 | Dependências | Riscos que podem afetar a evolução do projeto |
+
 ### 3.4. Risco Externo
+
 | **Tipo** | **Descrição** |
 | --- | --- |
 | Cliente | Riscos gerados pelo cliente em relação ao produto, como mudanças no escopo devido a um pedido do cliente |
 | Pandemia | Riscos gerados pela pandemia |
+
 ## 4. Identificação dos Riscos
+
 | **ID** | **Risco** | **Causa** | **O impacto será** | **Categoria EAR** |
 | --- | --- | --- | --- | --- |
 | RN01 | O projeto não atender aos requisitos levantados | Falha no levantamento de requisitos e validação constante com o projeto | Possível refatoração do projeto e redefinição dos requisitos| Requisitos
@@ -62,6 +77,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 | RN17 | Estimativas incoerentes com as issues | Pouca noção de quanto esforço a issue demanda | Issue não finalizar no tempo previsto | Complexidade
 
 ## 5. Interpretação
+
 | **ID** | **Impacto** | **Probabilidade** | **Avaliação** | **Contigência** | **Mitigação** |
 | --- | --- | --- | --- | --- | --- |
 | RN01 | Crítico | Muito Alta | 25 | Revalidar todos os requisitos com o Product Owner e com o cliente, e aplicar validação constante nos requisitos levantados | Realização de reuniões constantes com os membros da equipe, juntamente do cliente, para obter melhor compreensão do escopo do projeto 
@@ -83,6 +99,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 | RN17 | Grande | Alta | 16 | Reuniões para analisar os erros e não cometer novamente | Reuniões constantes para resoluções de issues em conjunto
 
 ### 5.1. Tabela de Probabilidade
+
 | **Probabilidade** | **Intervalo** | **Peso** |
 | --- | --- | --- |
 | Muito Baixa | menor que 10% | 1 |
@@ -92,6 +109,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 | Muito Alta | maior que 75% | 5 |
 
 ### 5.2. Tabela de Impacto
+
 | **Impacto** | **Descrição** | **Peso** |
 | --- | --- | --- |
 | Insignificante | Impacto insignificante para o andamento do projeto | 1 |
@@ -102,6 +120,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 
 
 ### 5.3. Avaliação dos Riscos
+
 | **Impacto/Probabilidade** | **Muito Baixa** | **Baixa** | **Média** | **Alta** | **Muito Alta** |
 | --- | --- | --- | --- | --- | --- |
 | Insignificante | 1 | 2 | 3 | 4 | 5
@@ -111,6 +130,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 | Crítico | 5 | 10 | 15 | 20 | 25
 
 ## 6. Referências
+
 "Gerenciamento dos riscos: O que é, objetivo e processos". Disponível em https://escritoriodeprojetos.com.br/gerenciamento-dos-riscos-do-projeto
 
 BRASIL, Brasil; Ada - Plano de Gerenciamento de Riscos. Disponível em: https://fga-eps-mds.github.io/2019.1-ADA/#/docs/project/risk_management_plan

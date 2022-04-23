@@ -1,8 +1,8 @@
 ## Instruções de como contribuir no projeto
 
 Antes de fazer qualquer alteração no repositório:
-- Crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/branches.md)
-e a [política de commits](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/commits.md). 
+
+- Crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branches](templates_projeto/fluxo_branching.pdf) e a [política de commits](templates_projeto/template_de_commit.md). 
 
 ## Histórico de versões
 
@@ -24,7 +24,7 @@ Ao criar issues atente-se as seguintes questões:
 - Adicione as Labels adequadas
 - Adicione a milestone referente a sprint em que o problema será trabalhado
 - Adicione um Estimate segundo as definições descritas nesse documento
-- Utilize o [_issue template_](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/templates/IssueTemplate.md) no momento da criação
+- Utilize o [_issue template_](templates_projeto/template_de_issue.md) no momento da criação
 
 ## Definição de Estimate
 
