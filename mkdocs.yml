@@ -79,6 +79,7 @@ nav:
           - Protótipos: documentacao/prototipos.md
     - Roadmaps:
           - Roadmap geral: documentacao/roadmap_geral.md
+          - Roadmap como executado: documentacao/roadmap_como_executado.md
     - Contribuição:
           - Como Contribuir: contributing.md
           - Código de conduta: CODE_OF_CONDUCT.md
