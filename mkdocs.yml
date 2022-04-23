@@ -20,11 +20,11 @@ theme:
 extra_css:
     - stylesheets/extra.css
 markdown_extensions:
-  - md_in_html
-  - attr_list
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+    - md_in_html
+    - attr_list
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
 plugins:
     - search
     - mkdocstrings:
@@ -71,7 +71,9 @@ nav:
           - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
           - Estrutura de Branches: documentacao/guia_de_branching.md
     - Post Mortem:
+          - Grupo 1: documentacao/post_mortem/grupo_1.md
           - Grupo 3: documentacao/post_mortem/grupo_3.md
+          - Grupo 4: documentacao/post_mortem/grupo_4.md
     - Produto:
           - Documento de Requisitos: documentacao/documento_de_requisitos.md
           - Documento de Arquitetura: documentacao/documento_de_arquitetura.md
