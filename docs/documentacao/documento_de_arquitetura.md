@@ -9,11 +9,13 @@
 |01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
 |07/02/2022|0.6|Adição do tópico de visão geral do projeto|João Paulo|
 |15/02/2022|0.7|Adição dos tópicos faltantes: Visão de casos de uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
-|02/03/2022|0.8|Adição do diagrama de pacotes | Guilherme Barbosa e Gabriel Mariano|
-|03/03/2022|0.9|Adição do diagrama de casos de uso | Guilherme Santos|
-|05/03/2022|0.9.1| Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
-|26/03/2022|0.9.2| Atualização do escopo e pequenas correções | Gabriel Moretti e Matheus Pimentel Leal
-|19/04/2022|0.9.3| Adição dos tópicos 2.1, 4.1 e correções | Letícia Aires
+|02/03/2022|0.8|Adição do diagrama de pacotes|Guilherme Barbosa e Gabriel Mariano|
+|03/03/2022|0.9|Adição do diagrama de casos de uso|Guilherme Santos|
+|05/03/2022|0.9.1|Revisão geral dos documentos do projeto|Adne Moretti e Matheus Pimentel Leal|
+|26/03/2022|0.9.2|Atualização do escopo e pequenas correções|Gabriel Moretti e Matheus Pimentel Leal|
+|19/04/2022|0.9.3|Adição dos tópicos 2.1, 4.1 e correções|Letícia Aires|
+|22/04/2022|0.9.8|Adição do tópico 5.1, descrição das tecnologias, refatoração de diagramas e tabelas de funcionalidades|Matheus Pimentel Leal|
+|23/04/2022|1.0|Adição do tópico 6 e revisão geral do documento|Matheus Pimentel Leal|
 
 
 # 1. Introdução
@@ -216,10 +218,41 @@ Discord é um aplicativo de voz sobre IP proprietário e gratuito, projetado ini
 <p align=justify>Uma vez que os dados já foram serializados, o <i>Django REST</i> passa o controle para o <i>Django</i>. Que será responsável por retornar uma respost para o lado do cliente.</p>
 <p align=justify>Por fim, a resposta é obtida pelo <i>Metabase</i>, e agora com os dados requisitados em mãos, ele será responsável por fornecer esses dados o usuário da aplicação. O <i>Metabase</i> fica responsável pela disponibilização dos dados contidos no banco de dados, e o usuário pode realizar as ações definidas pelas funcionalidades do usuário (<i>FUs</i>).</p>
 
-## 5.2 Diagrama de Pacotes
+# 6. Visão de implementação
+
+## 6.1 Dicionário de dados
+
+### Entidade: Unidade
+
+|Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
+|-|-|-|-|-|-|
+|nome|Chave primária<br>Obrigatório|varchar|255|Nome do departamento|"Faculdade do Gama"|
+
+### Entidade: Materia
+
+|Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
+|-|-|-|-|-|-|
+|codigoMateria|Chave primária<br>Obrigatório|varchar|7|Codigo da Matéria|"FGA0003"|
+|cargaHoraria|Obrigatório|varchar|3|Carga Horária da Matéria|"60h"|
+|nome|Obrigatório|varchar|255|Nome da Matéria|"COMPILADORES 1"|
+
+### Entidade: Turma
+
+|Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
+|-|-|-|-|-|-|
+|docente|Chave primária<br>Obrigatório|varchar|50|Nome completo do docente|"FABIO MACEDO MENDES"|
+|codigoTurma|Chave primária<br>Obrigatório|varchar|2|Código da Turma|"01" ou "A"|
+|horario|Obrigatório|varchar|20|Horário da Turma seguindo o padrão do SIGAA|"5M1234 5T23"|
+|vagasOfertadas|Obrigatório|int|---------|Quantidade de vagas ofertadas|40|
+|vagasOcupadas|Obrigatório|int|---------|Quantidade de vagas ocupadas|0|
+|local|Obrigatório|varchar|40|Local da aula da Turma|"remoto" ou "I10"|
+|ano|Obrigatório|int|---------|Ano do Período|2021|
+|semestre|Obrigatório|int|---------|Semestre do Período|2|
+
+
+## 6.2 Diagrama de Pacotes
 ![Diagrama de pacotes](../assets/imagens/diagrama_de_pacotes.png)
 
-# 6. Desempenho e Qualidade
 
 # 7 Referências
 MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
