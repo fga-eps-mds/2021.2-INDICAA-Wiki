@@ -32,9 +32,14 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 ### Caio Oliveira (Product Owner)
 
-texto
-
-gif
+<p align="justify"> &emsp;Apesar de não conseguirmos aplicar 100% as metodologias ágeis, ainda assim tivemos um contato muito direto com elas, como o próprio SCRUM, o que foi legal porque nos aproximou mais desse lado "engenheiro" que teremos um dia no futuro, eu espero... O que nos impossibilitou mais foram as diferenças de horários e a falta desses também, várias pessoas falam que queriam pegar a matéria com menos matérias ao mesmo tempo, mas eu discordo disso, você ter que se virar e organizar seu tempo, apesar de ser estressante, te prepara para uma vida no mercado de trabalho, onde você não terá só uma atividade por vez e ficará na tranquilidade.<br> 
+<p align="justify"> &emsp;Além disso houveram vários momentos que realmente nos preparam mais para agir em uma equipe de nível maior, geralmente estamos acostumados a equipes pequenas com amigos e com trabalhos de semanas ou até de um mês, nesse caso não, conhecemos várias pessoas novas, pessoas até mesmo que moravam próximas e ainda não tinham tido a oportunidade de se conhecer e tivemos que nos desenvolver para nos comunicarmos melhor, resumindo, perder a vergonha.
+<p align="justify"> &emsp;Uma dica para quem ainda não pode pegar a matéria por algum pré-requisito é cursar desenvolvimento de software, eu cursei essa matéria faz alguns semestres e ela deu um preparo muito bom para métodos de desenvolvimento de software, muitas dos assuntos que vemos aqui, usamos lá primeiro de forma mais simplificada.
+<p align="justify"> &emsp;Contudo, mesmo sendo um semestre muito curto, acredito que conseguimos tirar muito proveito da matéria em relação a experiência em si, uma coisa muito boa na matéria, ruim na hora, mas boa depois são os problemas, vão aparecer inúmeros, mas a parte boa é resolvê-los, o que te deixa mais preparado para tudo nesse mundo de tecnologia. Por último deixo uma observação, não tenham medo das funções, eu pude rotacionar e participar de todas as funções e em cada uma tem uma particularidade diferente, e não fiquem pensando "Ah, não vou pegar a função tal porque eu quero programar", a programação nessa matéria virá no tempo certo, e todos vão ter sua área pra brilhar, basta se dedicar e mostrar interesse. Infelizmente no meu semestre acredito que esse momento de programar chegou levemente atrasado, talvez umas 2 ou 3 semanas mais cedo teria sido perfeito.
+PS: Meu GIF representa meus sentimentos durante o semestre :)
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/54439337/164838660-12164bd2-011f-4bce-b889-87e5a43c75bf.gif" width="300" />
+</p>
 
 ### Vitor Eduardo (Dev)
 
