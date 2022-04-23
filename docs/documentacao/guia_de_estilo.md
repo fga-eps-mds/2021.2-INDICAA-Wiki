@@ -77,4 +77,4 @@ Com relação ao contraste, foram feitos testes e é recomendado ter estes núme
 	
 A logo escolhida visou apresentar uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
 
-<img src="/docs/assets/logo.png" alt="contraste" width="200"/>
+![Contraste](../assets/imagens/logo_alt.svg)
