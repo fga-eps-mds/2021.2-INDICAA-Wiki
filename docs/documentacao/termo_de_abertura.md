@@ -113,7 +113,7 @@ Interatividade com o usuário | As mensagens do sistema para o usuário devem se
 
 ## 7. Riscos
 
-[Documento de gerenciamento de riscos](Link)
+[Documento de gerenciamento de riscos](./gerenciamento_de_riscos.md)
 
 **Risco** | **Prevenção** | **Ação**
 :---: | :---: | :---:
@@ -127,12 +127,12 @@ Mudanças no escopo do projeto | Realizar _reviews_ do projeto e validar se ocor
 
 * Validação pela professora Dr. Carla Rocha Aguiar.
 * Atender às expectativas definidas pelo _**MVP**_.
-* Atender todos os requisitos definidos pelo [Documento de requisitos](link).
+* Atender todos os requisitos definidos pelo [Documento de requisitos](./documento_de_requisitos.md).
 * Entrega de todos os itens necessários na _Release 2 da disciplina de MDS_.
 
 ## 9. Estratégias de comunicação
 
-[Documento de gerenciamento de comunicação](link)
+[Documento de gerenciamento de comunicação](./gerenciamento_de_comunicacao.md)
 
 Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord** e **Telegram**.<br />
 Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.<br />
