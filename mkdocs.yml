@@ -85,3 +85,4 @@ nav:
           - Template de Issue: templates_projeto/template_de_issue.md
     - Release Notes:
           - Release 1: release_notes/release1_notes.md
+          - Release 2: release_notes/release2_notes.md
