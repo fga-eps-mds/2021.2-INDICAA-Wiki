@@ -51,7 +51,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 _O trabalho entregue foi tardio, e por isso, a sprint 7 gerou pouquíssimo valor ao projeto._
 
 ## Velocity
-![Velocity](https://i.imgur.com/GXkLWUh.png)
+![Velocity](https://i.imgur.com/ORaqy9l.png)
 
 # Retrospectiva
 
@@ -73,7 +73,7 @@ _O trabalho entregue foi tardio, e por isso, a sprint 7 gerou pouquíssimo valor
 
 # Quadro de Conhecimento
 
-![Conhecimentos](https://i.imgur.com/89ICSX2.png)
+![Conhecimentos](https://i.imgur.com/DcFCHyZ.png)
 
 # Análise do Scrum Master
 _O trabalho da sprint 07 foi bastante prejudicado pela constante falta de comunicação, e com isso,  muitas issues ficaram como dívidas alocadas. Por estas e também pela grande ocupação dos membros do grupo 03, esta foi a sprint que gerou menos valor._

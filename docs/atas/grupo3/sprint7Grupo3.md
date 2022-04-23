@@ -48,7 +48,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 _A qualidade do trabalho entregue foi aceitável, porém os membros consideraram aceitável_
 
 ## Velocity
-![Velocity](link)
+![Velocity](https://i.imgur.com/SLa1mVP.png)
 
 # Retrospectiva
 
@@ -66,7 +66,7 @@ _A qualidade do trabalho entregue foi aceitável, porém os membros consideraram
 
 # Quadro de Conhecimento
 
-![Conhecimentos](link)
+![Conhecimentos](https://i.imgur.com/bf5wBKb.png)
 
 # Análise do Scrum Master
 _Esta sprint foi a mais desorganizada dentre todas as sprints até aqui. Em virtude do feriado houve grande dificuldade na organização de horários de trabalho e na comunicação (que deveria ser rápida) entre os grupos. Num geral, a sprint entregou valor considerável mas ainda assim, cabem melhorias para previnir eventuais dificuldades na execução de tarefas no futuro._
