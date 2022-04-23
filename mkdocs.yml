@@ -66,7 +66,6 @@ nav:
           - Termo de Abertura do Projeto: documentacao/termo_de_abertura.md
           - Estrutura Analítica do Projeto: documentacao/estrutura_analítica_do_projeto.md
           - Metodologia: documentacao/documento_de_metodologia.md
-          - Layout de Sprint: templates_projeto/layout_de_sprint.md
           - Gerenciamento de Comunicação: documentacao/gerenciamento_de_comunicacao.md
           - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
           - Estrutura de Branches: documentacao/guia_de_branching.md
@@ -82,5 +81,6 @@ nav:
           - Código de conduta: CODE_OF_CONDUCT.md
           - Template de Commit: templates_projeto/template_de_commit.md
           - Template de Issue: templates_projeto/template_de_issue.md
+          - Template de documentação de Sprint: templates_projeto/layout_de_sprint.md
     - Release Notes:
           - Release 1: release_notes/release1_notes.md
