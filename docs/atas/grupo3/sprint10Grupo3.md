@@ -1,94 +1,83 @@
 <!---
 O layout da documentação das sprints foi feito se baseando nos documentos produzidos
-pela equipe do software Acácia, estando disponíveis em:
+pela equipe do software Acácia, estando disponíveis em: 
 <https://github.com/fga-eps-mds/2019.2-Acacia/tree/develop/docs/sprints>.
 Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 -->
-
-# Sprint _11_
+# Sprint _10_
 
 ## Histórico de Revisão
+| Data | Versão | Modificação | Autor(a) |
+| --- | --- | --- | --- |
+| _29/03/2022_ | _0.1_ | _Criação do documento_ | _Matheus Pimentel_ |
 
-| Data         | Versão | Modificação            | Autor(a)           |
-| ------------ | ------ | ---------------------- | ------------------ |
-| _05/04/2022_ | _0.1_  | _Criação do documento_ | _Matheus Pimentel_ |
-
-# Planning da Sprint _11_
-
--   **Período:** _05/04 a 11/04_
--   **Objetivo:** _Deploy da API, testes do metabase, novo Git Pages, correção dos scripts criados._
+# Planning da Sprint _10_
+- **Período:** _29/03 a 04/04_
+- **Objetivo:** _Avanço do scraping de dados de outros departamentos no SIGAA; Estruturação dos dados._
 
 ## Épicos
-
-| ID     | Descrição                            |
-| ------ | ------------------------------------ |
-| _#89_  | _Criação da API com Django Rest._    |
-| _#110_ | _Revisão dos documentos do projeto._ |
+| ID | Descrição |
+| -- | --------- |
+| _#61_ | _Roadmaps_ |
+| _#99_ | _Scraping dos dados do Darcy Ribeiro_ |  
 
 ## Issues
+| ID | Descrição | Estimativa |
+| --- | --- | --- |
+| _#100_ | _Mapear quais são os departamentos do Darcy Ribeiro_ | _5_ |
+| _#101_ | _Refatorar o script de scraping dos dados da FACULDADE DO GAMA - BRASÍLIA_ | _8_ | 
+| _#103_ | _Criar um arquivo '.json' com os dados obtidos no scraping da FGA_ | _5_ |
+| _#104_ | _Criação do arquivo '.gitignore'_ | _1_ |
+| _#105_ | _Criar Roadmap geral do projeto_ | _8_ |
 
-| ID     | Descrição                                                                         |
-| ------ | --------------------------------------------------------------------------------- |
-| _#102_ | _Conectar um banco de dados de teste ao metabase._                                |
-| _#111_ | _Refatoração individual dos scripts de scraping da FACULDADE DO GAMA - BRASÍLIA._ |
-| _#114_ | _Criação do requirements.txt_                                                     |
-| _#116_ | _Realizar o deploy da API no servidor (Heroku, etc..)._                           |
-| _#117_ | _Criar um dashboard de exemplo._                                                  |
-| _#119_ | _Finalização do desenvolvimento do novo git pages._                               |
-| _#120_ | _Colocar as documentações atuais no novo git pages._                              |
-| _#121_ | _Criar roadmap geral (Como executado)._                                           |
+
+- Total de Pontos: _27_
 
 ### Dívidas Alocadas
+| ID | Descrição | Estimativa |
+| --- | --------- | --------- | 
+| _#85_ | _Mapear dados de salas "disponíveis"_ | _1_ |
+| _#89_ | _Criação da API com o Django Rest_ | _8_ |
+| _#92_ | _Web scraping dos dados de quantidade de alunos matriculados_ | _13_ |
 
-| ID     | Descrição                                                                   |
-| ------ | --------------------------------------------------------------------------- |
-| _#102_ | _Refatorar o script de scraping dos dados da FACULDADE DO GAMA - BRASÍLIA._ |
+- Total de Pontos: _22_
+
 
 ## Possíveis Riscos Mapeados para a Sprint
+- _Falhas na comunicação._
 
--   _Falhas na comunicação._
--   _Falta de cumprimento dos prazos estabelecidos para as issues._
-
-# Review Sprint _10_
-
--   _Durante a sprint foram corrigidas algumas ações que levariam à conflitos de código, e com isso, a produtividade geral do projeto pode continuar no mesmo ritimo. Porém a produtividade está baixa, como falado pela professora, Assim, acreditamos que mesmo que a qualidade do trabalho entregue tenha sido boa, sempre extistem pontos a melhorar._
+# Review Sprint _9_
+- _A sprint foi mais produtiva. Ainda há pontos de melhoria na comunicação. Sprint foi boa em termos de aprendizado._
 
 ## Qualidade do Trabalho Entregue
-
-_A qualidade do trabalho entregue foi boa e os códigos produzidos agregaram valor, levando em consideração as falhas na comunicação._
+_O trabalho foi de boa qualidade de acordo com o que foi pedido (Pouco avançado, porém de qualidade)._
 
 ## Velocity
-
-![Velocity](https://i.imgur.com/YUtqxFV.png)
+![Velocity](https://i.imgur.com/3lAMbRl.png)
 
 # Retrospectiva
 
 ## Pontos Positivos
-
--   _A produtividade aumentou com relação às sprints passadas._
--   _Mais tarefas de coding foram feitas._
--   _A proatividade dos membros do projeto teve um aumento considerável._
--   _Melhorias na organização da comunicação de todos os membros foram notadas._
--   _Maiores esclarecimentos no desenvolvimento do novo Git Pages._
+- _Pequena melhora na produtividade._
+- _Melhor entendimento com relação ao funcionamento geral do projeto._
+- _._
+- _._
 
 ## Pontos Negativos
-
--   _Muitos membros no projeto, porém, poucos membros efetivamente trabalhando._
--   _Falta de compromisso com os padrões do SCRUM._
--   _Falta de organização geral do projeto._
--   _O projeto está atrasado em relação ao cronograma._
+- _Falta de cumprimento com relação à política de branching._
+- _Falta de cumprimento das práticas SCRUM em geral no projeto._
+- _Falta de proatividade dos membros das outras equipes. Deixando o grupo 03 sobrecarregado._
+- _._
 
 ## Pontos de Melhoria
-
--   _Melhorar a organização geral do projeto._
--   _Mais proatividade de todos os membros._
--   _Fazer a divisão das issues logo após o planning._
--   _Não deixar membros ficarem ociosos no projeto._
+- _Comunicação._
+- _Motivação._
+- _Maior proatividade dos outros grupos._
+- _Melhor gerência do tempo._
 
 # Quadro de Conhecimento
 
-![Conhecimentos](https://i.imgur.com/QOiXElE.png)
+![Conhecimentos](https://i.imgur.com/CGjgDYp.png)
 
 # Análise do Scrum Master
-
-_Num geral, a sprint foi produtiva com apenas alguns pontos de "gargalo" que puderam ser resolvidos rapidamente com comunicação clara e rápida. Para as próximas sprints, procurar envolver a maior quantidade de membros possível no desenvolvimento do projeto._
+_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dívidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
