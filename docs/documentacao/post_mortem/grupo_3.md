@@ -58,7 +58,7 @@ gif
 <p align="justify"> &emsp;Destaco que, nesse processo de desenvolvimento de software, o contato diário com o squad foi de fundamental importância, sempre me motivando e me guiando durante o desenvolvimento. E, em minha visão, esse é o fato mais importante que levo desta matéria: a comunicação e a habilidade de trabalho em grupo são os fatores mais importantes para o desenvolvimento de software pois, a partir destes, todos os demais problemas serão solucionados.</p>
 <p align="justify"> &emsp;Por fim, destaco que o projeto só não se desenrolou conforme o esperado pois faltou comunicação, fator que acredito ser indispensável para a matéria. Por isso, à quem estiver lendo isso, digo: não tenha medo de se comunicar. Pergunte, dê sugestões, participe dos debates, se posicione sempre que necessário... SE COMUNIQUE!</p>
 
-<p align="justify"> &emsp;Abaixo, uma representação do meu sentimento ao ver o andamento do projeto :sweat_smile:</p>
+<p align="justify"> &emsp;Abaixo, uma representação do meu sentimento ao ver o andamento do projeto:</p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
