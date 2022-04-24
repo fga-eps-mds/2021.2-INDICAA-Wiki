@@ -31,8 +31,11 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 ## Feeling Individual
 
 ### Adne Moretti (Product Owner)
-
-texto
+<p align="justify"> &emsp; Já tinha ouvido falar muito da matéria de MDS, do quanto essa exige dedicação e é importante no decorrer do curso de engenharia de software, afinal, nela que temos o nosso primeiro contato com o desenvolvimento de um software e de um projeto real em grupo. Sendo assim, já entrei na matéria com expectativas de desenvolvimento de um projeto bem legal e que acrescentasse muito ao meu portifório. Porém, ainda não tinha a noção do quão complexo é o desenvolvimento e que enfrentaríamos diversos problemas.
+<p align="justify"> &emsp;  Aprender a trabalhar em grupo é uma tarefa um tanto quanto difícil, pois um projeto bem feito depende de todas as partes do grupo, e mesmo que não pareça, cada pessoa é de extrema importância para um trabalho em grupo. Sendo assim, um dos principais problemas enfrentados no nosso projeto foi a comunicação, se os membros e os grupos não se comunicam entre si falta integração no time, consequentemente causa desorganização e desânimo. Apesar do desenrolar do projeto não ter saído como o esperado, tivemos oportunidade de conhecer pessoas incríveis e dedicadas, que passam a fazer parte do nosso ciclo de amizade, o que é de suma importância.
+<p align="justify"> &emsp; Tivemos dificuldade na organização e gerenciamento do projeto como um todo, o que acabou sobrecarregando alguns membros, além disso, demoramos muito para começar a codificação, pois estávamos focados nos documentos, além disso, os membros não possuiam muito conhecimento técnico. Todas essas dificuldades enfrentadas acabaram servindo como aprendizado.
+<p align="justify"> &emsp;  Dessa forma, além de diversos aprendizados técnicos que foram adquiridos na disciplina, também desenvolvemos diversas habilidades, dentre essas, o trabalho em grupo, a pesquisa e solução de problemas, a comunicação e também o entendimento das etapas de desenvolvimento, o que auxiliará tanto para as próximas matérias, quanto para a vida profissional.
+ <p align="justify"> &emsp; Meme que me representa durante o projeto:
 
 gif
 
