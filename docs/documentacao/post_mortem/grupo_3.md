@@ -17,9 +17,12 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 ### Negativos
 
--   .
--   .
--   .
+-   A falta de comunicação entre os grupos fez com que as equipes ficassem “desalinhadas” quanto ao objetivo do trabalho.
+Não ter um objetivo definido fez com que muitos “se perdessem” conforme o passar do tempo.
+-   A falta de liderança e proatividade afastou muitos membros do projeto, pois estes ficavam “sem saber o que fazer”.
+-   Devido ao semestre reduzido, tivemos que apressar muitos passos do projeto que normalmente tomariam mais tempo, prejudicando o desenvolvimento em si.
+-   A falta de proatividade culminou em muito trabalho (e pouco tempo para realizá-lo) para os poucos membros que foram proativos e presentes durante a totalidade do projeto.
+
 
 ## Conselhos para projetos futuros
 
