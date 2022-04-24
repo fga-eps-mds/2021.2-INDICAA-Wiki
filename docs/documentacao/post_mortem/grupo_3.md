@@ -26,10 +26,13 @@ Não ter um objetivo definido fez com que muitos “se perdessem” conforme o p
 
 ## Conselhos para projetos futuros
 
--   .
--   .
--   .
--   .
+-   Priorizem, acima de tudo, a comunicação entre todos os membros do projeto. Ela vai definir o andamento do trabalho.
+-   Nunca deixem que membros se afastem do projeto. Sempre informem a todos os membros como está o andamento do projeto e o que precisa ser feito em cada sprint.
+-   Comecem a codificação do projeto o mais rápido possível, pois sempre existirão muitos problemas, e esses demandam muito tempo.
+-   Certifiquem-se de ter uma boa definição do escopo do projeto e de como irão realizá-lo, pequenas indecisões podem causar confusões ou mudanças repentinas.
+-   Evitem chegar perto do esgotamento ( Burnout ), procurem reservar seus momentos de lazer no dia a dia, pois a disciplina pode ser bem pesada.
+-   Façam o uso, **desde o início**, das práticas ágeis. Essas pequenas coisas, geram um grande senso de pertencimento e participação do projeto, além de possibilitar a adaptação rápida dos membros do projeto com base nos imprevistos
+-   Puxem a responsabilidade. Sejam proativos. Comprem a briga de desenvolver o projeto. Esse é **O** momento dentro do curso. Aproveitem ao máximo as aulas.
 
 <!-- Nesta seção, seguir a ordem de cargos que desejar -->
 ## Feeling Individual
