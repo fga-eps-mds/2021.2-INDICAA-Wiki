@@ -76,6 +76,6 @@ A comunicação é um dos pontos chaves da matéria, não sei se porque foi algo
 O semestre foi curto e bem cansativo, como disse no ponto anterior fiquei ausente do projeto por um tempo, mas graças aos líderes do projeto consegui voltar para a equipe, isso é algo que o grupo deve ser extremamente cuidadoso, além disso MDS foi uma matéria que mudou completamente a forma como enxergo a engenharia de software, me ensinado novas ferramentas para serem utilizadas e me "forçando" a aprimorar as que já sabia, como por exemplo o GitHub que é extremamente útil e deve ser muito bem organizado para que o grupo não se perca dentro do próprio projeto. A disciplina também me ensinou que é necessário se comunicar, mesmo a menor decisão ou ação que não for comunicada pode se tornar uma fonte de erros no futuro, então julgo que a disciplina de MDS me colocou num caminho mais certo para me tornar um melhor engenheiro de software.
 
 <p align="center">
-  <img src="https://tenor.com/view/imagination-spongebob-squarepants-dreams-communication-gif-14557603"  width="300"/>
+  <img src="https://tenor.com/view/imagination-spongebob-squarepants-dreams-communication-gif-14557603.gif"  width="300"/>
   
 </p>
