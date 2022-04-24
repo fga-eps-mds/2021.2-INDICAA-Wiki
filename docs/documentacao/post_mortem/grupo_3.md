@@ -37,7 +37,9 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 <p align="justify"> &emsp;  Dessa forma, além de diversos aprendizados técnicos que foram adquiridos na disciplina, também desenvolvemos diversas habilidades, dentre essas, o trabalho em grupo, a pesquisa e solução de problemas, a comunicação e também o entendimento das etapas de desenvolvimento, o que auxiliará tanto para as próximas matérias, quanto para a vida profissional.</p>
  <p align="justify"> &emsp; Meme que me representa durante o projeto:</p>
 
-gif
+<p align="center">
+  <img src="https://c.tenor.com/hmVDEiStqfAAAAAd/chaos-working-hard.gif" width="350" />
+</p>
 
 ### Gabriel Moretti (Dev)
 
