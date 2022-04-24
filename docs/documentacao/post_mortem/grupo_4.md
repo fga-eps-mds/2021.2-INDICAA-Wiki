@@ -69,6 +69,13 @@ gif
 
 ### Arthur Taylor de Jesus Popov (Dev)
 
-texto
+Bom, como todo mundo fala MDS muda de fato como você enxerga as coisas dentro da engenharia de software, a matéria te dá um panorama dos passos que um projeto necessita seguir, e estratégias de como conseguir entregar o projeto funcionando em um determinado tempo sem sobrecarregar os membros ( geralmente nos estudantes deixamos tudo para fazer nos últimos segundos antes da entrega, e isso acaba sobrecarregando e fazendo que que viremos noites e noites), a matéria nos ensina que isso é algo que não deve acontecer se tivermos um planejamento bom e um acompanhamento por parte do grupo. Então sim, para mim MDS mudou totalmente a forma como eu encaro a engenharia de software
 
-gif
+A comunicação é um dos pontos chaves da matéria, não sei se porque foi algo que sempre pequei muito, mas esse projeto especifico me fez perceber que a comunicação e fundamental para que o projeto obtenha êxito. Então para os próximos grupos, comuniquem tudo, o menor detalhe pode fazer a diferença. Outro ponto sobre a falta de comunicação é que quando a comunicação se torna falha, algumas pessoas podem ficar um pouco ausentes do projeto, isso ocorreu comigo, mas graças aos grupos presentes no projeto consegui voltar e ajudar para entregarmos o projeto dentro do prazo.
+
+O semestre foi curto e bem cansativo, como disse no ponto anterior fiquei ausente do projeto por um tempo, mas graças aos líderes do projeto consegui voltar para a equipe, isso é algo que o grupo deve ser extremamente cuidadoso, além disso MDS foi uma matéria que mudou completamente a forma como enxergo a engenharia de software, me ensinado novas ferramentas para serem utilizadas e me "forçando" a aprimorar as que já sabia, como por exemplo o GitHub que é extremamente útil e deve ser muito bem organizado para que o grupo não se perca dentro do próprio projeto. A disciplina também me ensinou que é necessário se comunicar, mesmo a menor decisão ou ação que não for comunicada pode se tornar uma fonte de erros no futuro, então julgo que a disciplina de MDS me colocou num caminho mais certo para me tornar um melhor engenheiro de software.
+
+<p align="center">
+  <img src="https://tenor.com/view/imagination-spongebob-squarepants-dreams-communication-gif-14557603.gif"  width="300"/>
+  
+</p>
