@@ -9,10 +9,11 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 ### Positivos
 
--   .
--   .
--   .
--   .
+-   Por ser um projeto com as tecnologias definidas majoritariamente por nós mesmos, acabamos estudando diversas tecnologias antes de escolher as mais apropriadas.
+-   Tivemos um contato maior com o Linux durante o desenvolvimento, seja através do SO em si ou pelo WSL (Windows Subsystem for Linux).
+-   Com a vivência dos métodos ágeis e das tecnologias que fizeram parte do projeto, conseguimos agora ter uma noção maior do que seria necessário e ideal no mercado de trabalho, o que nos tornou melhores profissionais.
+-   Sendo uma das características mais importantes para um programador, conseguimos explorar o melhor possível o trabalho em equipe, o que foi essencial para a equipe.
+-   O projeto proporcionou um enorme crescimento pessoal visto que saímos muito da nossa “zona de conforto” e com isso, pudemos não só melhorar como profissionais de engenharia de software, mas também, pudemos aprender sobre diversas tecnologias das quais nós não tínhamos conhecimento algum.
 
 ### Negativos
 
