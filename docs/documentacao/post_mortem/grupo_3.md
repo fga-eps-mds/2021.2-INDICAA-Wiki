@@ -51,7 +51,12 @@ gif
 
 <p align="justify"> &emsp;Abaixo, uma representação do meu sentimento ao ver o andamento do projeto :sweat_smile:
 
-gif
+<p align="center">
+  <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
+</p>
+
+
+
   
 ### Guilherme Barbosa (Arquiteto)
 
