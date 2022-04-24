@@ -46,7 +46,10 @@ gif
 <p align="justify"> &emsp;Se fosse preciso resumir a minha experiência na matéria, eu diria que valeu a pena, apesar das dificuldades, passar por todo o processo de desenvolvimento. Por mais que seja bem difícil continuar seguindo, ainda é uma experiência e tanto. Para quem ainda irá fazê-la, aproveite AO MÁXIMO cada parte do seu projeto e da sua equipe, e planeje o que irá fazer o mais previamente possível, com comunicação constante e, ao mesmo tempo, sem sacrificar suas outras matérias.</p>
 <p align="justify"> &emsp;Segue um gif que representa bem a minha experiência:</p>
 
-gif
+<p align="center">
+  <img src="https://media3.giphy.com/media/LO8ipFG7sfgAPRyJW7/giphy.gif?cid=790b76118d0f5748692ea5b03b8137fead588f27d44e055f&rid=giphy.gif&ct=g" width="250" />
+</p>
+
 
 ### Gabriel Mariano (DevOps)
 
