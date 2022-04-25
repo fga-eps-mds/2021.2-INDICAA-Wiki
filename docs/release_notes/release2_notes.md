@@ -38,15 +38,19 @@
 
 ### :rocket: features
 
-- FU01 :x:
-- FU02 :x:
-- FU03 :x:
-- FU04 :x:
-- FU05 :x:
-- FU06 :x:
-- FU07 :x:
+_**As features estão funcionando somente no esquema local.**_
+
+- FU01 :white_check_mark:
+- FU02 :white_check_mark:
+- FU03 :white_check_mark:
+- FU04 :white_check_mark:
+- FU05 :white_check_mark:
+- FU06 :white_check_mark:
+- FU07 :white_check_mark:
 
 ### :bug: Bug fixes
+
+_**O deploy da API com o módulo que faz o scraping não foi possível por limitações da versão gratuita das ferramentas escolhidas.**_
 
 - Tags de emojis em markdown estão aparecendo no novo git pages #131 :white_check_mark:
 - Consertar a formatação de documentos no git pages #137 :white_check_mark:
