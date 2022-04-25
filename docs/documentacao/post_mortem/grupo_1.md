@@ -1,3 +1,4 @@
+
 # Post Mortem
 
 ## Introdução
@@ -53,9 +54,13 @@ texto
 
 gif
 
-### Matheus Gomes (DevOps)
+### Matheus Gomes (Dev)
 
-texto
+<p align="justify">Eu não tinha a menor ideia do que seria da matéria de Métodos de Desenvolvimento de Software, mas já sabia da importância dela pelo que muitos diziam. Depois que o semestre começou, os grupos foram formados e os temas designados, eu criei uma certa expectativa sobre o que vinha pela frente, achando que seria a coisa mais tranquila de todas, principalmente por terem vários grupos envolvidos, então pensei que não seria tão pesado, mas com o passar do tempo vi que não seria tão simples assim. </p>
+<p align="justify"> De começo, nós (os grupos em conjunto) tivemos certa dificuldade para escolher quais seriam as melhores tecnologias pra desenvolver o projeto, pois algumas delas seriam novas para todos, já outras eram conhecidas por algumas pessoas mas por outras não, e cada um que trazia uma sugestão tinha suas considerações que pareciam válidas, mas apesar desse pequeno problema inicial do escopo, as escolhas foram feitas e pudemos dar seguimento com o processo.</p>
+<p align="justify">Depois disso, acredito que a maior dificuldade que nosso grupo teve foi com relação às práticas ágeis. O desempenho das funções de um time Scrum, como Scrum Master e PO, as práticas de Review e Daily, tudo isso levou tempo pra que a gente se adaptasse, o que agora eu percebo como fez falta ao longo do projeto. Mas também foi algo que com o tempo conseguimos melhorar e vimos que fez a diferença.</p>
+<p align="justify"> Desde o começo eu sabia que o semestre iria ser mais curto do que o normal, mas eu achava que seria como qualquer outro, até que as coisas começaram a acontecer e eu vi o quanto esse período mais apertado influenciou muito na evolução de tudo.  Apesar de alguns acúmulos de conteúdos, atrasos de entrega e ter que conciliar com outras matérias, acredito que a experiência foi muito rica. Deu pra aprender muita coisa sobre o mundo da engenharia de software, sobre projetos open source, carreira, coisas que nunca tinha visto e experienciado em nenhum dos meus semestres anteriores. Além de todo o processo de crescimento pessoal que estava envolvido nos momentos de pesquisar e aprender por conta própria sobre alguma tecnologia, ou nas conversas com monitores e a professora e até mesmo o contato com os outros grupo do projeto.</p>
+<p align="justify"> Acredito que sem dúvidas as coisas que aprendi ao longo do semestre farão muita diferença na minha vida como profissional de software daqui pra frente, e por isso gostaria também de agradecer a todos os envolvidos, em especial a professora, que sempre esteve dando o apoio necessário, e à galera do meu grupo, que foi incrível o tempo todo e deu pra gente se divertir bastante em alguns momentos hehehe.</p>
 
 gif
 
