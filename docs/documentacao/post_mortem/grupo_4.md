@@ -37,10 +37,19 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 ## Feeling Individual
 
 ### Guilherme dos Santos Araujo (Scrum Master)
+Primeiramente devo dizer que, mesmo as minhas expectativas sendo muito altas para a matéria, ainda sim o aprendizado que eu adquiri aqui superou o que eu imaginava. Foram muitas ferramentas que eu tive que aprender durante o projeto, coisas que eu tive que ensinar pros outros e até aprender deles também. Pra mim a mentalidade de trabalho conjunto nesse tipo projeto foi uma das coisas mais importantes pra se aprender nessa matéria, como se comunicar com o squad, como se comunicar em relação a uma tarefa, bug ou defeito, como é necessário as dailys e saber como os colegas estão em relação as suas tarefas e se estão como alguma dificuldade.  
 
-texto
+A comunicação foi um grande ponto para o andamento do trabalho e a falta dela no início da matéria deixou todo mundo perdido sobre o que fazer. O projeto realmente começou quando começamos a implementar o scrum e estarmos em uma reunião para discutirmos sobre o que fazer e como fazer. Senti muita falta do grupo de EPS pra nortear as funções e auxiliar os membros de MDS já que temos, em sua maioria, pouca experiência com coordenação de tarefas. Felizmente, tivemos pessoas com bastante experiência que puderam nos auxiliar e até membros do grupo com capacidade de ensinar as tecnologias. 
 
-gif
+Em relação ao papel de scrum eu penso que eu poderia ter tido uma organização melhor, eu tentei separar as tarefas para todos os membros e promover as práticas ágeis, mas fomos pra a tangente nesse quesito após a divisão entre front e back, sendo que o próprio front e back tinha o seus respectivos “scrum master”. Ainda assim foi um bom aprendizado e já consigo ver onde posso melhorar para futuros projetos. 
+
+Por fim queria agradecer a professora e monitores por repassar o conhecimento e nos auxiliar com as dúvidas que tivemos ao longo do semestre, aos “mestres” do front e do back que encaminharam o projeto pra frente, ao meu grupo pela paciência comigo e ao sigaa por ser um péssimo portal de gestão, sem ele não seria possível a criação desse programa :laughing: 
+
+<p align="center"> 
+
+  <img src="https://i.pinimg.com/originals/f0/f0/d9/f0f0d932d6e39c7af5aa305cbd8da735.gif"  width="300"/> 
+
+</p> 
 
 ### Pedro Augusto Santos Siqueira (Product Owner)
 
