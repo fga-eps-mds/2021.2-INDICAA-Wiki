@@ -61,11 +61,20 @@ Sinto que, agora no final do semestre, eu vejo que eu aprendi MUITO em relação
   
 </p>
 
-### João Paulo da Silva Freitas (Dev)
+### Mateus Vinícius Ferreira Franco (Dev)
 
-texto
+Desde que entrei na FGA, já tinha escutado muitas pessoas falarem sobre a matéria de Métodos de Desenvolvimento de Software, principalmente que era uma das matérias mais importantes da grade curricular. De fato, depois que passamos por essa disciplina, percebemos que ela nos apresenta, realmente, como é o curso que escolhemos para seguir com nossas carreiras e, a partir daí, temos uma noção maior de como será nossas responsabilidades como profissionais no futuro.
 
-gif
+Além de apresentar todos os principais conceitos que existem na elaboração de um projeto de software, desde o levantamento de requisitos até a entrega final do produto para o cliente, a matéria aborda, também, conceitos importantíssimos para o entendimento do que é a Engenharia de Software, como: A implementação de metodologias ágeis e colaboração de projetos Open Source.
+
+Confesso que inicialmente ainda estava bastante confuso em relação à matéria e à dinâmica dos grupos. Achei que iria ser um projeto para cada grupo, mas no final três grupos diviram o mesmo projeto. Com o tempo, percebi que esse modelo de divisão acabou sendo muito produtivo, refletindo em uma boa dinâmica entre os grupos e realização do projeto. 
+
+Além disso, embora tenha achado o semestre beeem corrido e, em alguns momentos eu tenha deixado a desejar quanto à produtividade no projeto, sinto que foi uma experiência ímpar e que foi de grande valia para meu futuro profissional. Não somente ao conhecimento que adquiri, o que também foi de grande importância, mas também em relação as pessoas que conheci e me aproximei. Com certeza esse é um ponto positivo da matéria de MDS.
+
+<p align="center">
+  <img src="https://c.tenor.com/gTg8ZSZMR6YAAAAC/scaler-create-impact.gif"  width="300"/>
+  
+</p>
 
 ### Arthur Taylor de Jesus Popov (Dev)
 
