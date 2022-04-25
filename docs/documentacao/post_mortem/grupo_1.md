@@ -72,6 +72,14 @@ Meu gif representa meu estado de espírito ao longe do semestre.</p>
   
 ### Leticia Aires (Scrum Master)
 
-texto
+<p align="justify">Honestamente, no início do semestre eu estava muito preocupada em estudar MDS, já que muitos me falaram que é a matéria mais trabalhosa do curso e que não é aconselhável se matricular em muitas disciplinas enquando cursa essa. Contudo, conforme fui assistindo as aulas, contribuindo com o projeto e interagindo com colegas, pude regular a autocobrança e perceber o real intuito da matéria: Nos familiarizar com conceitos essenciais para o dia a dia de um engenheiro de software e aplicar esses conceitos em um produto tangível.</p>
+<p align="justify">Confesso que no início fiquei meio perdida e demorei para pegar o jeito de fazer commits, além de compreender a importância da documentação e dos daily meetings e, por isso, vejo que meu desempenho poderia ter sido bem melhor, mas ao mesmo tempo, aprendi mais que em qualquer outra matéria que estou cursando agora. Nesse sentido, aconselho que realmente não se pegue mais de 5 matérias enquanto se estuda MDS, justamente para disponibilizar todo o tempo necessário para suprir a demanda da matéria, a qual exige bastante paciência e estudo.</p>
+<p align="justify">Com relação ao aprendizado, percebo que esse não se resumiu só a metodologias ágeis, ou softwares, mas também a como lidar da melhor forma com a dinâmica de grupo, colaboração, bem como o ato de busca ativa pelo conhecimento. Dessa forma, é importante administrar o tempo para ter pelo menos 4 horas semanais dedicadas à matéria, além do momento das aulas.</p>
+<p align="justify">Gostaria de dar algumas dicas para os próximos alunos que se depararem com esse post mortem. Em primeiro lugar, não se preocupe, a maioria das pessoas também não sabem nada a respeito dos softwares, políticas e metodologias no início da matéria, ou seja, não hesite em pedir ajudar! Isso acaba retardando o seu aprendizado e o projeto como um todo. Além disso, vale salientar que a constância é muito importante, então sempre busque manter o trabalho em dia para que esse não acumule, já que não dá pra correr atrás de última hora.</p>
+<p align="justify">Por fim, quero agradecer a todos os colegas que contribuíram nesse projeto tão importante para o nosso crescimento acadêmico e profissional e que tornaram a concretização dele possível. Gostaria de agradecer, também, por toda a calma e disponibilidade em me ajudar a entender todo o ambiente do back end, já que tenho muito mais facilidade e afinidade com o front.<br/><br/>
+Meu gif representa eu quando estava orgulhosa fazendo meu primeiro commit sozinha e acabei não seguindo a política de branch, então ele foi pra main.</p>
 
-gif
+<p align="center">
+<img src=https://c.tenor.com/HU2kwEydteUAAAAM/the-office-crying.gif width="300" />
+  </p>
+
