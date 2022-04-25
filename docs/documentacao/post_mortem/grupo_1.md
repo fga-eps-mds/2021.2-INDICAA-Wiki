@@ -10,20 +10,20 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 ### Positivos
 
--   .
+-   A integração entre os grupos facilitou bastante o desenvolvimento, o que tornou possível que diversas tarefas pudessem ser "quebradas" em pedaços menores, agilizando esse processo.
 -   .
 -   .
 -   .
 
 ### Negativos
 
--   .
+-   Em alguns momentos, a falta de conhecimento em algumas tecnologias fez com que fosse mais difícil solucionar alguns problemas que às vezes ninguém fazia ideia de como resolver, mesmo pesquisando à respeito, ocasionando situações como: atrasar o que foi na planejado na Sprint mais do que o esperado, ou até mesmo ter que retroceder um pouco no projeto, por exemplo.
 -   .
 -   .
 
 ## Conselhos para projetos futuros
 
--   .
+-   Realizem e valorizem as práticas ágeis, porque além de ser muito útil no desenvolvimento e organização no projeto, ao longo das aulas foi possível perceber o quanto isso também é valorizado e praticado no mercado de trabalho.
 -   .
 -   .
 -   .
