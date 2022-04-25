@@ -3,6 +3,7 @@
 ### :minidisc: Versões das tecnologias
 
 - Python ```3.9.x```
+- Django ```4.0.3```
 - Metabase _open source edition_ ```latest @ dockerhub```
 - Selenium ```4.1.x```
 - Mkdocs ```1.3.0```
@@ -50,4 +51,4 @@
 - Tags de emojis em markdown estão aparecendo no novo git pages #131 :white_check_mark:
 - Consertar a formatação de documentos no git pages #137 :white_check_mark:
 - Consertar responsividade do GitPages no tablet #146 :white_check_mark:
-- Correção de Arquivos do back-end #150 :x:
+- Correção de Arquivos do back-end #150 :white_check_mark:
