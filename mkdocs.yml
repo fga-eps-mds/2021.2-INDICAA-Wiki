@@ -89,3 +89,4 @@ nav:
           - Template de documentação de Sprint: templates_projeto/layout_de_sprint.md
     - Release Notes:
           - Release 1: release_notes/release1_notes.md
+          - Release 2: release_notes/release2_notes.md
