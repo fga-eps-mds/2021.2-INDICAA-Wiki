@@ -33,7 +33,7 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 
 - [Metabase](https://indicaa.herokuapp.com/)
   
-- [API](https://indicaa-unb-apii.herokuapp.com/)
+- [API](https://indicaa-api.herokuapp.com/)
 
 ## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
 
