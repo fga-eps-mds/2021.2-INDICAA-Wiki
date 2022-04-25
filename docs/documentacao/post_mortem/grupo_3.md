@@ -78,9 +78,12 @@ Não ter um objetivo definido fez com que muitos “se perdessem” conforme o p
   
 ### Guilherme Barbosa (Arquiteto)
 
-texto
+<p align="justify">Desde que eu entrei na faculdade eu soube dessa famosa matéria de MDS como uma matéria infernal e muito puxada, sendo por outros colegas ou até mesmo por amigos que estavam avançados no curso. Realmente é uma matéria desse nível mesmo, mas que, por outro lado, molda o profissionalismo do estudante. Esse molde vem através de erros, que é algo que a professora Carla deixa bem explícito desde o começo da disciplina, que terão erros e que estamos cursando para errar, e que ao longo do semestre os erros serão corrigidos, mas não como bronca, e sim como aprendizado. </p>
+<p align="justify">Vale destacar que foi fundamental a colaboração de todos do meu grupo, é uma matéria que você tem que depender de outras pessoas e aquelas que realmente estavam entregues com o projeto com certeza tiveram uma experiência ótima (assim como eu), independente se entregou o projeto como queria ou se tiveram várias dependências, no mais o aprendizado ficou para os próximos semestres e até mesmo no âmbito profissional.</p>
+<p align="justify">Contudo, como nem tudo são flores, ao longo do projeto, infelizmente, tivemos desistências de alunos, alguns nem tanto focados com os deveres do SCRUM, outros dando a vida para conseguir entregar pelo menos algo. Destaco que tenho orgulho de todos os membros que entregaram tudo de si e estiveram commitados desde o início.</p>
+<p align="justify">Por fim, relembro que eu entrei na matéria com muita expectativa de aprender mais sobre como é desenvolver o software, as etapas que envolvem, as funções de cada membro do grupo. Consigo concluir que tive uma experiência excepcional relacionado as expectativas que eu tive, considero uma evolução técnica e pessoal muito boa e estou gratificado.</p>
 
-gif
+<div align="center"><img src="https://media.giphy.com/media/obQ0Q8dav3L5S/giphy.gif" alt="Han Solo - Star Wars"></div>
 
 ### Matheus Pimentel (Scrum Master)
 
