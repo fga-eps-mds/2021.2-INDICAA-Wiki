@@ -29,7 +29,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 -   Realizem e valorizem as práticas ágeis, porque além de ser muito útil no desenvolvimento e organização no projeto, ao longo das aulas foi possível perceber o quanto isso também é valorizado e praticado no mercado de trabalho.
 -   Aprendam a utilizar o git e o github o quanto antes, são ferramentas extremamente poderosas e úteis para o desenvolvimento do projeto.
 -   Não tenham vergonha de dizer quando não souberem de algo. Pra o projeto dar certo, transparência é essencial. Se alguém tem falta de conhecimento em algo, é bom que todos saibam, para que se ajudem. Não chegue na matéria achando que só você não sabe de nada e todo mundo sabe de tudo. A real é que tá todo mundo perdido.
--   .
+-   Estudem as tecnologias que foram assertadas pela equipe e não deixem para depois, sigam o conselho, vai ser muito pior na frente!
 
 <!-- Nesta seção, seguir a ordem de cargos que desejar -->
 ## Feeling Individual
