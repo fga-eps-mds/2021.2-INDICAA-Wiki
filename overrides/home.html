@@ -111,7 +111,7 @@
             padding: 1em;
             
         }
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 595px) {
             .box{
                 height: max-content;
             }
@@ -126,7 +126,7 @@
                 font-size: clamp(3.5em, 5.5vh, 5em);
             }
             .sub{
-                font-size: clamp(3em, 6vh, 4em);
+                font-size: clamp(3em, 5vh, 4em);
             }
             .minor{
                 height: fit-content;
@@ -139,6 +139,18 @@
             }
         }
 
+        @media only screen and (min-width: 596px) and (max-width: 1219px) {
+            .apresentacao{
+                height: 100%;
+                margin-top: 3rem;
+                flex-wrap: wrap;
+            }
+            .illustration{
+                width: 100%;
+                max-width: 480px;
+                margin: 2rem 0 0 0;
+            }
+        }
     </style>
 
     <section>

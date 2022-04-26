@@ -11,7 +11,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 
 | Data         | Versão | Modificação            | Autor(a)           |
 | ------------ | ------ | ---------------------- | ------------------ |
-| _05/04/2022_ | _0.1_  | _Criação do documento_ | _Matheus Pimentel_ |
+| _05/04/2022_ | _0.1_  | _Criação do documento_ | _Guilherme Araujo_ |
 
 # Planning da Sprint _11_
 
@@ -51,7 +51,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 
 # Review Sprint _10_
 
--   _Durante a sprint foram corrigidas algumas ações que levariam à conflitos de código, e com isso, a produtividade geral do projeto pode continuar no mesmo ritimo. Porém a produtividade está baixa, como falado pela professora, Assim, acreditamos que mesmo que a qualidade do trabalho entregue tenha sido boa, sempre extistem pontos a melhorar._
+-   _O ritmo na sprint deu uma caída, devido a provas e entrega de trabalhos durante o semestre. Porém, a tarefas ainda foram realizadas no prazo e houve progressão na programação do scraping_
 
 ## Qualidade do Trabalho Entregue
 
@@ -65,18 +65,16 @@ _A qualidade do trabalho entregue foi boa e os códigos produzidos agregaram val
 
 ## Pontos Positivos
 
--   _A produtividade aumentou com relação às sprints passadas._
--   _Mais tarefas de coding foram feitas._
--   _A proatividade dos membros do projeto teve um aumento considerável._
+-   _Houve um maior avanço na programação._
+-   _Melhor divisão de tarefas e paridade entre membros._
 -   _Melhorias na organização da comunicação de todos os membros foram notadas._
 -   _Maiores esclarecimentos no desenvolvimento do novo Git Pages._
 
 ## Pontos Negativos
 
--   _Muitos membros no projeto, porém, poucos membros efetivamente trabalhando._
+-   _Problemas na execução das práticas ágeis._
 -   _Falta de compromisso com os padrões do SCRUM._
--   _Falta de organização geral do projeto._
--   _O projeto está atrasado em relação ao cronograma._
+-   _Atraso no cronograma de atividades._
 
 ## Pontos de Melhoria
 
@@ -87,7 +85,7 @@ _A qualidade do trabalho entregue foi boa e os códigos produzidos agregaram val
 
 # Quadro de Conhecimento
 
-![Conhecimentos](https://i.imgur.com/QOiXElE.png)
+![Conhecimentos](https://i.ibb.co/zR69gys/image.png)
 
 # Análise do Scrum Master
 

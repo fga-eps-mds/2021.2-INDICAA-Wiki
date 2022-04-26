@@ -46,12 +46,13 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 ## Possíveis Riscos Mapeados para a Sprint
 - _Falhas na comunicação._
 - _Provas de membros._
+- _Estudo de outras matérias._
 
 # Review Sprint _8_
-- _Com relação à comunicação, nenhuma melhoria foi apresentada. Porém o Grupo 03 fez entregas de valor com relação ao scraping de dados do SIGAA, tiramos dúvidas e fizemos scripts em python que funcionam localmente para o scraping._
+- _Com relação à comunicação, nenhuma melhoria foi apresentada.._
 
 ## Qualidade do Trabalho Entregue
-_A maior parte das issues alocadas não foram entregues, Porém, as issues que estão em execução estão sendo bem feitas num geral pela equipe do grupo 03._
+_O time está passando por dificulades em manter um contato frequente e funcional. Dessa forma, as issues estão sendo feitas, mas ainda com um certo problema de comunicação interna._
 
 ## Velocity
 ![Velocity](https://i.imgur.com/GXkLWUh.png)
@@ -67,18 +68,17 @@ _A maior parte das issues alocadas não foram entregues, Porém, as issues que e
 ## Pontos Negativos
 - _Desorganização dos horários de trabalho._
 - _Desmotivação da equipe._
-- _Falta de cumprimento das práticas SCRUM por parte dos outros grupos._
-- _Falta de proatividade dos membros das outras equipes. Deixando o grupo 03 sobrecarregado._
+- _Falta de cumprimento das práticas SCRUM._
+- _Falta de proatividade do grupo._
 
 ## Pontos de Melhoria
 - _Comunicação._
 - _Motivação._
-- _Maior proatividade dos outros grupos._
 - _Melhor gerência do tempo._
 
 # Quadro de Conhecimento
 
-![Conhecimentos](https://i.imgur.com/89ICSX2.png)
+![Conhecimentos](https://i.ibb.co/dg3YrJM/image.png)
 
 # Análise do Scrum Master
-_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dívidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
+_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dívidas alocadas. Com o inicio da Sprint 9, podemos notar um pouco mais de proatividade do time porém sem muito resultado aparente._

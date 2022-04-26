@@ -1,15 +1,10 @@
-<!---
-O layout da documentação das sprints foi feito se baseando nos documentos produzidos
-pela equipe do software Acácia, estando disponíveis em: 
-<https://github.com/fga-eps-mds/2019.2-Acacia/tree/develop/docs/sprints>.
-Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
--->
-# Sprint _7_ -> Primeira sprint rumo à R2 :star2:
+
+# Sprint _7_ 
 
 ## Histórico de Revisão
 | Data | Versão | Modificação | Autor(a) |
 | --- | --- | --- | --- |
-| _10/03/2022_ | _0.1_ | _Criação do documento_ | _Matheus Pimentel_ |
+| _10/03/2022_ | _0.1_ | _Criação do documento_ | Mateus Franco |
 
 # Planning da Sprint _7_
 - **Período:** _08/03 a 14/03_
@@ -35,14 +30,13 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 
 - Total de Pontos: _13_
 
-
 ## Possíveis Riscos Mapeados para a Sprint
 - _Estudos de outras matérias_
 - _Falhas de comunicação_
 - _Falta de organização_
 
 # Review Sprint _6_
-- _Em virtude do feriado de carnaval, demoras nas entregas e falhas de comunicação foram notadas. Porém, Todo o grupo sentiu que o projeto avançou bastante e estão relativamente satisfeitos com a entrega feita._
+- _Houveram alguns atrasos na entrega prevista para a Sprint, porém já foi conversado com o grupo para colocarmos em dia._
 
 ## Qualidade do Trabalho Entregue
 _A qualidade do trabalho entregue foi aceitável, porém os membros consideraram aceitável_
@@ -54,19 +48,17 @@ _A qualidade do trabalho entregue foi aceitável, porém os membros consideraram
 
 ## Pontos Positivos
 - _Tarefas bem divididas_
-- _As entregas foram correspondentes com o que poderíamos entregar (Fizemos tudo ao nosso alcance)._ 
+- _Boa comunicação entre o grupo_
 
 ## Pontos Negativos
-- _Falhas de comunicação_
+- _As entregas não foram correspondentes com o que poderíamos entregar._ 
 
 ## Pontos de Melhoria
-- _Melhorar a comunicação_
 - _Estabelecer canais de comunicação para assignees de cada issue._
 - _Começar pra valer o ritual das dailies._
 
-# Quadro de Conhecimento
-
-![Conhecimentos](https://i.imgur.com/bf5wBKb.png)
-
 # Análise do Scrum Master
-_Esta sprint foi a mais desorganizada dentre todas as sprints até aqui. Em virtude do feriado houve grande dificuldade na organização de horários de trabalho e na comunicação (que deveria ser rápida) entre os grupos. Num geral, a sprint entregou valor considerável mas ainda assim, cabem melhorias para previnir eventuais dificuldades na execução de tarefas no futuro._
+_Houveram algumas dificuldades de alguns participantes nessa semana quanto à organização de horários e, em virtude do feriado prolongado, alguns não conseguiram participar das reuniões. Porém, evoluimos em alguns pontos no projeto que estavam já previstos e conversamos para nos organizarmos melhor para a próxima Sprint._
+
+
+

@@ -20,16 +20,17 @@ theme:
 extra_css:
     - stylesheets/extra.css
 markdown_extensions:
-  - md_in_html
-  - attr_list
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+    - md_in_html
+    - attr_list
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
 plugins:
     - search
     - mkdocstrings:
           watch:
               - overrides
+dev_addr: 127.0.0.1:6969
 repo_url: https://github.com/fga-eps-mds/2021.2-INDICAA
 nav:
     - Home: index.md
@@ -52,6 +53,7 @@ nav:
                 - Sprint 9: atas/grupo3/sprint9Grupo3.md
                 - Sprint 10: atas/grupo3/sprint10Grupo3.md
                 - Sprint 11: atas/grupo3/sprint11Grupo3.md
+                - Sprint 12: atas/grupo3/sprint12Grupo3.md
           - Grupo 4:
                 - Sprint 0:
                       - Planejamento: atas/grupo4/sprint0/planejamento.md
@@ -62,14 +64,27 @@ nav:
                 - Sprint 2:
                       - Planejamento: atas/grupo4/sprint2/planejamento.md
                       - Resultado: atas/grupo4/sprint2/resultado.md
+                - Sprint 3: atas/grupo4/sprint3grupo4.md
+                - Sprint 4: atas/grupo4/sprint4grupo4.md
+                - Sprint 5: atas/grupo4/sprint5grupo4.md
+                - Sprint 6: atas/grupo4/sprint6grupo4.md
+                - Sprint 7: atas/grupo4/sprint7Grupo4.md
+                - Sprint 8: atas/grupo4/sprint8Grupo4.md
+                - Sprint 9: atas/grupo4/sprint9Grupo4.md
+                - Sprint 10: atas/grupo4/sprint10Grupo4.md
+                - Sprint 11: atas/grupo4/sprint11grupo4.md
+                - Sprint 12: atas/grupo4/sprint12grupo4.md
     - Projeto:
           - Termo de Abertura do Projeto: documentacao/termo_de_abertura.md
           - Estrutura Analítica do Projeto: documentacao/estrutura_analítica_do_projeto.md
           - Metodologia: documentacao/documento_de_metodologia.md
-          - Layout de Sprint: templates_projeto/layout_de_sprint.md
           - Gerenciamento de Comunicação: documentacao/gerenciamento_de_comunicacao.md
           - Gerenciamento de Riscos: documentacao/gerenciamento_de_riscos.md
           - Estrutura de Branches: documentacao/guia_de_branching.md
+    - Post Mortem:
+          - Grupo 1: documentacao/post_mortem/grupo_1.md
+          - Grupo 3: documentacao/post_mortem/grupo_3.md
+          - Grupo 4: documentacao/post_mortem/grupo_4.md
     - Produto:
           - Documento de Requisitos: documentacao/documento_de_requisitos.md
           - Documento de Arquitetura: documentacao/documento_de_arquitetura.md
@@ -77,10 +92,15 @@ nav:
           - Documento de Visão: documentacao/documento_de_visao.md
           - Guia de estilo: documentacao/guia_de_estilo.md
           - Protótipos: documentacao/prototipos.md
+    - Roadmaps:
+          - Roadmap geral: documentacao/roadmap_geral.md
+          - Roadmap como executado: documentacao/roadmap_como_executado.md
     - Contribuição:
           - Como Contribuir: contributing.md
           - Código de conduta: CODE_OF_CONDUCT.md
           - Template de Commit: templates_projeto/template_de_commit.md
           - Template de Issue: templates_projeto/template_de_issue.md
+          - Template de documentação de Sprint: templates_projeto/layout_de_sprint.md
     - Release Notes:
           - Release 1: release_notes/release1_notes.md
+          - Release 2: release_notes/release2_notes.md

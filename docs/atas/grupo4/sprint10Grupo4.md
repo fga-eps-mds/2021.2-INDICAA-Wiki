@@ -50,7 +50,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 - _A sprint foi mais produtiva. Ainda há pontos de melhoria na comunicação. Sprint foi boa em termos de aprendizado._
 
 ## Qualidade do Trabalho Entregue
-_O trabalho foi de boa qualidade de acordo com o que foi pedido (Pouco avançado, porém de qualidade)._
+_O trabalho foi satisfatório._
 
 ## Velocity
 ![Velocity](https://i.imgur.com/3lAMbRl.png)
@@ -60,14 +60,13 @@ _O trabalho foi de boa qualidade de acordo com o que foi pedido (Pouco avançado
 ## Pontos Positivos
 - _Pequena melhora na produtividade._
 - _Melhor entendimento com relação ao funcionamento geral do projeto._
-- _._
-- _._
+
 
 ## Pontos Negativos
 - _Falta de cumprimento com relação à política de branching._
 - _Falta de cumprimento das práticas SCRUM em geral no projeto._
-- _Falta de proatividade dos membros das outras equipes. Deixando o grupo 03 sobrecarregado._
-- _._
+- _Alguns Membros trancaram a matéria ocasionando uma pequena sobrecarga nos outros._
+
 
 ## Pontos de Melhoria
 - _Comunicação._
@@ -77,7 +76,7 @@ _O trabalho foi de boa qualidade de acordo com o que foi pedido (Pouco avançado
 
 # Quadro de Conhecimento
 
-![Conhecimentos](https://i.imgur.com/CGjgDYp.png)
+![Conhecimentos](https://i.ibb.co/dg3YrJM/image.png)
 
 # Análise do Scrum Master
-_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dívidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
+_Com alguns membros do  grupo trancando a matéria tivemos uma pequena sobrecarga no time, mas mesmo assim o grupo conseguiu entregar suas metas e é possivel notar uma grande melhora na comunicação geral do grupo._
