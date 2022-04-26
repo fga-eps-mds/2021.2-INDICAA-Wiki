@@ -44,9 +44,15 @@ PS: Meu GIF representa meus sentimentos durante o semestre :)</p>
 
 ### Vitor Eduardo (Dev)
 
-texto
-
-gif
+<p align="justify"> &emsp;Esse semestre foi um pouco atípico por conta das complexidades das matérias que peguei, e MDS não foi diferente, muitos desafios tiveram que serem superados. Foi uma matéria onde eu realmente me senti parte de uma aplicação real, utilizando não só conhecimentos de programação como também de trabalho em equipe, métodos ágeis e uso de outras ferramentas, como git e github. Por conta desta matéria, comecei a visualizar a importância do uso dos métodos ágeis dentro de uma equipe e a importância de cumprir cada etapa planejada dentro do tempo previsto.
+<p align="justify"> &emsp;Em muitas situações me sentia incapaz de solucionar algum problema sozinho durante a etapa de desenvolvimento da API, porém o trabalho em equipe foi essencial para superar muitos desafios. Foi necessário muito esforço e leitura de documentações para que cada função tivesse sua execução de forma correta.
+<p align="justify"> &emsp;Para quem irá começar MDS agora, eu recomendo que foque na matéria desde o início e aprendam bem como utilizar o git e o github e resolvam o máximo de issues e deem o máximo de commits que puderem.
+<p align="justify"> &emsp;Entretanto, apesar da correria do semestre, foi muito proveitoso, pois tivemos contato com diversar tecnologias realmente úteis para a vida profissional. Aprendemos a lidar com diversos problemas e imprevistos que fazem parte do dia a dia de um profissional da área. Essa foi a matéria que me fez perceber que a vida de um engenheiro de software não é só programação, existem muitas outras coisas que são tão importantes quanto, pois sem elas é difícil dar sequência ao projeto. Apesar da demora de realmente entrar de cabeça e entender o propósito da matéria, foi muito satisfatório ver meu avanço em conhecimento em muitos áreas.
+<p align="justify"> &emsp;Queria agradecer também aos meus companheiros de grupos, pois foi com eles que superei muitos desafios, e sem eles o projeto se tornaria quase impossível de ser realizado dentro do prazo.
+<p align="justify">Esse gif representa meu estado de espírito nesse semestre hehe.
+<p align="center">
+  <img src="https://i.pinimg.com/originals/e1/85/18/e18518c6d24257c6fb02e3c95a862d85.gif" width="300" />
+</p>
 
 ### Laura Pinos (Dev)
 
