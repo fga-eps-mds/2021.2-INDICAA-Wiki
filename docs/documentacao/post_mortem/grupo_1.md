@@ -22,7 +22,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 -   Em alguns momentos, a falta de conhecimento em algumas tecnologias fez com que fosse mais difícil solucionar alguns problemas que às vezes ninguém fazia ideia de como resolver, mesmo pesquisando à respeito, ocasionando situações como: atrasar o que foi na planejado na Sprint mais do que o esperado, ou até mesmo ter que retroceder um pouco no projeto, por exemplo.
 -   Por conta do tempo de dedicação necessário para a matéria, acredito que a quantidade de créditos deveria ser maior. O recomendado é que peguem poucas matérias e foquem em MDS, senão pesa muito.
--   Demora da equipe à mergulhar de cabeça no projeto e aplicar os métodos ágeis da forma correta, porém quando foram aplicados da forma correta o projeto andou muito melhor.
+-   
 
 ## Conselhos para projetos futuros
 
@@ -58,10 +58,10 @@ PS: Meu GIF representa meus sentimentos durante o semestre :)</p>
 </p>
 
 ### Laura Pinos (Dev)
-
-texto
-
-gif
+<p align="justify">Em uma matéria que "já começamos atrasados" é muito importante nos mantermos unidos com nosso grupo para seguirmos até o final e ganharmos bastante conhecimento.</p>
+<p align="justify">Com muitas responsabilidades dentro e fora do projeto, a perseverança deve continuar até o final.</p>
+<p align="justify">Com muito estresse e poucas noites de sono, conseguimos botar em pratica um grande projeto.</p>
+<iframe src="https://giphy.com/embed/1FMaabePDEfgk" width="480" height="444" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk">via GIPHY</a></p>
 
 ### Matheus Gomes (Dev)
 
