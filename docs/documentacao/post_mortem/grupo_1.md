@@ -24,7 +24,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 ## Conselhos para projetos futuros
 
 -   Realizem e valorizem as práticas ágeis, porque além de ser muito útil no desenvolvimento e organização no projeto, ao longo das aulas foi possível perceber o quanto isso também é valorizado e praticado no mercado de trabalho.
--   .
+-   Aprendam a utilizar o git e o github o quanto antes, são ferramentas extremamente poderosas e úteis para o desenvolvimento do projeto.
 -   .
 -   .
 
