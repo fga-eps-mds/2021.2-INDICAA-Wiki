@@ -12,7 +12,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 -   A integração entre os grupos facilitou bastante o desenvolvimento, o que tornou possível que diversas tarefas pudessem ser "quebradas" em pedaços menores, agilizando esse processo.
 -   Nosso grupo não possuia conhecimento em várias das tecnologias utilizadas no desenvolvimento do projeto, mas com o tempo fomos criando familiaridade com as novas tecnologias e entendendo suas importâncias e aplicações.
--   Aprendemos a utilizar o git e o github e percebemos o quanto são importantes para a vida de um programados. Com certeza levaremos esses conhecimentos para a vida.
+-   Aprendemos a utilizar o git e o github e percebemos o quanto são importantes para a vida de um programador. Com certeza levaremos esses conhecimentos para a vida.
 -   Muitos conceitos foram clareados na nossa cabeça, como o de backend, frontend, SCRUM, Product Owner, entre outros, que são muito falados porém muitos de nós não tinhamos esses conceitos bem definidos, e através de MDS muitos conceitos foram clareados.
 -   Entramos em contato com muitas tecnologias que não sabiamos que existiam, como heroku e selenium, e outras que ouvíamos falar muito porém não tinhamos conhecimento, como Django e docker.
 -   Durante o projeto, desenvolvemos muito o nosso vocabulário, tanto de programador quanto sobre métodos ágeis.
@@ -28,7 +28,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 
 -   Realizem e valorizem as práticas ágeis, porque além de ser muito útil no desenvolvimento e organização no projeto, ao longo das aulas foi possível perceber o quanto isso também é valorizado e praticado no mercado de trabalho.
 -   Aprendam a utilizar o git e o github o quanto antes, são ferramentas extremamente poderosas e úteis para o desenvolvimento do projeto.
--   .
+-   Não tenham vergonha de dizer quando não souberem de algo. Pra o projeto dar certo, transparência é essencial. Se alguém tem falta de conhecimento em algo, é bom que todos saibam, para que se ajudem. Não chegue na matéria achando que só você não sabe de nada e todo mundo sabe de tudo. A real é que tá todo mundo perdido.
 -   .
 
 <!-- Nesta seção, seguir a ordem de cargos que desejar -->
