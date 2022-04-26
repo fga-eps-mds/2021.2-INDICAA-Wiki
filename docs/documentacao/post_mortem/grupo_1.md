@@ -18,7 +18,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 ### Negativos
 
 -   Em alguns momentos, a falta de conhecimento em algumas tecnologias fez com que fosse mais difícil solucionar alguns problemas que às vezes ninguém fazia ideia de como resolver, mesmo pesquisando à respeito, ocasionando situações como: atrasar o que foi na planejado na Sprint mais do que o esperado, ou até mesmo ter que retroceder um pouco no projeto, por exemplo.
--   .
+-   Por conta do tempo de dedicação necessário para a matéria, acredito que a quantidade de créditos deveria ser maior. O recomendado é que peguem poucas matérias e foquem em MDS, senão pesa muito.
 -   .
 
 ## Conselhos para projetos futuros
