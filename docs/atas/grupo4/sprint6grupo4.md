@@ -9,7 +9,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 ## Histórico de Revisão
 | Data | Versão | Modificação | Autor(a) |
 | --- | --- | --- | --- |
-| _03/03/2022_ | _0.1_ | _Criação do documento_ | _Matheus Pimentel_ |
+| _03/03/2022_ | _0.1_ | _Criação do documento_ | _Arthur Taylor_ |
 
 # Planning da Sprint _6_
 - **Período:** _01/03 a 07/03_
