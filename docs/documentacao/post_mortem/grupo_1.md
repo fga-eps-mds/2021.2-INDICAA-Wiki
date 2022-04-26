@@ -11,7 +11,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 ### Positivos
 
 -   A integração entre os grupos facilitou bastante o desenvolvimento, o que tornou possível que diversas tarefas pudessem ser "quebradas" em pedaços menores, agilizando esse processo.
--   .
+-   Aprendemos a utilizar o git e o github e percebemos o quanto são importantes para a vida de um programados. Com certeza levaremos esses conhecimentos para a vida.
 -   .
 -   .
 
