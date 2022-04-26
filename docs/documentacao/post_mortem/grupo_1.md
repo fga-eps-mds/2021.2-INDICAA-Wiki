@@ -61,7 +61,9 @@ PS: Meu GIF representa meus sentimentos durante o semestre :)</p>
 <p align="justify">Em uma matéria que "já começamos atrasados" é muito importante nos mantermos unidos com nosso grupo para seguirmos até o final e ganharmos bastante conhecimento.</p>
 <p align="justify">Com muitas responsabilidades dentro e fora do projeto, a perseverança deve continuar até o final.</p>
 <p align="justify">Com muito estresse e poucas noites de sono, conseguimos botar em pratica um grande projeto.</p>
-<iframe src="https://giphy.com/embed/1FMaabePDEfgk" width="480" height="444" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk">via GIPHY</a></p>
+<p align="center">
+  <img src="https://media.tenor.com/images/70b473cf122362d1a2bf7827c028ec86/tenor.gif" width="300" />
+</p>
 
 ### Matheus Gomes (Dev)
 
