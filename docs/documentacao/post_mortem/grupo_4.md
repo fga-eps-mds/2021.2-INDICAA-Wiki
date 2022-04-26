@@ -53,9 +53,19 @@ Por fim queria agradecer a professora e monitores por repassar o conhecimento e 
 
 ### Pedro Augusto Santos Siqueira (Product Owner)
 
-texto
+Desde o início eu sabia da importância da matéria para a minha formação, como um diferencial em relação à apenas programação por si só. E a realidade se provou semelhante às expectativas, pois a participação em um projeto desta magnitude é uma experiência diferente de tudo que eu havia passado até agora. Por muitos momentos me senti perdido, mas tive o apoio dos meus colegas sempre que preciso, mesmo sendo difícil ver alguns desistindo durante o semestre.
 
-gif
+O trabalho em grupo, comunicação e confiança no próximo foram aspectos muito importantes, pois em um semestre reduzido, todos se sentiram de certa forma afetados por esse contexto, e a integração geral foi importante desde o início. 
+
+O que passei com certeza vai marcar a minha caminhada como a primeira experiência prática em Software. Acredito que poderia ter sido um PO melhor em diversos aspectos, em relação a organização e inserção no projeto, em alguns momentos me senti deslocado e esgotado, porém foi um primeiro contato muito relevante do ponto de vista pessoal e profissional, e não tenho dúvidas que os meus aprendizados nesses meses superaram com sobras os meus arrependimentos.
+
+Agradeço aos meus colegas de projeto, por todo o ensinamento, ao meu grupo, por todo o suporte sempre que precisei, e à professora por nos guiar mesmo que “de longe”. Foi uma matéria inesquecível❤️
+
+<p align="center"> 
+
+  <img src="https://c.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif"  width="300"/> 
+
+</p> 
 
 ### Thiago Vivan Bastos (DevOps)
 
