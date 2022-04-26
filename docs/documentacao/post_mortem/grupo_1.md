@@ -16,6 +16,7 @@ realizado na etapa final, é de suma importância sua leitura, pois ele contém 
 -   Muitos conceitos foram clareados na nossa cabeça, como o de backend, frontend, SCRUM, Product Owner, entre outros, que são muito falados porém muitos de nós não tinhamos esses conceitos bem definidos, e através de MDS muitos conceitos foram clareados.
 -   Entramos em contato com muitas tecnologias que não sabiamos que existiam, como heroku e selenium, e outras que ouvíamos falar muito porém não tinhamos conhecimento, como Django e docker.
 -   Durante o projeto, desenvolvemos muito o nosso vocabulário, tanto de programador quanto sobre métodos ágeis.
+-   Tivemos a capacidade de evoluir bastante em relação a resolução de problemas que foram surgindo ao longo do projeto, nos deixando mais preparados para projetos dessa magnitude.
 
 ### Negativos
 
